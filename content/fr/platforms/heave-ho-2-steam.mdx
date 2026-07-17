@@ -1,0 +1,222 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Heave Ho 2 Steam : Guide de Configuration Multijoueur et Niveaux Co-op",
+  description: "Maîtrisez Heave Ho 2 sur Steam avec notre guide 2026 sur le mode co-op en ligne de 2 à 4 joueurs, les commandes basées sur la physique, 72 niveaux et l'optimisation des performances.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/3b82f6/fff?text=Heave+Ho+2+Steam+Guide",
+  date: "2026-07-18",
+  author: "Équipe du Wiki Heave Ho 2",
+  keywords: "Heave Ho 2 Steam, guide co-op, multijoueur, commandes physiques, Remote Play Together, solution niveaux"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Mot-clé Principal** : Heave Ho 2 Steam propose une expérience co-op de 2 à 4 joueurs basée sur la physique avec 72 niveaux.
+- **Mécanique de Base** : Contrôlez deux mains indépendamment pour vous balancer, attraper et lancer vos coéquipiers par-dessus les vides.
+- **Fonctionnalités Steam** : Prend en charge Remote Play Together, Steam Cloud et 21 succès Steam uniques.
+- **Meilleure Stratégie** : Établissez toujours un point d'ancrage stable avant de balancer le reste de la chaîne humaine.
+- **Multijoueur** : Disponible en co-op local, co-op en ligne et modes compétitifs Showdown.
+</Callout>
+
+<Section icon={Map} title="Heave Ho 2 Steam : Présentation de la Sortie et des Plateformes">
+
+Le lancement officiel de **heave ho 2 steam** le 16 juillet 2026 marque le retour du jeu de plateforme chaotique basé sur la physique développé par Le Cartel Studio. Publié par Devolver Digital, cette suite développe considérablement les bases de l'original en introduisant le multijoueur en ligne, huit mondes thématiques distincts et une vaste gamme de niveaux coopératifs et compétitifs. Que vous jouiez sur un PC haut de gamme ou sur la Nintendo Switch 2, l'expérience de base reste concentrée sur la lutte hilarante pour déplacer une créature sans membres à travers des environnements périlleux.
+
+Sur Steam, les joueurs bénéficient de fonctionnalités intégrées comme le Steam Remote Play Together, qui permet à des amis de rejoindre une session locale même s'ils ne possèdent pas le jeu. La version PC nécessite environ 4 Go de stockage et est optimisée pour le 1080p à 60 FPS sur une large gamme de configurations matérielles.
+
+| Caractéristique | Windows PC (Steam) | Nintendo Switch | Nintendo Switch 2 |
+| :--- | :--- | :--- | :--- |
+| **Date de sortie** | 16 juillet 2026 | 16 juillet 2026 | 16 juillet 2026 |
+| **Prix (USD)** | 9,99 $ | 9,99 $ | 9,99 $ |
+| **Multijoueur** | 2-4 Joueurs | 2-4 Joueurs | 2-4 Joueurs |
+| **Technologie Spéciale** | Remote Play Together | Mode Portable | Partage de jeu Local/En ligne |
+| **Stockage** | 4 Go | 2,4 Go | 2,4 Go |
+| **Performance** | Jusqu'à 4K/144Hz | 720p/1080p 60FPS | Optimisé 1080p/4K 60FPS |
+
+<Callout type="info" title="Synergie de Plateforme">
+Si vous possédez la version Steam, vous pouvez jouer avec des amis via Remote Play Together, ce qui permet de jouer à quatre en co-op avec un seul exemplaire acheté du jeu.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Maîtriser les Commandes et le Mouvement Basés sur la Physique">
+
+Le mouvement dans **heave ho 2 steam** est fondamentalement différent des jeux de plateforme traditionnels. Vous n'avez pas de bouton de saut ; à la place, vous comptez sur la rotation de vos bras et la prise de vos mains. Maîtriser le rythme de saisie et de relâchement fait toute la différence entre une traversée réussie et une chute tragique dans l'abîme.
+
+<CardGrid cols={3}>
+  <Card title="Prises Indépendantes">
+    - **Gâchette Gauche** : Contrôle la main gauche.
+    - **Gâchette Droite** : Contrôle la main droite.
+    - **Stratégie** : Alternez les prises pour grimper les surfaces verticales main sur main.
+  </Card>
+  <Card title="Prise d'Élan">
+    - **Stick Analogique** : Fait pivoter votre corps.
+    - **Technique** : Balancez-vous dans un mouvement circulaire pour créer une force centrifuge.
+    - **Relâchement** : Lâchez à la position 2 heures ou 10 heures pour une distance maximale.
+  </Card>
+  <Card title="Chaînes d'Équipe">
+    - **Connexion** : Attrapez la main ou le corps d'un ami.
+    - **Ancre** : Un joueur doit rester attaché à une surface solide.
+    - **Balançoire** : L'ancre tient fermement pendant que la chaîne prend de l'élan.
+  </Card>
+</CardGrid>
+
+Pour exceller dans les 72 niveaux co-op, les joueurs doivent comprendre le cycle "Ancre-Balançoire-Capture". Cela implique qu'un joueur sécurise l'équipe, que les joueurs du milieu fournissent de la longueur, et que le joueur de tête cherche à atteindre la plateforme suivante.
+
+| Action | Commande | Conseil Pro |
+| :--- | :--- | :--- |
+| **Grimper** | Alterner Gâchettes L/R | Atteignez plus haut avec la main libre avant de relâcher la prise inférieure. |
+| **Lancer** | Élan + Relâchement | Les joueurs lancés doivent garder une main ouverte pour attraper la cible. |
+| **Attraper** | Maintenir Gâchette au contact | Ouvrez votre main tôt pour augmenter la fenêtre de capture pendant une chute. |
+| **Tourner** | Tourner le Stick Gauche | Petits cercles pour la précision, grands arcs pour les longs sauts. |
+| **Immobilité** | Maintenir les deux Gâchettes | Utile en attendant des plateformes mobiles comme les télécabines. |
+
+<Callout type="tip" title="Technique de Prise Avancée">
+Lorsque vous grimpez sur des poteaux minces, gardez votre corps aussi près du poteau que possible. Une rotation trop large peut vous faire perdre votre élan et vous faire glisser pendant la transition main sur main.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Configuration Multijoueur et Connectivité Steam">
+
+Se connecter avec des amis sur **heave ho 2 steam** est simplifié via l'interface Steam. Le jeu prend en charge la co-op locale, la co-op en ligne et les modes versus en ligne. Pour une expérience optimale, une connexion internet stable est requise, surtout lors des balancements à grande vitesse où la latence peut causer des erreurs de timing.
+
+<Steps>
+  <Step num="1" title="Sélectionner le Mode Multijoueur">
+    Depuis le menu principal, choisissez entre 'Co-op' pour la campagne ou 'Showdown' pour les mini-jeux compétitifs.
+  </Step>
+  <Step num="2" title="Inviter des Amis">
+    Utilisez l'Overlay Steam (Shift+Tab) pour inviter des amis directement dans votre salon ou utilisez 'Remote Play Together' pour vos amis qui n'ont que le jeu en local.
+  </Step>
+  <Step num="3" title="Coordonner les Rôles">
+    Désignez une 'Ancre' et un 'Leader'. La communication est vitale ; utilisez le chat vocal pour compter les balancements (3... 2... 1... Lâchez !).
+  </Step>
+  <Step num="4" title="Synchroniser les Manettes">
+    Assurez-vous que tous les joueurs ont leurs manettes reconnues. Le jeu prend en charge nativement les manettes Xbox, PlayStation et PC génériques.
+  </Step>
+</Steps>
+
+| Mode | Nombre de Joueurs | Idéal Pour | Prérequis |
+| :--- | :--- | :--- | :--- |
+| **Co-op en Ligne** | 2-4 Joueurs | Longues sessions de campagne | Copies individuelles du jeu |
+| **Remote Play** | 2-4 Joueurs | Jouer avec des amis qui ne possèdent pas le jeu | L'hôte doit avoir une bonne vitesse d'upload |
+| **Co-op Local** | 2-4 Joueurs | Jeu en soirée sans latence | Plusieurs manettes sur un seul PC |
+| **Showdown** | 2-4 Joueurs | Courtes sessions compétitives | Réflexes rapides |
+
+<Callout type="warning" title="Avertissement sur la Latence">
+En co-op en ligne, l'hôte n'a aucune latence. Si vous êtes un client, essayez de lâcher légèrement plus tôt que prévu pour compenser le délai réseau lors des balancements rapides.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Guide de la Campagne : Les Huit Mondes">
+
+La campagne de **heave ho 2 steam** s'étend sur 72 niveaux coopératifs divisés en huit mondes thématiques. Chaque monde introduit des dangers environnementaux uniques et des objets interactifs qui forcent les équipes à repenser leurs stratégies de mouvement.
+
+1.  **Prendre de la hauteur** : Situé dans des montagnes glacées. Comprend des remontées mécaniques et des télécabines mobiles qui nécessitent un timing précis.
+2.  **Mystères du Manoir** : Un manoir hanté où les joueurs doivent trouver des clés cachées pour déverrouiller la sortie de chaque étape.
+3.  **Escouade Spatiale** : Des étapes en apesanteur où les joueurs doivent se coordonner pour piloter des vaisseaux et gérer l'élan dans un environnement sans gravité.
+4.  **Ordres du Chef** : Un monde de cuisine chaotique. Les équipes doivent transporter de gros ingrédients comme des burgers et les empiler sur des assiettes.
+5.  **Naufragés** : Niveaux sur le thème tropical avec des plateformes mouvantes et des obstacles aquatiques.
+6.  **Transfolab** : Un laboratoire de haute technologie rempli de dispositifs interactifs et d'énigmes basées sur la précision.
+7.  **Spectacle de Cascades** : Défis de fin de jeu impliquant des éléments de scène mobiles et des traversées à grande vitesse.
+8.  **Voyages Médiévaux** : Le monde final où vous devez transporter un Roi sur un trône à travers des gouffres dangereux sans le renverser.
+
+| Monde | Mécanique Clé | Difficulté | Conseil de Réussite |
+| :--- | :--- | :--- | :--- |
+| **Prendre de la hauteur** | Remontées mécaniques | ★★☆☆☆ | Restez ancré à la remontée jusqu'à ce que la plateforme suivante soit à portée. |
+| **Mystères du Manoir** | Clés/Sorties | ★★★☆☆ | Passez les clés par petites étapes plutôt que par de longs lancers risqués. |
+| **Escouade Spatiale** | Zéro-G | ★★★★☆ | Évitez que tout le monde lâche en même temps ; vous dériveriez sans but. |
+| **Ordres du Chef** | Empilage d'ingrédients | ★★★☆☆ | Désignez un joueur comme 'empileur' pendant que les autres vont chercher les objets. |
+| **Voyages Médiévaux** | Transport du Trône | ★★★★★ | Équilibrez le trône en plaçant des joueurs de chaque côté de la base. |
+
+<Callout type="success" title="Mode Assistance">
+Si votre équipe reste bloquée trop longtemps sur un niveau, le 'Drone Chat' apparaîtra pour vous donner un coup de main (littéralement) et vous tirer d'affaire.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objets à débloquer, Items et Succès Steam">
+
+En progressant dans **heave ho 2 steam**, vous rencontrerez divers objets qui peuvent aider à la traversée ou servir d'objectifs optionnels. Relever ces défis débloque des skins cosmétiques, y compris des collaborations avec des titres populaires comme *Among Us*, *Cult of the Lamb* et *Dave the Diver*.
+
+<CardGrid cols={2}>
+  <Card title="Objets de Soutien">
+    - **Ima Rock** : Vous fige en l'air pour servir de plateforme aux autres.
+    - **Spray de Bras** : Étend temporairement votre portée pour les saisies lointaines.
+    - **Parapluie** : Permet des descentes lentes et contrôlées à travers de larges vides.
+  </Card>
+  <Card title="Récompenses Cosmétiques">
+    - **Skins Crossover** : Débloquez le Crewmate (Among Us) ou Henry (Kingdom Come 2).
+    - **Cadeaux** : Gagnés via des objectifs optionnels comme trouver les 'Mains Mystérieuses'.
+    - **Photos** : Utilisez l'appareil photo équipable pour capturer des poses spécifiques contre des récompenses.
+  </Card>
+</CardGrid>
+
+<Checklist
+  id="achievement-tracker"
+  title="Principaux Succès Steam :"
+  items={[
+    "Prendre de la hauteur : Terminez le premier monde d'aventure.",
+    "Escouade Spatiale : Complétez toutes les étapes en apesanteur.",
+    "Chasseurs de Mains : Trouvez et attrapez chaque objectif de main mystérieuse.",
+    "Champions du Chrono : Battez tous les défis de temps spécifiques aux niveaux.",
+    "Accro aux Cadeaux : Ouvrez tous les cadeaux disponibles dans le jeu.",
+    "100 % : Atteignez la complétion totale des 72 niveaux et 56 étapes versus."
+  ]}
+/>
+
+<Callout type="tip" title="Rejouer les Objectifs">
+N'essayez pas d'obtenir les succès 'Chrono' et 'Collectibles' lors de la même partie. Concentrez-vous d'abord sur la fin du niveau, puis revenez avec un objectif spécifique en tête.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Configuration Requise pour PC et Optimisation">
+
+Pour garantir une expérience fluide dans **heave ho 2 steam**, votre PC doit répondre aux cibles matérielles officielles suivantes. Le jeu est hautement optimisé, mais des taux de rafraîchissement stables sont cruciaux pour la physique basée sur le timing.
+
+| Composant | Minimum (1080p/60 Bas) | Recommandé (1080p/60 Haut) |
+| :--- | :--- | :--- |
+| **OS** | Windows 10 (64-bit) | Windows 11 (64-bit) |
+| **Processeur** | Intel Core i5-4670K / AMD FX-8350 | Intel Core i7-6950X / AMD Ryzen 7 2700 |
+| **Mémoire** | 8 Go de RAM | 8 Go de RAM |
+| **Graphismes** | GTX 760 / Radeon R9 270X | GTX 1080 / Radeon RX Vega 56 |
+| **DirectX** | Version 11 | Version 12 |
+| **Stockage** | 4 Go d'espace disponible | 4 Go d'espace disponible |
+
+<Callout type="info" title="Performance sur Steam Deck">
+Heave Ho 2 est entièrement compatible avec le Steam Deck. Pour une meilleure autonomie, limitez le taux de rafraîchissement à 60 FPS et utilisez le préréglage 'Moyen'.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ de Heave Ho 2 Steam">
+
+<FAQ items={[
+  {
+    question: "Heave Ho 2 prend-il en charge le cross-play entre Steam et Switch ?",
+    answer: "Depuis le lancement de juillet 2026, la co-op en ligne est limitée aux joueurs d'une même famille de plateformes. Les joueurs Steam peuvent jouer avec d'autres joueurs PC via Steam, mais pas directement avec les utilisateurs de Nintendo Switch."
+  },
+  {
+    question: "Combien de joueurs peuvent jouer à Heave Ho 2 localement sur un seul PC ?",
+    answer: "Le jeu prend en charge jusqu'à 4 joueurs localement sur un seul PC. Vous aurez besoin de suffisamment de manettes (Xbox, PlayStation ou USB générique) pour tout le monde, car le support du clavier est limité pour les configurations multijoueurs."
+  },
+  {
+    question: "Quelle est la différence entre les modes Co-op et Showdown ?",
+    answer: "La Co-op est la campagne principale avec 72 niveaux axés sur le travail d'équipe. Showdown est un mode compétitif avec 56 niveaux où les joueurs s'affrontent pour être le premier à atteindre un objectif."
+  },
+  {
+    question: "Puis-je jouer à Heave Ho 2 en solo ?",
+    answer: "Bien que le jeu soit conçu pour 2 à 4 joueurs, vous pouvez techniquement jouer seul. Cependant, de nombreuses énigmes sont conçues autour des chaînes humaines, ce qui rend le jeu en solo nettement plus difficile et moins chaotique."
+  }
+]} />
+
+</Section>

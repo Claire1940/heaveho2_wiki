@@ -1,0 +1,220 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "crossplay Heave Ho 2 : Guide de configuration et comparaison du multijoueur",
+  description: "Maîtrisez les fonctionnalités crossplay de Heave Ho 2, la configuration de la coop en ligne et la compatibilité des plateformes pour PC, Nintendo Switch et la nouvelle Nintendo Switch 2 en 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/e11d48/fff?text=Crossplay+and+Multiplayer+Guide",
+  date: "2026-07-18",
+  author: "Équipe du Wiki Heave Ho 2",
+  keywords: "heave ho 2, crossplay, multijoueur, guide, nintendo switch 2, coop en ligne"
+}
+
+<Callout type="info" title="Points clés à retenir">
+- Le **crossplay de Heave Ho 2** prend en charge le jeu intergénérationnel entre la Nintendo Switch et la Nintendo Switch 2.
+- Le **GameShare en ligne** est une fonctionnalité phare de la Nintendo Switch 2, permettant à un propriétaire de partager le jeu avec trois autres personnes.
+- **Steam Remote Play Together** reste la méthode principale pour les joueurs PC d'inviter des amis qui ne possèdent pas le jeu.
+- La **capacité multijoueur** permet de jouer de 2 à 4 joueurs à travers 72 niveaux coopératifs et 56 étapes de versus compétitif.
+- **Date de sortie** : Le jeu est officiellement sorti le 16 juillet 2026 sur toutes les plateformes majeures.
+</Callout>
+
+<Section icon={Map} title="Aperçu du multijoueur et modes de connexion">
+
+Heave Ho 2, développé par Le Cartel Studio et publié par Devolver Digital, reprend le chaos du jeu de plateforme basé sur la physique de l'original et l'étend avec des fonctionnalités en ligne robustes. Depuis son lancement le 16 juillet 2026, le jeu met l'accent sur le travail d'équipe à travers 72 niveaux artisanaux où les joueurs doivent former des chaînes humaines, se balancer au-dessus de gouffres béants et coordonner chaque prise. Comprendre les nuances du **crossplay de Heave Ho 2** et ses différents modes de connexion est essentiel pour les groupes souhaitant explorer les huit mondes thématiques, allant des sommets glacés de Flying High aux défis en apesanteur de Spacebound Squad.
+
+**Points forts de la vidéo :**
+- Aperçu des nouvelles mécaniques coopératives de 2026 et de la physique des personnages.
+- Présentation des huit mondes thématiques, dont Medieval Travels et Manor Mysteries.
+- Démonstration du mouvement en "chaîne humaine" à 4 joueurs.
+- Aperçu visuel des graphismes mis à jour pour la Nintendo Switch 2.
+
+<YouTubeEmbed videoId="xYRhczUghdQ" title="Heave Ho 2 | Reveal Trailer" />
+
+Le jeu propose plusieurs façons de jouer, selon votre matériel et votre emplacement. Bien que la coop locale "sur canapé" reste le cœur de l'expérience, l'ajout d'une infrastructure en ligne native permet des sessions mondiales fluides.
+
+| Mode | Plateforme | Nombre de joueurs | Exigence principale |
+| :--- | :--- | :--- | :--- |
+| **Coop locale** | PC, Switch, Switch 2 | 2–4 Joueurs | Plusieurs manettes, un seul système |
+| **Coop en ligne** | PC, Switch, Switch 2 | 2–4 Joueurs | Internet actif, abonnement plateforme |
+| **Showdown en ligne** | PC, Switch, Switch 2 | 2–4 Joueurs | Mode compétitif pour les niveaux versus |
+| **GameShare** | Switch 2 uniquement | 1 Propriétaire + 3 Invités | Local ou en ligne via GameChat |
+| **Remote Play** | PC (Steam) | Jusqu'à 4 Joueurs | L'hôte possède le jeu, les invités stream |
+
+<Callout type="tip" title="Conseil de pro">
+Lorsque vous jouez en ligne, désignez un joueur comme "Annonceur" pour synchroniser les lâchers. La latence est minimale, mais une confirmation verbale évite les chutes accidentelles de l'équipe lors des longs balancements.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Crossplay Heave Ho 2 et compatibilité des plateformes">
+
+La question la plus fréquente concernant la sortie de 2026 est de savoir comment fonctionne le **crossplay de Heave Ho 2** entre les différents écosystèmes. La connectivité est principalement regroupée par famille de plateformes. Les utilisateurs de Nintendo bénéficient du plus haut niveau de compatibilité croisée, spécifiquement entre la Nintendo Switch originale et la Nintendo Switch 2. Ce jeu "cross-gen" garantit que la base de joueurs reste unifiée quel que soit le matériel Nintendo utilisé.
+
+Pour les joueurs PC sur Steam, l'environnement est actuellement isolé de l'écosystème Nintendo. Cependant, les utilisateurs de Steam ont accès au Remote Play Together, qui agit comme une forme de "pseudo-crossplay" en permettant à n'importe qui disposant d'un PC ou d'un appareil mobile de rejoindre la partie d'un hôte sans posséder lui-même d'exemplaire du jeu.
+
+| Fonctionnalité | PC Windows (Steam) | Nintendo Switch | Nintendo Switch 2 |
+| :--- | :--- | :--- | :--- |
+| **Jeu Cross-Gen** | N/A | Oui (avec Switch 2) | Oui (avec Switch) |
+| **GameShare en ligne** | Non | Non | Oui (Exclusif) |
+| **Succès** | Succès Steam | Non | Non |
+| **Sauvegardes Cloud** | Steam Cloud | Nintendo Cloud | Nintendo Cloud |
+| **Stockage requis** | 4 Go | 2,4 Go | 2,4 Go |
+| **Résolution** | Jusqu'à 4K | 1080p (Docké) | 1080p+ Optimisé |
+
+<Callout type="warning" title="Exigence d'abonnement">
+Le jeu en ligne sur les plateformes Nintendo nécessite un abonnement Nintendo Switch Online actif. Les joueurs PC n'ont pas besoin d'abonnement secondaire pour jouer en ligne via Steam.
+</Callout>
+
+La version Nintendo Switch 2 introduit la fonctionnalité révolutionnaire GameShare. Cela permet à un seul propriétaire de Heave Ho 2 de lancer une session "Online GameShare" via GameChat. Jusqu'à trois amis peuvent rejoindre la session et jouer au jeu complet sans l'acheter, à condition que l'hôte reste connecté. C'est le moyen le plus économique de découvrir les 72 niveaux de la campagne avec un groupe dédié.
+
+</Section>
+
+<Section icon={Target} title="Comment configurer des sessions coopératives en ligne">
+
+Configurer votre première session pour le **crossplay de Heave Ho 2** ou le jeu en ligne standard est simple. Le jeu utilise un système d'invitation simplifié conçu pour un gameplay rapide. Suivez ces étapes pour connecter votre équipe.
+
+<Steps>
+  <Step num="1" title="Sélectionner le mode multijoueur">
+    Depuis le menu principal, accédez à l'onglet 'En ligne'. Choisissez 'Coop' pour la campagne ou 'Showdown' pour les modes versus compétitifs.
+  </Step>
+  <Step num="2" title="Créer ou rejoindre un lobby">
+    L'hôte doit sélectionner 'Créer un lobby'. Vous pouvez régler le lobby sur 'Public' ou 'Amis uniquement'. Sur Switch 2, c'est ici que vous pouvez lancer une invitation GameShare.
+  </Step>
+  <Step num="3" title="Inviter des coéquipiers">
+    Sur Steam, utilisez l'overlay Shift+Tab pour inviter des amis directement. Sur les plateformes Nintendo, utilisez la liste 'Inviter des amis' en jeu ou l'interface GameChat pour les utilisateurs de Switch 2.
+  </Step>
+  <Step num="4" title="Personnalisation des personnages">
+    Une fois que les 2 à 4 joueurs apparaissent dans le lobby, chacun peut personnaliser sa créature. Si vous avez débloqué des skins crossover comme le Crewmate d'Among Us ou le protagoniste de Cult of the Lamb, équipez-les ici.
+  </Step>
+  <Step num="5" title="Sélectionner votre monde">
+    L'hôte choisit parmi les 8 mondes disponibles. Si vous êtes débutant, il est fortement recommandé de commencer par 'Flying High' pour maîtriser les mécaniques de base de prise et de balancement.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Stabilité de la connexion">
+Pour une expérience optimale en coop en ligne, assurez-vous que l'hôte dispose d'une connexion Ethernet filaire. Les jeux basés sur la physique sont sensibles à la perte de paquets, ce qui peut provoquer des "images fantômes" lors des balancements à grande vitesse.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Stratégies multijoueurs et coordination">
+
+Le succès dans Heave Ho 2 dépend entièrement de la qualité de la communication de votre équipe. Contrairement aux jeux de plateforme traditionnels, vous ne pouvez pas simplement sauter vers l'arrivée. Chaque mouvement nécessite une connexion physique avec l'environnement ou un autre joueur. Maîtriser les sessions de **crossplay Heave Ho 2** implique plus qu'une simple bonne connexion ; cela nécessite un positionnement tactique.
+
+<CardGrid cols={3}>
+  <Card title="L'Ancre Humaine">
+    - **Un joueur reste fixe**
+    - S'agrippe à une surface solide
+    - Sert de filet de sécurité
+    - Essentiel pour les grands vides
+  </Card>
+  <Card title="Le Rythme de Balancement">
+    - **Rotation coordonnée**
+    - Accumuler de l'élan ensemble
+    - Lâcher au point culminant
+    - Nécessite un décompte verbal
+  </Card>
+  <Card title="Passages d'Objets">
+    - **Déplacer des clés/objets**
+    - Passes courtes et contrôlées
+    - Éviter les lancers longs
+    - Garder une main libre
+  </Card>
+</CardGrid>
+
+Dans les 56 niveaux versus du jeu, la stratégie passe de la coopération à la perturbation. En mode Showdown, vous devez être le premier à atteindre l'objectif ou à saisir la poignée cible.
+
+| Stratégie | Application en Coop | Application en Versus |
+| :--- | :--- | :--- |
+| **La Chaîne** | Atteindre des plateformes éloignées | Bloquer le passage des adversaires |
+| **Le Lancer** | Propulser les alliés en sécurité | Envoyer les rivaux dans les dangers |
+| **La Prise** | Stabiliser les ascenseurs mobiles | Voler des objets aux autres |
+| **Le Reset** | Sauver des coéquipiers qui tombent | Forcer un redémarrage complet du niveau |
+
+<Callout type="info" title="Mode Assistance">
+Si votre équipe est bloquée sur une section spécifique trop longtemps, l'assistance "Cat Drone" apparaîtra. Ce drone peut transporter les joueurs en difficulté à travers les passages complexes, permettant au groupe de progresser dans l'histoire.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Liste des déblocages et des succès">
+
+Au-delà de la campagne principale, Heave Ho 2 propose divers objectifs optionnels qui récompensent les joueurs avec de nouveaux skins, outils et équipements. Ces objets, tels que le "Ima Rock" (qui vous fige en plein air) ou l'"Arm Spray" (qui étend votre portée), peuvent radicalement changer votre approche des sessions **crossplay de Heave Ho 2**.
+
+<Checklist
+  id="completion-milestones"
+  title="Objectifs de complétion multijoueur :"
+  items={[
+    "Terminer les 8 mondes de la campagne en coop",
+    "Gagner 5 matchs Showdown d'affilée",
+    "Débloquer les 21 succès Steam",
+    "Terminer chaque défi 'Silhouette'",
+    "Trouver et saisir chaque 'Main Mystérieuse'",
+    "Ouvrir chaque cadeau dans la piste de récompenses",
+    "Capturer tous les objectifs photo avec l'outil Caméra"
+  ]}
+/>
+
+Pour atteindre 100 % de complétion, les équipes doivent revisiter les niveaux pour terminer les défis "Chronomètre" et trouver les "Reliques" cachées. Ces objectifs optionnels sont souvent plus faciles à atteindre avec une équipe complète de 4 joueurs, car les mains supplémentaires permettent des manœuvres plus complexes et une traversée plus rapide.
+
+| Type de succès | Exigence | Récompense |
+| :--- | :--- | :--- |
+| **Complétion du monde** | Terminer tous les niveaux d'un thème | Accès au nouveau monde |
+| **Séries optionnelles** | Réussir tous les défis Silhouette | Skins d'ombre |
+| **Collection** | Ouvrir tous les cadeaux disponibles | Cosmétiques Crossover |
+| **Maîtrise** | Atteindre 100 % de complétion du jeu | Skin de personnage doré |
+
+<Callout type="tip" title="Skins Crossover">
+Gardez un œil sur les personnages issus de collaborations spéciales. Les skins confirmés pour 2026 incluent le crewmate d'*Among Us*, l'agneau de *Cult of the Lamb* et Dave de *Dave the Diver*.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Configuration système PC et performances">
+
+Pour ceux qui jouent sur PC, assurer un 60 FPS stable est crucial pour synchroniser vos lâchers pendant le **crossplay de Heave Ho 2**. Le jeu est optimisé pour fonctionner sur une large gamme de matériels, mais héberger une session en ligne nécessite un peu plus de ressources que de jouer localement.
+
+| Composant | Minimum (1080p/60 Bas) | Recommandé (1080p/60 Élevé) |
+| :--- | :--- | :--- |
+| **OS** | Windows 10 x64 | Windows 11 x64 |
+| **CPU** | Intel i5-4670K / AMD FX-8350 | Intel i7-6950X / AMD Ryzen 7 2700 |
+| **RAM** | 8 Go | 8 Go |
+| **GPU** | GTX 760 / Radeon R9 270X | GTX 1080 / Radeon RX Vega 56 |
+| **DirectX** | Version 11 | Version 12 |
+| **Stockage** | 4 Go disponibles | 4 Go disponibles |
+
+<Callout type="warning" title="Utilisateurs d'ordinateurs portables">
+Si vous jouez sur un ordinateur portable avec des graphiques intégrés, assurez-vous que votre mode d'alimentation est réglé sur "Performances élevées" et que la résolution est maintenue à 1080p ou moins pour garder un framerate constant.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Le crossplay de Heave Ho 2 permet-il de jouer entre PC et Switch ?",
+    answer: "Actuellement, le crossplay de Heave Ho 2 est limité à l'écosystème Nintendo (Switch vers Switch 2). Les joueurs PC sur Steam peuvent jouer ensemble mais ne peuvent pas officiellement se connecter avec les joueurs sur consoles Nintendo au moment du lancement de juillet 2026."
+  },
+  {
+    question: "Comment fonctionne la fonction GameShare sur Nintendo Switch 2 ?",
+    answer: "Le GameShare permet à une personne possédant le jeu d'héberger jusqu'à trois autres joueurs qui ne le possèdent pas. Cela fonctionne aussi bien localement qu'en ligne via le système GameChat, ce qui permet à un seul achat de couvrir tout un groupe d'amis."
+  },
+  {
+    question: "Puis-je jouer à Heave Ho 2 en solo ?",
+    answer: "Oui, vous pouvez jouer en solo, mais le jeu est fondamentalement conçu pour 2 à 4 joueurs. De nombreuses énigmes et mécaniques de traversée nécessitent au moins deux personnages pour naviguer efficacement, il est donc fortement recommandé de jouer avec au moins un ami."
+  },
+  {
+    question: "Quelle est la différence entre les modes Coop et Showdown ?",
+    answer: "Le mode Coop se concentre sur les 72 niveaux de la campagne où les joueurs travaillent ensemble pour atteindre l'arrivée. Showdown est un mode compétitif avec 56 niveaux aléatoires où les joueurs font la course ou se battent pour être les premiers à remplir les objectifs."
+  }
+]} />
+
+</Section>

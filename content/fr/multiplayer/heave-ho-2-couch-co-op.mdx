@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Heave Ho 2 Coop en Local : Guide Complet du Multijoueur Local et du Balancement",
+  description: "Maîtrisez la coop en local de Heave Ho 2 grâce à notre guide complet. Apprenez la configuration locale, le paramétrage des manettes, les techniques de balancement physique et les stratégies d'équipe.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/e11d48/fff?text=Couch+Co-op+Guide",
+  date: "2026-07-18",
+  author: "Équipe du Wiki Heave Ho 2"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Gameplay de Base** : Maîtrisez la mécanique de poigne basée sur la physique pour vous balancer, vous projeter et lancer vos amis à travers des gouffres dangereux.
+- **Configuration de la Coop en Local** : Connectez jusqu'à quatre manettes sur PC, Nintendo Switch ou Nintendo Switch 2 pour des parties locales chaotiques.
+- **Stratégie du Point d'Ancrage** : Désignez toujours un joueur d'ancrage stable qui s'accroche au terrain pendant que les autres se balancent.
+- **GameShare Switch 2** : Profitez du GameShare local et en ligne pour jouer avec des amis en n'achetant le jeu qu'une seule fois.
+- **Récompenses Déverrouillables** : Terminez des défis optionnels pour débloquer des skins de crossover hilarants issus d'Among Us, Balatro et Cult of the Lamb.
+</Callout>
+
+<Section icon={Map} title="Heave Ho 2 Coop en Local : Plateformes et Tarifs">
+
+Le jeu de fête basé sur la physique très attendu, développé par Le Cartel Studio et publié par Devolver Digital, est officiellement sorti le **16 juillet 2026**. Cette suite enrichit considérablement son prédécesseur, offrant des défis coopératifs chaotiques conçus spécifiquement pour des groupes de deux à quatre joueurs. Que vous jouiez sur un PC Windows haut de gamme ou que vous profitiez des dernières innovations matérielles de Nintendo, le jeu offre une intégration locale et en ligne fluide.
+
+Pour les joueurs à la recherche de la configuration de soirée ultime, le mode **coop en local de Heave Ho 2** reste le point fort absolu du titre. Se retrouver dans la même pièce, crier des ordres et jeter accidentellement ses amis dans des gouffres sans fond, c'est là que le jeu brille vraiment. La version native Nintendo Switch 2 introduit des fonctionnalités de pointe comme le GameShare Local, permettant au propriétaire d'un seul exemplaire du jeu d'héberger des sessions multijoueurs pour un maximum de trois consoles à proximité sans nécessiter d'achats multiples.
+
+| Plateforme | Prix | Fonctionnalités Multijoueur | Fonctionnalités Spéciales | Lien Boutique |
+| :--- | :--- | :--- | :--- | :--- |
+| PC Windows | 9,99 $ | Coop Locale & En Ligne, Steam Remote Play | Succès Steam, Sauvegardes Cloud | [Boutique Steam](https://store.steampowered.com/app/2802740/Heave_Ho_2/) |
+| Nintendo Switch | 9,99 $ | Coop Locale & En Ligne, Mode TV/Table sur table | Cloud des données de sauvegarde, Mode portable | [Boutique Nintendo Switch](https://www.nintendo.com/us/store/products/heave-ho-2-switch/) |
+| Nintendo Switch 2 | 9,99 $ | Coop Locale & En Ligne, GameShare local | GameShare en ligne via GameChat | [Boutique Nintendo Switch 2](https://www.nintendo.com/us/store/products/heave-ho-2-switch-2/) |
+
+<Callout type="info" title="Disponibilité du Jeu">
+Une démo téléchargeable gratuite est disponible sur Steam et sur le Nintendo eShop. Cela vous permet de tester les mécanismes de coopération en local et le moteur physique de base avec vos amis avant d'acheter le jeu complet.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Maîtriser la Configuration de la Coop en Local">
+
+Configurer une session multijoueur locale nécessite une bonne configuration des manettes. Comme le jeu repose sur le contrôle indépendant de la main gauche et de la main droite de votre personnage, les configurations de clavier traditionnelles peuvent rapidement devenir trop étroites. Pour une expérience optimale sur PC, il est fortement recommandé de connecter plusieurs manettes. Le jeu prend nativement en charge les manettes Xbox, PlayStation DualSense et Nintendo Switch Pro.
+
+En jeu local, tous les joueurs partagent un seul écran. La caméra effectue un zoom arrière dynamique pour garder tout le monde dans le champ de vision, ce qui signifie que la communication est essentielle. Si un joueur se précipite vers l'avant, il peut étirer la caméra, ce qui rend extrêmement difficile pour les coéquipiers à la traîne de voir leur prochain point d'accroche. Coordonnez vos mouvements et progressez en groupe uni pour éviter les morts inutiles.
+
+<CardGrid cols={3}>
+  <Card title="Coop en Local">
+    - **Vue sur écran partagé**
+    - Retour verbal instantané
+    - Idéal pour les soirées en physique
+    - Supporte jusqu'à 4 joueurs
+  </Card>
+  <Card title="Multijoueur en Ligne">
+    - **Focus sur écran individuel**
+    - Nécessite une synchronisation par chat vocal
+    - Parfait pour le jeu à distance
+    - Supporte jusqu'à 4 joueurs
+  </Card>
+  <Card title="Mode Showdown">
+    - **Mini-jeux compétitifs**
+    - Courses de fête rythmées
+    - Défis de survie
+    - Premier à 5 victoires gagne la partie
+  </Card>
+</CardGrid>
+
+| Action | Touche Manette (Xbox) | Touche Manette (Switch) | Effet en Jeu |
+| :--- | :--- | :--- | :--- |
+| Déplacement & Rotation | Stick analogique gauche | Stick analogique gauche | Fait tourner les bras et le corps de votre personnage |
+| Agripper (Gauche) | Gâchette gauche (LT) | Bouton L / ZL | Ferme la main gauche sur les surfaces ou les alliés |
+| Agripper (Droite) | Gâchette droite (RT) | Bouton R / ZR | Ferme la main droite sur les surfaces ou les alliés |
+| Relâcher la poigne | Relâcher LT / RT | Relâcher L / R | Ouvre la main pour se laisser tomber ou se lancer |
+
+<Callout type="warning" title="Sécurité des Manettes">
+Assurez-vous toujours que vos manettes sont complètement chargées avant de commencer une session. Une seule manette déconnectée lors d'une chaîne humaine complexe à quatre joueurs fera tomber toute l'équipe dans l'abîme.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guide Étape par Étape pour un Balancement d'Équipe Parfait">
+
+Pour réussir dans les niveaux les plus exigeants de la campagne, votre équipe doit aller au-delà de la simple escalade et maîtriser la physique avancée du balancement. Créer de l'élan sous forme de chaîne humaine est la méthode de déplacement principale pour traverser d'immenses gouffres. Suivez ces étapes pour exécuter un lancer d'équipe parfait.
+
+<Steps>
+  <Step num="1" title="Établir un Ancrage Solide">
+    Le joueur d'ancrage désigné doit s'agripper à une surface solide et non glissante avec ses deux mains. Ce joueur doit maintenir ses boutons d'accroche enfoncés en continu et éviter de bouger son stick analogique pour conserver une stabilité maximale.
+  </Step>
+  <Step num="2" title="Former la Chaîne Humaine">
+    Le deuxième joueur attrape les pieds ou le corps du joueur d'ancrage. Les autres joueurs s'accrochent ensuite les uns à la suite des autres pour former une longue chaîne suspendue. Assurez-vous que tout le monde a une prise solide avant de continuer.
+  </Step>
+  <Step num="3" title="Créer un Élan de Rotation">
+    Tous les joueurs suspendus doivent faire tourner leurs sticks analogiques à l'unisson. Commencez par de petits mouvements circulaires, puis augmentez progressivement l'amplitude. Le joueur d'ancrage doit rester complètement immobile pendant ce processus.
+  </Step>
+  <Step num="4" title="Coordonner le Compte à Rebours">
+    Utilisez un compte à rebours verbal clair (ex. : « 3, 2, 1, Lâchez ! »). Le joueur situé au bout de la chaîne doit préparer sa main libre en la pointant directement vers la plateforme cible.
+  </Step>
+  <Step num="5" title="Lancer et Rattraper">
+    Le joueur de liaison relâche sa prise au sommet de l'élan vers l'extérieur du balancement. Le joueur lancé plane à travers le gouffre et maintient ses boutons d'accroche enfoncés pour attraper le rebord de destination.
+  </Step>
+</Steps>
+
+| Position dans la Chaîne | Rôle Principal | Commande Requise | Conseil Crucial |
+| :--- | :--- | :--- | :--- |
+| Ancre | S'accrocher au terrain | Maintenir LT/RT enfoncé | Ne jamais relâcher avant que les coéquipiers n'aient atterri |
+| Maillon | Étendre la longueur de la chaîne | Tenir le corps du coéquipier | Garder le corps droit pour éviter de s'emmêler |
+| Balancier | Créer l'élan de balancement | Rotation synchronisée du stick | Relâcher au sommet de l'arc de cercle |
+
+<Callout type="tip" title="Technique de Balancement Pro">
+Si votre équipe a du mal à générer assez de vitesse, essayez d'inverser le sens de votre rotation au milieu du balancement. Ce changement soudain de physique peut doubler votre vitesse de projection, vous aidant à franchir les gouffres les plus larges du jeu.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Solution de la Campagne et Mécaniques des Mondes">
+
+La campagne principale propose **8 mondes thématiques** et **72 niveaux coopératifs** remplis de dangers uniques, d'objets interactifs et d'énigmes environnementales. Chaque monde introduit une mécanique distincte qui oblige votre équipe de coop en local à adapter sa stratégie. De la navigation en apesanteur au transport d'un roi fragile sur un trône lourd, le travail d'équipe est mis à l'épreuve à chaque instant.
+
+| Nom du Monde | Mécanique de Déplacement Clé | Danger Principal | Stratégie d'Équipe |
+| :--- | :--- | :--- | :--- |
+| Flying High | Remontées mécaniques et télécabines mobiles | Surfaces de glace glissantes | Synchronisez vos prises avec les plateformes mobiles |
+| Manor Mysteries | Transport de clés et portes verrouillées | Barrières de portes fermées | Passez les clés de main en main à travers les gouffres |
+| Spacebound Squad | Pilotage de fusée en apesanteur | Inertie et dérive | Désignez un pilote pendant que les autres s'ancrent |
+| Chef's Orders | Empilage d'aliments géants | Ingrédients volumineux et lourds | Équilibrez le poids uniformément le long de la chaîne |
+| Medieval Travels | Transport du trône du roi | Physique de basculement instable | Maintenez le trône droit grâce à un double ancrage |
+
+<Callout type="info" title="Bloqué sur un Niveau ?">
+Si votre équipe est en difficulté sur un niveau particulièrement difficile, le mode d'assistance intégré du jeu finira par déployer un drone chat bien utile. Ce drone peut transporter les joueurs en difficulté au-delà des obstacles, vous permettant de progresser sans frustration.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Liste des Succès et Cosmétiques Déverrouillables">
+
+Pour les groupes de complétistes, le jeu propose **21 succès Steam** et un système solide de progression des récompenses. Remplir des objectifs facultatifs — comme battre les chronomètres cibles, trouver des reliques cachées et poser pour des défis d'appareil photo spécifiques — vous permet de gagner des boîtes cadeaux contenant des tenues de personnages hilarantes et des skins de crossover prestigieux.
+
+<Checklist
+  id="coop-milestones"
+  title="Objectifs Ultimes de la Coop en Local :"
+  items={[
+    "Terminer les 72 niveaux de la campagne coopérative",
+    "Débloquer le skin de crossover de l'Équipier d'Among Us",
+    "Trouver et attraper chaque Main Mystérieuse cachée",
+    "Terminer les 10 défis de Chrono avec une équipe complète de 4 joueurs",
+    "Ouvrir chaque boîte cadeau pour obtenir le succès Accro aux Cadeaux"
+  ]}
+/>
+
+| Skin de Crossover | Jeu d'Origine | Condition de Déverrouillage | Type de Cosmétique |
+| :--- | :--- | :--- | :--- |
+| Équipier | Among Us | Remplir 5 objectifs de monde facultatifs | Combinaison intégrale |
+| Henry | Kingdom Come II | Ouvrir des boîtes cadeaux aléatoires | Casque d'armure médiévale |
+| Adepte | Cult of the Lamb | Réussir tous les défis de Manor Mysteries | Robe et couronne d'adepte |
+| Dave | Dave the Diver | Terminer 3 niveaux sur le thème sous-marin | Masque et combinaison de plongée |
+
+<Callout type="success" title="Astuce de Déverrouillage">
+Vous n'avez pas besoin de remplir tous les objectifs facultatifs lors de votre première partie. Il est fortement recommandé de terminer d'abord les niveaux normalement, puis de revenir avec une équipe expérimentée pour vous attaquer aux chronomètres et aux reliques cachées.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Est-ce que Heave Ho 2 prend en charge simultanément les joueurs en coop locale et en ligne ?",
+    answer: "Oui ! Le jeu propose un multijoueur hybride, vous permettant de mélanger des joueurs en coop locale sur le même canapé avec des amis en ligne au cours d'une même session. C'est parfait pour connecter des soirées locales avec des joueurs à distance."
+  },
+  {
+    question: "Comment fonctionne la fonctionnalité GameShare de la Nintendo Switch 2 ?",
+    answer: "Le GameShare Local permet au propriétaire d'un jeu sur Nintendo Switch 2 de le partager avec un maximum de trois consoles à proximité. Le GameShare en Ligne vous permet de partager le jeu avec des amis à distance via GameChat, ne nécessitant qu'une seule copie du jeu pour tout le groupe."
+  },
+  {
+    question: "Pouvons-nous jouer à toute la campagne à deux joueurs seulement ?",
+    answer: "Absolument. Les 72 niveaux de la campagne s'adaptent dynamiquement pour prendre en charge 2, 3 ou 4 joueurs. Les énigmes et les points d'accroche s'ajustent pour garantir que le jeu reste difficile mais équitable, quelle que soit la taille de votre équipe."
+  },
+  {
+    question: "Quelle est la configuration PC requise pour héberger une partie en local ?",
+    answer: "Pour héberger une session locale fluide à 4 joueurs en 1080p/60 FPS, un système équipé d'un processeur Intel Core i7-6950X (or AMD Ryzen 7 2700) et d'une carte graphique GeForce GTX 1080 est recommandé. Un taux de rafraîchissement constant est crucial pour la précision du timing d'accroche."
+  }
+]} />
+
+<Callout type="info" title="Verdict Final">
+Avec sa prise en main immédiate, ses échecs physiques hilarants et ses mécaniques de coopération profondes, cette suite est un ajout indispensable à votre bibliothèque de jeux de soirée. Rassemblez vos amis, attrapez des manettes et commencez à vous balancer !
+</Callout>
+
+</Section>

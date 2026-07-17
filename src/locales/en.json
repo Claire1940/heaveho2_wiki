@@ -10,7 +10,15 @@
       "twitterDescription": "Heave Ho 2 Wiki covers all 72 co-op levels, eight worlds, controls, versus modes, unlockables, and updates."
     }
   },
-  "nav": {},
+  "nav": {
+    "release": "Release",
+    "platforms": "Platforms",
+    "multiplayer": "Multiplayer",
+    "guide": "Guide",
+    "levels": "Levels",
+    "items": "Items",
+    "achievements": "Achievements"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -606,61 +614,145 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "beginner": {
-      "title": "Heave Ho 2 Beginner Guides",
-      "description": "Start Heave Ho 2 with the core loop of grabbing, human chains, swinging, and recovery.",
-      "metaTitle": "Heave Ho 2 Beginner Guide - How to Play",
-      "metaDescription": "Learn how to play Heave Ho 2 with beginner tips on grabbing, human chains, swinging, and recovering from failed jumps.",
-      "categoryLabel": "BEGINNER GUIDES"
-    },
-    "controls": {
-      "title": "Heave Ho 2 Controls",
-      "description": "Master Heave Ho 2 movement, hand grips, swinging, throws, and catches.",
-      "metaTitle": "Heave Ho 2 Controls and Swinging Guide",
-      "metaDescription": "Complete Heave Ho 2 controls guide covering hand inputs, momentum, throws, catches, and safe landings.",
-      "categoryLabel": "CONTROLS"
-    },
-    "levels": {
-      "title": "Heave Ho 2 Levels and Worlds",
-      "description": "Walkthroughs for all eight Heave Ho 2 worlds and their campaign levels.",
-      "metaTitle": "Heave Ho 2 Walkthrough - All Worlds and Levels",
-      "metaDescription": "Full Heave Ho 2 walkthrough covering all eight themed worlds, campaign levels, puzzles, and difficult stages.",
-      "categoryLabel": "LEVELS"
-    },
-    "coop": {
-      "title": "Heave Ho 2 Co-op and Multiplayer",
-      "description": "Online co-op, couch play, Showdown, Remote Play, and GameShare for Heave Ho 2.",
-      "metaTitle": "Heave Ho 2 Multiplayer and Co-op Guide",
-      "metaDescription": "Compare Heave Ho 2 online co-op, local couch play, Showdown, Steam Remote Play Together, and Nintendo Switch 2 GameShare.",
-      "categoryLabel": "MULTIPLAYER"
-    },
-    "versus": {
-      "title": "Heave Ho 2 Versus Mode",
-      "description": "Rules, maps, and tactics for Heave Ho 2 Showdown versus levels.",
-      "metaTitle": "Heave Ho 2 Versus and Showdown Guide",
-      "metaDescription": "Heave Ho 2 versus mode guide covering Showdown rules, the 56 randomized levels, win conditions, and team tactics.",
-      "categoryLabel": "VERSUS"
-    },
-    "unlockables": {
-      "title": "Heave Ho 2 Unlockables",
-      "description": "Characters, cosmetics, support items, gifts, and crossover skins in Heave Ho 2.",
-      "metaTitle": "Heave Ho 2 Items, Unlocks and Cosmetics",
-      "metaDescription": "Unlockable characters, cosmetics, support gear, gifts, and crossover skins in Heave Ho 2.",
-      "categoryLabel": "UNLOCKABLES"
+    "release": {
+      "title": "Heave Ho 2 Release & Launch Info",
+      "description": "Heave Ho 2 release date, price, demo, trailers, reviews, and physical edition details across Steam and the Nintendo eShop.",
+      "metaTitle": "Heave Ho 2 Release Date, Price & Demo",
+      "metaDescription": "Heave Ho 2 launched July 16, 2026 on Steam, Switch, and Switch 2 for $9.99 with a free demo. Full release, price, trailer, and review details.",
+      "categoryLabel": "RELEASE",
+      "whatIs": "What is Heave Ho 2's Release Info?",
+      "whatIsDescription": "Heave Ho 2 is the sequel to the chaotic physics co-op party game, developed by Le Cartel Studio and published by Devolver Digital. It launched on July 16, 2026 for Windows PC, Nintendo Switch, and Nintendo Switch 2 at $9.99, with a free demo available on every platform.",
+      "why": "Why Check the Release Details?",
+      "whySteps": {
+        "step1Title": "Know the Launch Date & Price",
+        "step1Description": "Heave Ho 2 released July 16, 2026 at $9.99 on Steam and the Nintendo eShop, so you can plan your purchase and co-op sessions.",
+        "step2Title": "Try the Free Demo First",
+        "step2Description": "A free demo with local and online co-op lets you test the physics and multiplayer before buying.",
+        "step3Title": "Pick the Right Platform",
+        "step3Description": "Compare Steam, Switch, and Switch 2 features including GameShare, Remote Play, and full language support."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Release Guides"
     },
     "platforms": {
-      "title": "Heave Ho 2 Platforms",
-      "description": "Price, demos, system requirements, and Switch vs Switch 2 features for Heave Ho 2.",
-      "metaTitle": "Heave Ho 2 Platforms, Price and System Requirements",
-      "metaDescription": "Heave Ho 2 platform guide covering Steam, Nintendo Switch, Nintendo Switch 2, pricing, demos, GameShare, and PC requirements.",
-      "categoryLabel": "PLATFORMS"
+      "title": "Heave Ho 2 Platforms & Stores",
+      "description": "Where to play Heave Ho 2 on Steam, Nintendo Switch, and Switch 2, plus store pages, file size, and platform features.",
+      "metaTitle": "Heave Ho 2 Platforms - Steam, Switch & Switch 2",
+      "metaDescription": "Heave Ho 2 is available on Steam for PC and the Nintendo eShop for Switch and Switch 2. Compare stores, file sizes, GameShare, and language support.",
+      "categoryLabel": "PLATFORMS",
+      "whatIs": "What Platforms is Heave Ho 2 On?",
+      "whatIsDescription": "Heave Ho 2 is available on Steam for Windows PC and on the Nintendo eShop for Nintendo Switch and Nintendo Switch 2. Each Nintendo version supports local and online multiplayer for up to four players, and the native Switch 2 edition adds local and online GameShare.",
+      "why": "Why Compare Platforms?",
+      "whySteps": {
+        "step1Title": "Choose Your Store",
+        "step1Description": "Find the right store page on Steam or the Nintendo eShop with pricing, file size, and demo access.",
+        "step2Title": "Understand Switch vs Switch 2",
+        "step2Description": "The Switch 2 version adds local and online GameShare so one owner can share with up to three players.",
+        "step3Title": "Check System Needs",
+        "step3Description": "Confirm your PC meets the minimum specs or pick the Nintendo version that fits your setup."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Platform Guides"
     },
-    "updates": {
-      "title": "Heave Ho 2 Updates",
-      "description": "Patch notes, fixes, and new content updates for Heave Ho 2.",
-      "metaTitle": "Heave Ho 2 Updates and Patch Notes",
-      "metaDescription": "Track Heave Ho 2 updates, hotfixes, new content, and known issues with concise patch notes by date.",
-      "categoryLabel": "UPDATES"
+    "multiplayer": {
+      "title": "Heave Ho 2 Multiplayer & Co-op",
+      "description": "How many players Heave Ho 2 supports, plus online and local co-op, crossplay, GameShare, and shared-screen play.",
+      "metaTitle": "Heave Ho 2 Multiplayer - Co-op, Crossplay & GameShare",
+      "metaDescription": "Heave Ho 2 supports 2-4 players in online co-op, local couch co-op, and Showdown. Learn about crossplay, GameShare, Remote Play, and player counts.",
+      "categoryLabel": "MULTIPLAYER",
+      "whatIs": "What Multiplayer Does Heave Ho 2 Have?",
+      "whatIsDescription": "Heave Ho 2 is built for 2-4 player co-op with online multiplayer, shared-screen couch play, and competitive Showdown modes. Nintendo Switch 2 owners can use GameShare to bring in friends who do not own the game, and Steam players can use Remote Play Together.",
+      "why": "Why Read the Multiplayer Guide?",
+      "whySteps": {
+        "step1Title": "Set Up Co-op Fast",
+        "step1Description": "Follow the steps to invite friends online or share a screen locally for 2-4 players.",
+        "step2Title": "Use GameShare & Remote Play",
+        "step2Description": "Learn how Switch 2 GameShare and Steam Remote Play Together let friends join without buying a copy.",
+        "step3Title": "Understand Crossplay",
+        "step3Description": "See which platforms can play together and how multiplayer works across Steam, Switch, and Switch 2."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Multiplayer Guides"
+    },
+    "guide": {
+      "title": "Heave Ho 2 Guides & Walkthrough",
+      "description": "Beginner basics, controls, swinging techniques, full world walkthrough, difficulty, tips, and how long to beat Heave Ho 2.",
+      "metaTitle": "Heave Ho 2 Guides - Beginner, Controls & Walkthrough",
+      "metaDescription": "Master Heave Ho 2 with beginner guides, hand controls, swinging and throwing techniques, world walkthroughs, difficulty settings, and playtime estimates.",
+      "categoryLabel": "GUIDE",
+      "whatIs": "What's in the Heave Ho 2 Guide?",
+      "whatIsDescription": "These guides cover everything from your first grab to advanced swinging: how to play, hand controls, building human chains, throwing teammates, and full walkthroughs of all eight themed worlds.",
+      "why": "Why Use the Guides?",
+      "whySteps": {
+        "step1Title": "Learn the Core Loop",
+        "step1Description": "Start with grabbing, anchoring, chaining, swinging, and recovering to build a reliable team.",
+        "step2Title": "Master Controls & Momentum",
+        "step2Description": "Understand hand inputs, release timing, and how to convert rotation into distance.",
+        "step3Title": "Clear Every World",
+        "step3Description": "Follow the walkthrough for all eight worlds and their optional challenge objectives."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Guides"
+    },
+    "levels": {
+      "title": "Heave Ho 2 Levels & Worlds",
+      "description": "How many levels and worlds Heave Ho 2 has, with a full list of the eight themed worlds and their co-op stages.",
+      "metaTitle": "Heave Ho 2 Levels - All Worlds & Stage Count",
+      "metaDescription": "Heave Ho 2 features eight themed worlds with about 72 co-op levels and 56 versus levels. Explore every world, its mechanics, and stage objectives.",
+      "categoryLabel": "LEVELS",
+      "whatIs": "What Levels Are in Heave Ho 2?",
+      "whatIsDescription": "Heave Ho 2 includes eight themed worlds with roughly 72 cooperative levels and 56 randomized versus levels. Each co-op level also offers optional objectives such as timers, silhouettes, mysterious hands, and photos.",
+      "why": "Why Explore the Levels?",
+      "whySteps": {
+        "step1Title": "See the Full Count",
+        "step1Description": "Find out exactly how many worlds, co-op levels, and versus levels the game contains.",
+        "step2Title": "Learn Each World's Rules",
+        "step2Description": "Every world adds unique traversal rules, hazards, and team objectives to master.",
+        "step3Title": "Plan Optional Objectives",
+        "step3Description": "Discover the timers, collectibles, and challenges hidden in each stage for replay value."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Level Guides"
+    },
+    "items": {
+      "title": "Heave Ho 2 Items & Unlockables",
+      "description": "Stage objects, support tools, unlockable items, cosmetics, gifts, and crossover skins in Heave Ho 2.",
+      "metaTitle": "Heave Ho 2 Items, Unlocks & Cosmetics",
+      "metaDescription": "Complete guide to Heave Ho 2 items and unlockables: pop guns, drones, spaceships, support gear, gifts, cosmetics, and crossover character skins.",
+      "categoryLabel": "ITEMS",
+      "whatIs": "What Items Are in Heave Ho 2?",
+      "whatIsDescription": "Heave Ho 2 mixes world-specific stage objects like pop guns, drones, and spaceships with equippable support tools such as Ima Rock, Arm Spray, and the Umbrella, plus reward-track cosmetics and crossover skins.",
+      "why": "Why Learn the Items?",
+      "whySteps": {
+        "step1Title": "Use Stage Objects Right",
+        "step1Description": "Coordinate pop guns, drones, and spaceships so the whole team benefits from each tool.",
+        "step2Title": "Equip Support Tools",
+        "step2Description": "Unlock and apply Ima Rock, Arm Spray, and Umbrella to solve hard gaps and rescues.",
+        "step3Title": "Collect All Rewards",
+        "step3Description": "Open every gift and finish reward tracks to earn cosmetics and crossover character skins."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Item Guides"
+    },
+    "achievements": {
+      "title": "Heave Ho 2 Achievements",
+      "description": "All 21 Steam achievements in Heave Ho 2, including campaign completion, challenge sets, and 100 percent completion.",
+      "metaTitle": "Heave Ho 2 Achievements - All 21 Steam List",
+      "metaDescription": "Track every Heave Ho 2 Steam achievement: campaign world completions, optional challenge sets, gift collection, and 100% completion requirements.",
+      "categoryLabel": "ACHIEVEMENTS",
+      "whatIs": "What Achievements Does Heave Ho 2 Have?",
+      "whatIsDescription": "Heave Ho 2 ships with 21 Steam achievements spanning campaign progress through all eight worlds, ten optional challenge sets, and collection and completion goals including full 100 percent completion.",
+      "why": "Why Track Achievements?",
+      "whySteps": {
+        "step1Title": "Follow Campaign Progress",
+        "step1Description": "Earn one achievement for finishing each of the eight themed worlds.",
+        "step2Title": "Clear Challenge Sets",
+        "step2Description": "Complete optional Crowning, Baby animal, Timer, Photo, and other challenge categories.",
+        "step3Title": "Reach 100%",
+        "step3Description": "Open every gift, finish all co-op levels, and complete the game fully for the final achievements."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Achievement Guides"
     }
   }
 }

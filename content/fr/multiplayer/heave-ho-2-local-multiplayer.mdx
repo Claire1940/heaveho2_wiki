@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Monitor, Users } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Heave Ho 2 multijoueur local : Guide de configuration et stratégies coopératives",
+  description: "Maîtrisez Heave Ho 2 multijoueur local avec notre guide sur la configuration, les fonctionnalités de plateforme, 72 niveaux coopératifs et les techniques avancées de balancement basées sur la physique pour 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/e63946/fff?text=Local+Multiplayer+Guide",
+  date: "2026-07-18",
+  author: "Équipe du Wiki Heave Ho 2",
+  keywords: "heave ho 2, multijoueur local, guide coop, physique, nintendo switch 2"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Heave Ho 2 multijoueur local** supporte jusqu'à quatre joueurs sur un seul écran sur PC et consoles Nintendo Switch.
+- **Mécanique de base** : Contrôlez deux mains indépendamment à l'aide des gâchettes pour attraper, se balancer et lancer vos coéquipiers à travers 72 niveaux coopératifs.
+- **Fonctionnalités de plateforme** : Les utilisateurs de Nintendo Switch 2 peuvent profiter de la nouvelle fonction GameShare pour jouer avec des amis qui ne possèdent pas le jeu.
+- **Mode Versus** : En plus de la coopération, le jeu propose 56 niveaux Showdown pour un chaos compétitif basé sur la physique.
+- **Objets déblocables** : Remplissez des objectifs optionnels pour gagner des skins crossover de titres comme *Among Us* et *Cult of the Lamb*.
+</Callout>
+
+<Section icon={Monitor} title="Disponibilité sur les plateformes et performances">
+
+Que vous réunissiez des amis sur le canapé ou que vous vous connectiez via Steam, maîtriser **Heave Ho 2 multijoueur local** est la clé pour survivre à la physique chaotique du dernier chef-d'œuvre de Le Cartel Studio. Sorti le 16 juillet 2026, le jeu a étendu sa portée pour inclure un support natif pour la Nintendo Switch 2, offrant des options de connectivité locale améliorées. Le jeu est proposé au prix compétitif de 9,99 $ sur toutes les boutiques numériques, ce qui en fait un ajout accessible à toute collection de jeux de société.
+
+Pour les joueurs PC, les exigences matérielles restent modestes, garantissant que même les ordinateurs portables de milieu de gamme peuvent héberger une session à quatre joueurs sans chute de framerate. Maintenir un 60 FPS stable est critique car le timing de vos lâchers dépend entièrement de l'élan visuel.
+
+| Caractéristique | PC Windows (Steam) | Nintendo Switch | Nintendo Switch 2 |
+| :--- | :--- | :--- | :--- |
+| **Joueurs locaux max** | 4 Joueurs | 4 Joueurs | 4 Joueurs |
+| **Prix (USD)** | 9,99 $ | 9,99 $ | 9,99 $ |
+| **Espace requis** | 4 Go | 2,4 Go | 2,4 Go |
+| **Fonction spéciale** | Remote Play Together | Portable/Docké | GameShare local |
+| **Cible de performance** | 1080p / 60 FPS | 1080p (Docké) | 1080p / 60 FPS |
+
+<Callout type="tip" title="Conseil de Pro">
+Si vous jouez sur un ordinateur portable, assurez-vous qu'il est branché sur une source d'alimentation. Les calculs basés sur la physique dans *Heave Ho 2* peuvent causer de légers bégaiements en mode économie d'énergie, ce qui conduit souvent à des éliminations accidentelles de toute l'équipe.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Optimiser votre configuration Heave Ho 2 multijoueur local">
+
+Configurer une session locale est simple, mais la coordination commence avant même d'appuyer sur start. Le jeu utilise une perspective d'écran partagé, ce qui signifie que tous les joueurs doivent rester dans la même vue caméra. Cela nécessite une mentalité de « personne ne reste en arrière ». Sur Nintendo Switch 2, la fonction GameShare permet à un propriétaire d'héberger une session pour jusqu'à trois autres consoles à proximité, comblant ainsi l'écart entre le jeu de canapé local et le jeu sans fil local.
+
+<Steps>
+  <Step num="1" title="Connecter les manettes">
+    Assurez-vous que toutes les manettes sont synchronisées avant de lancer le jeu. Sur PC, les manettes XInput (Xbox) sont recommandées pour un support natif plug-and-play.
+  </Step>
+  <Step num="2" title="Sélectionner le mode de jeu">
+    Choisissez entre la Campagne (72 niveaux) ou Showdown (56 niveaux versus) depuis le menu principal.
+  </Step>
+  <Step num="3" title="Personnalisation des personnages">
+    Chaque joueur choisit une couleur et une tenue uniques. Utilisez ce temps pour assigner des « rôles » (ex: l'Ancre ou le Voltigeur).
+  </Step>
+  <Step num="4" title="Calibrer la prise">
+    Entrez dans la zone de tutoriel pour vous assurer que chaque joueur comprend quelle gâchette contrôle quelle main.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Conflit de manettes">
+Évitez de mélanger les Joy-Cons et les Pro Controllers sur l'ancien matériel Switch si vous remarquez un délai de saisie (input lag). Pour une expérience optimale, utilisez des types de manettes identiques pour les quatre joueurs.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Maîtriser la physique de la coopération">
+
+Le cœur de **Heave Ho 2 multijoueur local** réside dans le contrôle indépendant des mains de votre personnage. Contrairement aux jeux de plateforme traditionnels, il n'y a pas de bouton de saut. Vous vous déplacez en saisissant des surfaces et en utilisant le poids de votre corps pour générer une force centrifuge. Cela nécessite un haut niveau de communication verbale entre les joueurs locaux.
+
+<CardGrid cols={2}>
+  <Card title="La stratégie de l'Ancre">
+    Un joueur reste fermement agrippé à une plateforme sûre pendant que les autres forment une chaîne. Ce joueur est le filet de sécurité et ne doit jamais lâcher prise tant que l'avant de la chaîne n'est pas sécurisé.
+  </Card>
+  <Card title="Le Fouet Humain">
+    En se balançant dans un mouvement rythmique, l'ancre peut « fouetter » l'extrémité de la chaîne à travers d'énormes fossés. Le timing du lâcher au sommet de l'arc est essentiel pour une distance maximale.
+  </Card>
+  <Card title="Escalade main sur main">
+    Pour les sections verticales, alternez vos prises (Gauche-Droite-Gauche) tout en faisant tourner le stick analogique dans un mouvement circulaire pour escalader les murs efficacement.
+  </Card>
+  <Card title="La manœuvre de rattrapage">
+    Si un coéquipier tombe, un joueur non attaché peut tendre un bras pour le rattraper en plein vol. Cela nécessite que le joueur qui tombe garde ses mains ouvertes et prêtes à saisir.
+  </Card>
+</CardGrid>
+
+| Action | Commande Manette | Utilisation tactique |
+| :--- | :--- | :--- |
+| **Prise Gauche** | Gâchette L / ZL | S'ancrer aux surfaces ou aux coéquipiers |
+| **Prise Droite** | Gâchette R / ZR | Atteindre le prochain point d'accroche |
+| **Pivoter** | Stick analogique gauche | Créer de l'élan pour les balancements |
+| **Relâcher** | Lâcher la gâchette | Se lancer ou lancer un coéquipier |
+| **Drone d'assistance** | Automatique (après échecs) | Contourne les passages extrêmement difficiles |
+
+<Callout type="success" title="Technique Avancée">
+Utilisez l'objet déblocable « Ima Rock » pour figer votre personnage en plein air. Cela crée une plateforme stationnaire temporaire que vos coéquipiers peuvent saisir pour réinitialiser leur élan.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Guide des mondes et objectifs de campagne">
+
+La campagne s'étend sur huit mondes thématiques, chacun introduisant des dangers environnementaux uniques qui mettent au défi la coordination de votre équipe. Des pentes glissantes des montagnes au vide sans gravité de l'espace, votre groupe local devra constamment adapter ses stratégies.
+
+| Nom du monde | Mécanique principale | Danger principal |
+| :--- | :--- | :--- |
+| **Vol de haute altitude** | Remontées mécaniques et télécabines | Plateformes mobiles et surfaces glacées |
+| **Mystères du manoir** | Énigmes de clés et serrures | Porter des objets tout en grimpant |
+| **Escouade spatiale** | Zéro gravité | Manque de friction et pilotage de vaisseau |
+| **Commandes du chef** | Empilage d'ingrédients | Objets larges et encombrants (burgers/assiettes) |
+| **Naufragés** | Traversée nautique | Se balancer entre les mâts et les débris |
+| **Voyages médiévaux** | Transport du trône | Maintenir le Roi droit et en sécurité |
+
+<Checklist
+  id="completion-goals"
+  title="Liste de contrôle de complétion du monde :"
+  items={[
+    "Atteindre la sortie avec tous les joueurs en vie",
+    "Trouver et attraper la Main Mystérieuse dans chaque niveau",
+    "Terminer le Défi Chrono pour les médailles d'or",
+    "Localiser les silhouettes cachées pour débloquer des personnages",
+    "Collecter toutes les Reliques dans le monde du Musée"
+  ]}
+/>
+
+<Callout type="info" title="Variété des niveaux">
+Avec 72 niveaux coopératifs, la courbe de difficulté est raide. Si votre groupe local reste bloqué sur une étape spécifique pendant plus de 10 minutes, le jeu proposera un « Drone Chat » pour aider à transporter l'équipe jusqu'à la ligne d'arrivée.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Contenu déblocable et Crossovers">
+
+L'un des aspects les plus gratifiants de **Heave Ho 2 multijoueur local** est le système de personnalisation étendu. En remplissant des objectifs optionnels et en trouvant des cadeaux cachés, les joueurs peuvent débloquer une variété de skins, y compris des crossovers prestigieux d'autres succès de Devolver Digital. Ces skins sont purement cosmétiques mais ajoutent une touche de personnalité à vos sessions chaotiques.
+
+| Type d'objet | Comment débloquer | Exemples |
+| :--- | :--- | :--- |
+| **Skins Crossover** | Trouver les silhouettes cachées | Among Us, Cult of the Lamb, Balatro |
+| **Équipement de soutien** | Compléter les parcours de récompense | Spray pour bras, Parapluies, Pistolets à bouchon |
+| **Cadeaux** | Collecter les présents en niveau | Chapeaux, Lunettes, Couleurs uniques |
+| **Succès** | Accomplir des tâches spécifiques | « Accro aux cadeaux », « Champion du chrono » |
+
+<Callout type="tip" title="Astuce de déblocage">
+Le « Spray pour bras » est particulièrement utile pour le jeu local car il étend la portée de votre personnage, ce qui facilite grandement le sauvetage d'un ami qui tombe ou l'atteinte d'un rebord éloigné qui nécessite habituellement une chaîne de quatre personnes.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ : Heave Ho 2 multijoueur local">
+
+<FAQ items={[
+  {
+    question: "Combien de joueurs peuvent jouer à Heave Ho 2 en multijoueur local ?",
+    answer: "Le jeu supporte de 2 à 4 joueurs en mode coopératif local ou en mode versus local. Le mode solo n'est pas recommandé car les énigmes sont conçues pour le travail d'équipe."
+  },
+  {
+    question: "Ai-je besoin de plusieurs copies du jeu pour jouer en local sur Switch 2 ?",
+    answer: "Non. Grâce à la fonction GameShare sur Nintendo Switch 2, un propriétaire peut partager le jeu avec jusqu'à trois joueurs à proximité pour une session locale."
+  },
+  {
+    question: "Puis-je jouer en multijoueur local et avec des joueurs en ligne en même temps ?",
+    answer: "Oui, le jeu supporte le 'combo play' où deux joueurs locaux peuvent rejoindre un salon en ligne pour jouer avec deux autres amis à distance."
+  },
+  {
+    question: "Quelle est la différence entre Coop et Showdown ?",
+    answer: "Le mode Coop se concentre sur les 72 niveaux de la campagne où tout le monde doit atteindre l'objectif. Showdown est un mode compétitif avec 56 niveaux où les joueurs s'affrontent pour être le premier à gagner cinq manches."
+  }
+]} />
+
+<Callout type="success" title="Verdict Final">
+*Heave Ho 2* reste la référence absolue pour les party games basés sur la physique en 2026. Que vous jouiez pour la première fois ou que vous visiez le 100 %, l'expérience multijoueur locale est inégalée pour générer des rires et des frustrations amicales.
+</Callout>
+
+</Section>

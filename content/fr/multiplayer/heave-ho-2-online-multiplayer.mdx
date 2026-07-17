@@ -1,0 +1,197 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Wifi, Users, Settings, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Multijoueur en ligne Heave Ho 2 : Guide d'installation et stratégies coopératives",
+  description: "Maîtrisez le multijoueur en ligne de Heave Ho 2 avec notre guide 2026. Apprenez à configurer la coop à 4 joueurs, à utiliser le GameShare sur Switch 2 et à dominer tous les niveaux avec vos amis.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/3b82f6/fff?text=Multiplayer+Setup+Guide",
+  date: "2026-07-18",
+  author: "L'équipe du Wiki Heave Ho 2"
+}
+
+<Callout type="info" title="Guide rapide">
+- Le **multijoueur en ligne de Heave Ho 2** prend en charge jusqu'à 4 joueurs sur PC, Nintendo Switch et Nintendo Switch 2.
+- Le **jeu multiplateforme (cross-play)** est essentiel pour se connecter avec des amis sur différents écosystèmes matériels.
+- Le **GameShare sur Switch 2** permet à un seul propriétaire de partager le jeu avec jusqu'à trois autres joueurs, localement ou en ligne.
+- Une **communication coordonnée** est le facteur le plus critique pour terminer les 72 niveaux de la campagne coopérative.
+- Le **mode Confrontation** propose 56 niveaux compétitifs pour ceux qui souhaitent tester leurs compétences contre leurs amis.
+</Callout>
+
+<Section icon={Wifi} title="Modes et fonctionnalités du multijoueur en ligne de Heave Ho 2">
+
+Heave Ho 2 a enrichi la formule chaotique basée sur la physique de l'original en introduisant de solides fonctionnalités en ligne aux côtés de sa coopération locale classique sur canapé. Sorti le 16 juillet 2026, le jeu met l'accent sur le travail d'équipe et la précision à travers huit mondes diversifiés. Que vous jouiez sur PC Windows, Nintendo Switch ou sur la nouvelle Nintendo Switch 2, comprendre les modes multijoueurs disponibles est la première étape pour franchir la ligne d'arrivée sans lâcher prise.
+
+Le jeu propose plusieurs façons de se connecter, allant des salons en ligne standard aux fonctionnalités spécifiques à chaque plateforme, comme le Remote Play Together de Steam et le système innovant GameShare de Nintendo. Chaque mode a des exigences spécifiques concernant la connexion Internet et les abonnements.
+
+| Nom du mode | Plateformes prises en charge | Joueurs max | Exigences clés |
+|:--- |:--- |:--- |:--- |
+| **Coop en ligne** | PC, Switch, Switch 2 | 4 joueurs | Internet stable, NSO pour les consoles |
+| **Coop locale** | PC, Switch, Switch 2 | 4 joueurs | Manettes multiples, système unique |
+| **Confrontation en ligne** | PC, Switch, Switch 2 | 4 joueurs | Mode compétitif, victoire en cinq manches |
+| **Remote Play** | PC Windows uniquement | 4 joueurs | L'hôte possède le jeu, client Steam |
+| **GameShare local** | Nintendo Switch 2 | 4 joueurs | Un seul propriétaire du jeu, sans fil local |
+| **GameShare en ligne** | Nintendo Switch 2 | 4 joueurs | GameChat, NSO, un seul propriétaire du jeu |
+
+<Callout type="tip" title="Conseil de connexion">
+Pour une expérience optimale en multijoueur en ligne, assurez-vous que l'hôte dispose d'une connexion Ethernet filaire. Les jeux basés sur la physique sont très sensibles à la latence, et la moindre baisse de connexion peut pousser un coéquipier à lâcher prise au mauvais moment.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Guide de configuration : Comment jouer au multijoueur en ligne de Heave Ho 2">
+
+Configurer une session en **multijoueur en ligne dans Heave Ho 2** est conçu pour être simple, mais le processus varie légèrement selon la plateforme choisie. Le jeu utilise un système de salon (lobby) où un hôte crée une partie et les autres la rejoignent via un code ou une invitation de la liste d'amis.
+
+<Steps>
+  <Step num="1" title="Initialiser le salon de jeu">
+    Lancez le jeu et accédez au menu « Multijoueur ». Sélectionnez « Jeu en ligne » puis « Héberger la partie ». Vous serez invité à choisir entre le mode « Campagne » (Coop) ou « Confrontation » (Versus).
+  </Step>
+  <Step num="2" title="Configurer la confidentialité du salon">
+    Configurez votre salon sur « Amis uniquement » ou « Privé » si vous souhaitez jouer avec un groupe de personnes spécifiques. Si vous choisissez Privé, le jeu générera un code de salon unique à 6 chiffres à partager avec vos coéquipiers.
+  </Step>
+  <Step num="3" title="Inviter vos coéquipiers">
+    Sur PC, utilisez l'overlay Steam (Maj+Tab) pour inviter directement vos amis. Sur Nintendo Switch et Switch 2, utilisez le bouton « Inviter des amis » en jeu pour afficher la liste d'amis de votre console.
+  </Step>
+  <Step num="4" title="Calibrer les manettes">
+    Une fois que tous les joueurs ont rejoint le salon, chaque participant doit appuyer sur les boutons de saisie (L/R ou gâchettes) pour confirmer sa présence. Cela garantit que les commandes de chacun sont correctement reconnues avant le début du niveau.
+  </Step>
+  <Step num="5" title="Sélectionner un monde et commencer">
+    L'hôte sélectionne l'un des huit mondes thématiques, comme « Flying High » ou « Spacebound Squad ». Dès que tout le monde appuie sur « Prêt », le jeu passe au premier niveau de cette aventure.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Exigence de plateforme">
+Les joueurs sur Nintendo Switch et Switch 2 doivent disposer d'un abonnement actif au Nintendo Switch Online (NSO) pour accéder aux fonctionnalités multijoueurs en ligne. Le GameShare local ne nécessite toutefois aucun abonnement.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Exclusivité Nintendo Switch 2 : Fonctionnalités GameShare">
+
+L'une des fonctionnalités phares de la version Nintendo Switch 2 est l'inclusion du GameShare local et en ligne. Cela permet à un seul propriétaire de Heave Ho 2 de partager l'expérience de jeu complète avec jusqu'à trois autres joueurs qui ne possèdent pas le titre. C'est particulièrement pratique pour les soirées où une seule personne dispose des derniers jeux.
+
+<CardGrid cols={3}>
+  <Card title="GameShare local">
+    - **Pas d'Internet requis**
+    - Jouez avec des amis à proximité
+    - Accès complet aux 72 niveaux coopératifs
+    - Connexion sans fil locale à faible latence
+  </Card>
+  <Card title="GameShare en ligne">
+    - **Utilise le système GameChat**
+    - Les amis à distance peuvent rejoindre
+    - Nécessite un abonnement NSO
+    - Idéal pour jouer à moindre coût
+  </Card>
+  <Card title="Contrôle du propriétaire">
+    - **L'hôte gère le salon**
+    - Configuration unique par session
+    - Les données de sauvegarde restent chez l'hôte
+    - Prend en charge tous les objets déverrouillables
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Limite du GameShare">
+Bien que le GameShare soit un outil puissant, il est limité à un hôte et trois invités. Si un cinquième ami souhaite vous rejoindre, il aura besoin de son propre exemplaire du jeu et ne pourra participer que si quelqu'un d'autre quitte la partie.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Stratégies coopératives pour réussir en ligne">
+
+Jouer en ligne ajoute le défi du décalage de communication. Contrairement à la coop locale où vous pouvez crier sur la personne à côté de vous, le jeu en ligne nécessite une approche plus structurée des mouvements. Pour terminer les mondes les plus difficiles comme « Transfolab » ou « Medieval Travels », votre équipe doit agir comme une seule entité.
+
+Les équipes qui réussissent attribuent souvent des rôles spécifiques aux joueurs en fonction de leur position dans la chaîne humaine. Cela évite la catastrophe du « tout le monde lâche en même temps » qui entraîne une chute collective.
+
+| Rôle du joueur | Responsabilité principale | Meilleure position | Technique essentielle |
+|:--- |:--- |:--- |:--- |
+| **L'Ancre** | Se maintient sur la surface sûre | Arrière de la chaîne | Ne jamais lâcher avant que l'avant soit sécurisé |
+| **Le Voltigeur** | Génère de l'élan | Milieu de la chaîne | Rotation circulaire synchronisée |
+| **L'Attrapeur** | Effectue la prochaine prise | Avant de la chaîne | Coordination œil-main précise |
+| **Le Messager** | Transporte les objets (clés/nourriture) | Milieu ou avant | Transmissions courtes et sécurisées |
+
+**Considérations tactiques clés :**
+- **Compter l'élan** : Utilisez un décompte 1-2-3 pour les balancements. Cela garantit que tout le monde tire et lâche exactement au même moment.
+- **Indicateurs visuels** : Faites attention aux icônes de main sur l'écran. Un poing fermé indique une prise sécurisée, tandis qu'une main ouverte signifie que le joueur est libre.
+- **Ancres de récupération** : Gardez toujours au moins un joueur attaché à un mur solide. Si les trois joueurs de devant manquent un saut, l'ancre peut les ramener.
+
+<Callout type="success" title="Astuce avancée">
+Dans « Spacebound Squad », la gravité est faible. Utilisez cela à votre avantage en créant des chaînes extrêmement longues. Le poids étant moins un facteur, une chaîne de 4 joueurs peut s'étendre sur près de la moitié de l'écran, permettant à l'« Attrapeur » d'atteindre des plateformes éloignées avec un minimum de balancement.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mode Confrontation : Règles du multijoueur compétitif">
+
+Si vous trouvez la coopération trop stressante, le mode Confrontation vous permet de rivaliser avec vos amis. Ce mode propose 56 niveaux spécifiquement conçus pour la course, la survie et les défis basés sur des objectifs. C'est un excellent moyen de relâcher la pression après une session coopérative difficile.
+
+<Checklist
+  id="showdown-goals"
+  title="Conditions de victoire en Confrontation :"
+  items={[
+    "Être le premier à atteindre la poignée cible",
+    "Survivre le plus longtemps dans des arènes qui s'effondrent",
+    "Collecter le plus de pièces dans les défis chronométrés",
+    "Gagner cinq manches pour remporter le match",
+    "Utiliser des tactiques d'obstruction pour faire tomber les adversaires"
+  ]}
+/>
+
+Les niveaux de Confrontation incluent souvent des obstacles comme des lasers et des scies mobiles qui sont moins présents au début de la campagne. Dans ces niveaux, la vitesse est souvent moins importante que la précision. Un adversaire qui se précipite et tombe perdra toujours face à un joueur qui emprunte un itinéraire légèrement plus lent mais plus sûr.
+
+<Callout type="warning" title="Étiquette du mode Versus">
+Dans le mode Confrontation en ligne, l'obstruction (« griefing », c'est-à-dire s'accrocher à un adversaire pour l'empêcher de bouger) est une tactique valable mais peut être frustrante. Utilisez-la avec modération pour que le jeu reste amusant pour tout le monde !
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Déverrouiller des équipements et cosmétiques multijoueurs">
+
+La progression en multijoueur est liée aux parcours de récompenses du jeu. En remplissant des objectifs facultatifs dans le **multijoueur en ligne de Heave Ho 2**, comme trouver des silhouettes cachées ou relever des défis chronométrés, vous gagnez des cadeaux contenant des cosmétiques et des objets de soutien. Ces objets peuvent être équipés pour aider votre équipe lors des prochaines parties.
+
+| Nom de l'objet | Type d'objet | Utilité en multijoueur | Comment déverrouiller |
+|:--- |:--- |:--- |:--- |
+| **Ima Rock** | Soutien | Fige le joueur en plein vol pour servir de plateforme | Terminer les défis « Crowning » |
+| **Arm Spray** | Soutien | Allonge la portée des bras pour toute l'équipe | Réussir les défis « Relic » |
+| **Umbrella** | Mobilité | Permet une chute lente et de planer | Terminer les défis « Chronomètre » |
+| **Skin Among Us** | Cosmétique | Modifie l'apparence du personnage | Ouvrir des cadeaux aléatoires |
+| **Cat Drone** | Assistance | Aide les équipes en difficulté à passer des sections | Automatique après plusieurs échecs |
+
+<Callout type="info" title="Skins Crossover">
+Heave Ho 2 propose plusieurs skins crossover issus d'autres titres de Devolver Digital. Gardez un œil sur les tenues Cult of the Lamb, Balatro et Dave the Diver, qui peuvent être déverrouillées grâce au système de cadeaux.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="FAQ du multijoueur de Heave Ho 2">
+
+<FAQ items={[
+  {
+    question: "Est-ce que Heave Ho 2 prend en charge le cross-play entre PC et Switch ?",
+    answer: "Oui, Heave Ho 2 prend en charge le cross-play complet entre PC Windows (Steam), Nintendo Switch et Nintendo Switch 2, permettant aux amis de jouer ensemble quel que soit leur matériel."
+  },
+  {
+    question: "Combien de joueurs peuvent jouer à Heave Ho 2 en ligne ?",
+    answer: "Le jeu prend en charge un maximum de 4 joueurs, aussi bien dans les modes de campagne coopérative que dans les modes compétitifs Confrontation."
+  },
+  {
+    question: "Tous les joueurs doivent-ils posséder le jeu sur Nintendo Switch 2 ?",
+    answer: "Non. Grâce à la fonctionnalité GameShare, un seul joueur a besoin de posséder le jeu pour héberger une session pour un maximum de trois autres invités, localement ou en ligne."
+  },
+  {
+    question: "Puis-je jouer en ligne avec un mélange de joueurs locaux et à distance ?",
+    answer: "Oui, Heave Ho 2 permet le « Combo Play », où deux joueurs sur une même console peuvent rejoindre deux autres joueurs en ligne."
+  }
+]} />
+
+<Callout type="tip" title="Recommandation finale">
+Si vous débutez dans la série, commencez par le monde « Flying High » en coop locale pour vous familiariser avec la physique avant de vous lancer dans l'environnement plus exigeant du jeu en ligne.
+</Callout>
+
+</Section>

@@ -1,0 +1,211 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Heave Ho 2 Xbox: Guía de Configuración y Compatibilidad de Mandos",
+  description: "Domina la configuración del mando de Xbox para PC en Heave Ho 2, explora los 8 mundos y aprende estrategias cooperativas de física avanzada para el lanzamiento de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/e11d48/fff?text=Heave+Ho+2+Xbox+Guide",
+  date: "2026-07-18",
+  author: "Equipo de la Wiki de Heave Ho 2",
+  keywords: "Heave Ho 2, Xbox, mando, configuración, guía, multijugador, cooperativo"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Compatibilidad con Xbox en Heave Ho 2**: Aunque se lanzó de forma nativa en plataformas de PC y Nintendo, la versión de PC ofrece **soporte completo para mandos de Xbox** tanto para juego local como en línea.
+- **Fecha de Lanzamiento**: El juego se lanzó oficialmente el **16 de julio de 2026**, con 72 niveles cooperativos y 56 desafíos de enfrentamiento (versus).
+- **Mecánica Principal**: El éxito depende de la **física de mano sobre mano**, la creación de cadenas humanas y el balanceo sincronizado.
+- **Opciones Multijugador**: Soporta de 2 a 4 jugadores a través de **cooperativo local en el sofá**, multijugador en línea y Steam Remote Play Together.
+- **Nuevas Características**: Incluye 8 mundos temáticos y herramientas de asistencia como el **dron gato** para los equipos que tengan dificultades.
+</Callout>
+
+<Section icon={Map} title="Heave Ho 2 Xbox: Disponibilidad en Plataformas y Configuración del Mando">
+
+Heave Ho 2, desarrollado por Le Cartel Studio y publicado por Devolver Digital, llegó el 16 de julio de 2026. Aunque el enfoque principal en consolas sigue siendo Nintendo Switch y la nueva Nintendo Switch 2, la versión para Windows PC en Steam sirve como el centro de operaciones para los jugadores que utilizan hardware de Xbox. Para quienes buscan la funcionalidad de **heave ho 2 xbox**, la experiencia es fluida al usar mandos de Xbox Series X|S o Xbox One en PC, proporcionando la precisión táctil necesaria para maniobras físicas complejas.
+
+**Puntos Destacados del Video:**
+- Resumen de la caótica jugabilidad cooperativa de 2 a 4 jugadores.
+- Vista previa de los diversos mundos temáticos, incluidos los escenarios del Espacio y Medieval.
+- Demostración de las mecánicas del nuevo modo de enfrentamiento "Showdown".
+
+<YouTubeEmbed videoId="xYRhczUghdQ" title="Heave Ho 2 | Reveal Trailer" />
+
+La versión de PC es compatible con una amplia variedad de métodos de entrada, pero a menudo se prefiere el mando de Xbox por sus gatillos ergonómicos, que se asignan perfectamente a las manos izquierda y derecha del personaje. Ya sea que juegues localmente o utilices Steam Remote Play para conectarte con amigos, configurar tu mando es el primer paso para dominar el balanceo.
+
+| Característica | PC Windows (Mando de Xbox) | Nintendo Switch | Nintendo Switch 2 |
+| :--- | :--- | :--- | :--- |
+| **Fecha de lanzamiento** | 16 de julio de 2026 | 16 de julio de 2026 | 16 de julio de 2026 |
+| **Máx. de jugadores** | 4 jugadores | 4 jugadores | 4 jugadores |
+| **Juego en línea** | Steam / Remote Play | Nintendo Online | GameShare en línea |
+| **Almacenamiento** | 4 GB | 2.4 GB | 2.4 GB |
+| **Función especial** | Seguimiento de logros | Modo portátil | GameShare local |
+
+<Callout type="tip" title="Consejo para el Mando">
+Al usar un mando de Xbox en PC, asegúrate de que Steam Input esté habilitado en las propiedades del juego para permitir ajustes personalizados de la zona muerta, lo que puede ayudar con las rotaciones sensibles del stick analógico necesarias para balancearse.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Dominando la Física: Mecánicas de Movimiento y Control">
+
+El movimiento en Heave Ho 2 es intencionadamente torpe y caótico. A diferencia de los plataformas tradicionales, no tienes un botón de salto. Todo tu equipo de desplazamiento consiste en dos manos y el impulso que generas a través de la rotación. Comprender los matices del esquema de control de **heave ho 2 xbox** es vital para superar los mundos posteriores y más exigentes.
+
+<CardGrid cols={3}>
+  <Card title="Agarre Independiente">
+    - **Gatillo izquierdo (LT)**: Controla la mano izquierda.
+    - **Gatillo derecho (RT)**: Controla la mano derecha.
+    - **Estrategia**: Mantén siempre una mano anclada mientras buscas el siguiente punto de agarre.
+  </Card>
+  <Card title="Rotación Analógica">
+    - **Stick izquierdo**: Rota el cuerpo del personaje.
+    - **Impulso**: Los círculos pequeños acumulan velocidad; los giros amplios proporcionan empuje direccional.
+    - **Precisión**: Esencial para aterrizar en postes estrechos.
+  </Card>
+  <Card title="Lanzamiento en Equipo">
+    - **Coordinación**: Un jugador se ancla mientras los demás se cuelgan.
+    - **Soltar**: Sincronizar el momento de soltarse en el punto más alto del balanceo.
+    - **Atrapar**: Abrir las manos en el aire para agarrar a los compañeros de equipo.
+  </Card>
+</CardGrid>
+
+El motor de física calcula el peso y la fricción en tiempo real. Si tres jugadores están colgados de una sola persona, a ese jugador de anclaje le resultará significativamente más difícil mantener el agarre en superficies resbaladizas, como las plataformas de hielo que se encuentran en el mundo "Flying High".
+
+| Acción | Entrada del Mando de Xbox | Efecto en el Juego |
+| :--- | :--- | :--- |
+| **Rotar cuerpo** | Stick analógico izquierdo | Genera impulso y dirección |
+| **Agarre izquierdo** | Gatillo izquierdo (LT) / LB | Cierra la mano izquierda sobre las superficies |
+| **Agarre derecho** | Gatillo derecho (RT) / RB | Cierra la mano derecha sobre las superficies |
+| **Soltar** | Soltar el gatillo | Suelta el agarre actual para saltar |
+| **Llamada/Señal** | A / B / X / Y | Envía señales a tus compañeros o expresa emociones |
+
+<Callout type="warning" title="Fatiga de Agarre">
+Aunque no hay una barra de "resistencia" de forma literal, sujetar a un compañero de equipo mientras se balancea violentamente puede provocar que te sueltes accidentalmente si se te resbala el dedo del gatillo. Mantén un agarre firme durante los balanceos en cadena de gran impulso.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de Mundos: Ocho Aventuras Temáticas">
+
+La campaña de Heave Ho 2 se divide en ocho mundos distintos, cada uno de los cuales introduce un nuevo peligro ambiental o una mecánica cooperativa. La progresión es lineal, pero los jugadores pueden volver a cualquier nivel superado para completar desafíos opcionales como contrarrelojes o la búsqueda de coleccionables.
+
+<Steps>
+  <Step num="1" title="Flying High y Manor Mysteries">
+    El viaje comienza en las montañas, centrándose en telesillas y góndolas. La transición a la Mansión introduce las **Llaves Ocultas**, donde un jugador debe llevar un objeto mientras los demás proporcionan la movilidad.
+  </Step>
+  <Step num="2" title="Spacebound Squad y Chef's Orders">
+    El espacio introduce físicas de gravedad cero, lo que requiere que los jugadores piloten juntos una pequeña nave. El mundo de la cocina (Chef's Orders) implica mover ingredientes voluminosos como pan de hamburguesa y botellas de kétchup a través de estufas calientes.
+  </Step>
+  <Step num="3" title="Shipwrecked y Transfolab">
+    Estos mundos de mitad de juego se centran en la precisión. Shipwrecked presenta mástiles que se balancean y peligros acuáticos, mientras que Transfolab introduce dispositivos de laboratorio interactivos que requieren pulsaciones de botones sincronizadas.
+  </Step>
+  <Step num="4" title="Cascade Show y Medieval Travels">
+    El final. Cascade Show es un desafío de elementos de escenario en movimiento. Medieval Travels concluye la historia con los niveles de **Transporte del Trono**, donde debes llevar a un Rey a través de abismos sin que se caiga.
+  </Step>
+</Steps>
+
+| Nombre del Mundo | Mecánica Principal | Dificultad (1-5) | Desafío Clave |
+| :--- | :--- | :--- | :--- |
+| **Flying High** | Plataformas móviles | ★★☆☆☆ | Sincronización de saltos en góndola |
+| **Manor Mysteries** | Transporte de objetos | ★★★☆☆ | Gestionar llaves mientras te balanceas |
+| **Spacebound Squad** | Movimiento en gravedad cero | ★★★★☆ | Controlar el impulso de la nave |
+| **Chef's Orders** | Puzles de física | ★★★☆☆ | Apilar ingredientes de forma segura |
+| **Medieval Travels** | Carga pesada | ★★★★★ | Mantener el trono del Rey erguido |
+
+<Callout type="success" title="Consejo para el Mundo">
+En "Spacebound Squad", no dejes que todos impulsen a la vez. Asigna a un jugador para controlar el eje vertical y a otro para el horizontal para evitar dar vueltas sin control.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Estrategias Multijugador y Xbox Remote Play">
+
+El corazón de la experiencia de **heave ho 2 xbox** es la interacción entre los jugadores. Ya sea que trabajen juntos en la campaña o se saboteen mutuamente en los 56 niveles de enfrentamiento, la comunicación es la única forma de sobrevivir al caos.
+
+### Estilos de Juego Cooperativo
+1. **El Ancla**: Un jugador permanece sujeto a una superficie sólida en todo momento.
+2. **El Explorador**: El jugador al final de la cadena que intenta alcanzar la siguiente plataforma.
+3. **El Puente**: Los jugadores en el medio que extienden el alcance del equipo.
+
+### Showdown (Modo Enfrentamiento)
+En Showdown, el objetivo cambia de la supervivencia a la velocidad. Los desafíos incluyen:
+- **Carreras**: Sé el primero en llegar a la meta.
+- **Supervivencia**: Permanece en la pantalla a medida que las plataformas desaparecen.
+- **Atrapa el Asa**: Una lucha frenética por aferrarse a un único objetivo en movimiento.
+
+| Modo | Número de Jugadores | Objetivo | Mejor Estrategia |
+| :--- | :--- | :--- | :--- |
+| **Campaña Cooperativa** | 2–4 | Llegar a la meta | Moverse despacio, usar anclas |
+| **Carrera Showdown** | 2–4 | Terminar primero | Saltos largos de alto riesgo |
+| **Supervivencia Showdown** | 2–4 | Último en pie | Permanecer en el centro, evitar bordes |
+| **Remote Play** | 2–4 | Jugar con amigos lejanos | El anfitrión necesita alta velocidad de subida |
+
+<Callout type="info" title="Remote Play Together">
+Si solo una persona posee Heave Ho 2 en Steam, puede invitar a hasta tres amigos a jugar gratis a través de Remote Play Together. Los mandos de Xbox de los invitados serán reconocidos como entradas locales por el PC del anfitrión.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Objetos Desbloqueables, de Apoyo y Logros">
+
+Heave Ho 2 recompensa a los jugadores por ir más allá del simple objetivo de "llegar a la meta". Al completar desafíos opcionales, puedes desbloquear cosméticos y objetos de apoyo que cambian fundamentalmente la forma en que abordas los niveles difíciles.
+
+<Checklist
+  id="completionist-goals"
+  title="Hitos Esenciales para Completar al 100%:"
+  items={[
+    "Encuentra y agarra cada Mano Misteriosa en la campaña",
+    "Completa los 21 logros de Steam (incluido 'Adictor a los Regalos')",
+    "Desbloquea los aspectos cruzados de Among Us y Cult of the Lamb",
+    "Supera todos los desafíos de 'Contrarreloj' de cada mundo",
+    "Posiciona al equipo correctamente para todos los objetivos de foto de 'Silueta'"
+  ]}
+/>
+
+### Objetos de Apoyo y Equipamiento
+Si un nivel resulta demasiado difícil, el juego acabará ofreciendo ayuda. Sin embargo, también puedes equipar objetos específicos obtenidos a través de la progresión:
+- **Ima Rock**: Te congela en el lugar para actuar como una plataforma permanente para los demás.
+- **Espray de Brazos**: Extiende temporalmente tu alcance para agarres a larga distancia.
+- **Paraguas**: Permite descensos en cámara lenta a través de amplios abismos.
+- **Dron Gato**: Una asistencia automatizada que lleva al equipo más allá de un punto de control.
+
+| Tipo de Objeto | Nombre | Cómo Desbloquear | Consejo de Uso |
+| :--- | :--- | :--- | :--- |
+| **Apoyo** | Espray de Brazos | Objetivos opcionales | Úsalo para brechas \"imposibles\" |
+| **Movilidad** | Paraguas | Recompensa de regalo | El mejor para caídas verticales |
+| **Plataforma** | Ima Rock | Progreso de campaña | Esencial para cadenas de 4 jugadores |
+| **Cosmético** | Aspecto de Tripulante | Colaboración de Among Us | Estilo puramente visual |
+
+<Callout type="tip" title="Cazador de Logros">
+El logro \"Teatro de Sombras\" requiere que coloques a todos los jugadores dentro de una silueta específica que se encuentra en áreas ocultas de los niveles. Esto a menudo requiere un apilamiento complejo que es más fácil de realizar con 4 jugadores que con 2.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Puedo jugar a Heave Ho 2 en Xbox Series X|S?",
+    answer: "Actualmente, Heave Ho 2 se ha lanzado oficialmente para PC y Nintendo Switch. Sin embargo, puedes jugar a la versión de PC usando un mando de Xbox, lo que proporciona una experiencia de control idéntica a la de un lanzamiento nativo en consola."
+  },
+  {
+    question: "¿El juego es compatible con el juego cruzado entre PC y Switch?",
+    answer: "No se ha confirmado el juego cruzado oficial entre Steam y las plataformas de Nintendo para el lanzamiento de 2026. Se recomienda a los jugadores permanecer en la misma plataforma para disfrutar de la experiencia en línea más estable."
+  },
+  {
+    question: "¿Cómo desbloqueo los aspectos de colaboración como el Tripulante de Among Us?",
+    answer: "Los aspectos de colaboración se desbloquean al completar objetivos opcionales específicos en los mundos Manor Mysteries y Spacebound Squad, y luego abriendo los Regalos resultantes en el menú principal."
+  },
+  {
+    question: "¿Cuál es la mejor manera de reducir el lag en el cooperativo en línea?",
+    answer: "Para los usuarios de mandos de Xbox en PC de Heave Ho 2, se recomienda encarecidamente utilizar una conexión a Internet por cable. Dado que las físicas se calculan en el lado del servidor, incluso una latencia menor puede hacer que falles un agarre crucial."
+  }
+]} />
+
+</Section>

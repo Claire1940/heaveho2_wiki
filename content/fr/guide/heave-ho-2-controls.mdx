@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Commandes de Heave Ho 2 : Configuration de la Manette et Conseils Co-op",
+  description: "Maîtrisez les commandes de Heave Ho 2 pour Nintendo Switch 2 et autres plateformes. Découvrez les configurations de manettes, les modes solo et les astuces de physique avancées en co-op.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Heave+Ho+2+Controls",
+  date: "2026-07-18",
+  author: "Équipe du Wiki Heave Ho 2",
+  keywords: "commandes, heave ho 2, manette, nintendo switch 2, astuces co-op, tutoriel"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Commandes principales** : Utilisez les gâchettes gauche et droite pour agripper les surfaces et le stick analogique pour vous balancer.
+- **Timing du lâcher** : Relâchez les gâchettes au sommet de votre arc de balancement pour obtenir une distance de projection maximale.
+- **Coordination des couleurs** : Vérifiez les couleurs des mains de votre personnage pour identifier facilement quelle gâchette contrôle quel bras.
+- **Physique co-op** : Coordonnez les lâchers de gâchettes avec vos coéquipiers pour construire de longues chaînes et traverser de larges gouffres en toute sécurité.
+</Callout>
+
+<Section icon={Map} title="Aperçu de la Configuration de la Manette">
+
+Maîtriser les **commandes de heave ho 2** est essentiel pour naviguer dans les environnements complexes du jeu basés sur la physique. Que vous jouiez en solo ou que vous vous coordonniez avec une équipe de quatre, comprendre comment votre manette correspond aux bras de votre personnage évitera les chutes inutiles et accélérera vos temps de complétion de niveau. La suite de 2026 affine ces mécaniques pour prendre en charge les nouvelles fonctionnalités matérielles et des calculs physiques plus fluides.
+
+**Points Forts de la Vidéo :**
+- Démontre les mécaniques de base de balancement et de lancer utilisant le moteur physique mis à jour.
+- Souligne l'importance de la coordination œil-main lors du passage entre les prises gauche et droite.
+- Donne un aperçu des environnements multijoueurs chaotiques où des commandes synchronisées sont requises.
+
+<YouTubeEmbed videoId="yij-UaepRp0" title="Heave Ho 2 – Reveal Trailer – Nintendo Switch 2" />
+
+Le schéma de commande par défaut alloue une gâchette à chaque main, tandis que le stick analogique régit la rotation et le mouvement du corps de votre personnage. Cette configuration minimaliste garantit que les joueurs de tous niveaux peuvent se lancer rapidement dans le jeu, bien que la maîtrise de l'élan nécessite de la pratique.
+
+<Callout type="info" title="Note Matérielle">
+En jouant sur Nintendo Switch 2, vous pouvez partager une seule paire de manettes Joy-Con avec un ami. Chaque joueur utilise un Joy-Con tenu horizontalement, mappant les boutons SL et SR aux mains gauche et droite.
+</Callout>
+
+| Bouton | Action | Description |
+| :--- | :--- | :--- |
+| L / ZL | Saisie Main Gauche | Maintenir pour agripper une surface ou un joueur avec votre main gauche |
+| R / ZR | Saisie Main Droite | Maintenir pour agripper une surface ou un joueur avec votre main droite |
+| Stick Gauche | Pivoter les Bras | Faites pivoter le stick pour balancer votre corps autour d'un point d'accroche |
+| D-Pad | Emotes | Appuyez sur les touches directionnelles pour exprimer des émotions ou appeler à l'aide |
+| Bouton A | Boost / Assistance | Activez des assistances mineures ou déclenchez des interactions physiques |
+
+</Section>
+
+<Section icon={Swords} title="Mécaniques de Mouvement Basées sur la Physique">
+
+Le moteur physique de cette suite exige un timing précis. Contrairement aux jeux de plateforme standard, vous n'avez pas de bouton de saut. Au lieu de cela, votre trajectoire vers le haut et vers l'extérieur est entièrement déterminée par l'élan, la vitesse de balancement et le moment exact où vous relâchez votre prise.
+
+Pour vous balancer efficacement, vous devez agripper un point d'une main tout en faisant pivoter le stick analogique. Faire pivoter le stick dans un mouvement circulaire augmente la vitesse de votre balancement. Plus vous tournez vite, plus vous générez de force centrifuge, ce qui se traduit par une distance de lancer plus longue lorsque vous relâchez la gâchette.
+
+<Callout type="tip" title="Boost d'Élan">
+Pour atteindre une hauteur maximale, faites pivoter le stick analogique en cercles complets. Relâchez la gâchette de saisie lorsque le corps de votre personnage pointe exactement à quarante-cinq degrés vers le haut dans la direction de votre cible.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Configuration Solo">
+    - **Focus sur un Seul Personnage**
+    - Contrôle de haute précision
+    - Idéal pour apprendre les timings de base
+  </Card>
+  <Card title="Configuration Co-op Duo">
+    - **Élan Partagé**
+    - Coordination modérée requise
+    - Parfait pour exécuter des chaînes humaines de base
+  </Card>
+  <Card title="Chaos du Mode Party">
+    - **Chaînes à Quatre Joueurs**
+    - Risque élevé de lâchers accidentels
+    - Nécessite une communication verbale constante
+  </Card>
+</CardGrid>
+
+| Action de Mouvement | Séquence d'Entrée | Conseil d'Exécution |
+| :--- | :--- | :--- |
+| Balancement à une main | Maintenir L ou R, pivoter Stick G | Gardez une rotation fluide pour maintenir l'élan |
+| Escalade main sur main | Alterner les prises L et R | Ne relâchez une gâchette qu'une fois l'autre sécurisée |
+| Lancement / Projection | Relâcher L ou R à vitesse max | Timez le lâcher à l'apogée de l'arc de balancement |
+| Balancement en chaîne | L'ancre tient L/R, les joueurs se lient | Seuls l'ancre et le dernier joueur doivent se balancer |
+
+</Section>
+
+<Section icon={Shield} title="Personnalisation des Commandes et Accessibilité">
+
+Le jeu propose plusieurs options de personnalisation pour rendre le gameplay basé sur la physique plus accessible. Si la disposition des gâchettes par défaut provoque de la fatigue manuelle, vous pouvez modifier les paramètres d'entrée dans le menu principal selon vos préférences.
+
+Ajuster le style de saisie peut considérablement améliorer votre temps de réaction, en particulier lors des niveaux co-op à haute tension où des décisions en une fraction de seconde empêchent l'élimination de l'équipe. Le système vous permet de basculer entre les modes "maintenir pour agripper" et "basculer pour agripper".
+
+<Callout type="warning" title="Avertissement de Délai d'Entrée">
+L'utilisation de manettes sans fil sur d'anciens protocoles Bluetooth peut introduire un léger retard d'entrée. Pour un timing co-op précis, assurez-vous que vos manettes sont complètement chargées ou connectées via un câble.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Accéder au Menu des Paramètres">
+    Naviguez vers le menu principal et sélectionnez Options, puis choisissez l'onglet Configuration de la Manette.
+  </Step>
+  <Step num="2" title="Sélectionner le Style de Saisie">
+    Choisissez entre Maintenir (par défaut) et Bascule. Le mode Bascule vous permet d'appuyer une fois sur la gâchette pour verrouiller votre prise.
+  </Step>
+  <Step num="3" title="Ajuster la Sensibilité Analogique">
+    Ajustez la zone morte et la sensibilité du Stick Gauche pour éviter les rotations de bras accidentelles.
+  </Step>
+  <Step num="4" title="Tester dans le Lobby">
+    Utilisez la zone d'entraînement dans le lobby pour tester vos nouveaux paramètres avant d'entrer dans un match réel.
+  </Step>
+</Steps>
+
+| Mode de Saisie | Avantages | Inconvénients |
+| :--- | :--- | :--- |
+| Mode Maintenir | Réponse de lâcher instantanée, sensation intuitive | Peut causer de la fatigue digitale lors de longues sessions |
+| Mode Bascule | Plus reposant pour les mains, prise stable | Réponse de lâcher plus lente lors de balancements rapides |
+
+</Section>
+
+<Section icon={Trophy} title="Stratégie Co-op et Maîtrise de la Physique">
+
+Le jeu coopératif est l'endroit où le schéma de commande teste vraiment votre patience. Lorsque vous liez des personnages ensemble, les calculs physiques combinent le poids de tous les joueurs. Le joueur en haut de la chaîne (l'ancre) doit se tenir fermement au terrain, tandis que les joueurs en dessous accumulent l'élan du balancement.
+
+La communication est la clé. Le joueur ancre ne doit jamais relâcher sa prise tant que le joueur qui atterrit n'a pas réussi à saisir la plateforme suivante. Si l'ancre lâche trop tôt, toute l'équipe tombera dans le danger en dessous.
+
+<Callout type="success" title="Sécurité de la Chaîne">
+Désignez toujours un joueur comme Ancre. Ce joueur doit se concentrer entièrement sur le maintien au mur et ne doit pas tenter de se balancer ou de saisir d'autres objets tant que le reste de l'équipe n'est pas en sécurité.
+</Callout>
+
+<Checklist
+  id="coop-milestones"
+  title="Liste de Contrôle d'Exécution Co-op :"
+  items={[
+    "Désigner un joueur ancre avant de commencer le balancement",
+    "Vérifier que le dernier joueur tient la bonne cible",
+    "Coordonner le compte à rebours du lâcher (3, 2, 1, Lâchez)",
+    "Utiliser le bouton d'assistance si un joueur est coincé dans un interstice"
+  ]}
+/>
+
+| Rôle | Responsabilité Principale | Focus des Commandes |
+| :--- | :--- | :--- |
+| Ancre | Maintenir la prise sur un sol solide | Garder la gâchette enfoncée constamment |
+| Lien | Connecter l'ancre au lanceur | Maintenir les deux gâchettes pour lier deux joueurs |
+| Lanceur | Créer l'élan et saisir la cible | Rotation analogique précise et timing du lâcher |
+
+</Section>
+
+<Section icon={Target} title="Dépannage et FAQ">
+
+Si vous rencontrez des problèmes avec vos entrées ou si vous trouvez que votre personnage ne répond pas correctement à vos commandes, le calibrage de votre matériel est la première étape. Le "drift" (dérive) du stick analogique peut faire balancer votre personnage de manière inattendue ou l'empêcher de viser avec précision.
+
+<Callout type="tip" title="Vérification du Calibrage">
+Si votre personnage balance automatiquement d'un côté, accédez aux paramètres système de votre console et recalibrez les sticks analogiques.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Comment changer les commandes de heave ho 2 de 'maintenir' à 'bascule' ?",
+    answer: "Allez dans le menu Options depuis l'écran principal, sélectionnez Paramètres de la Manette, et changez le réglage de Saisie de Prise de Maintenir à Bascule."
+  },
+  {
+    question: "Puis-je jouer au jeu en utilisant un clavier sur PC ?",
+    answer: "Oui, les commandes au clavier mappent les mains gauche et droite à des touches spécifiques (généralement Maj et Espace ou clics de souris), mais une manette est fortement recommandée pour la précision analogique."
+  },
+  {
+    question: "Quelle est la meilleure façon de lancer un autre joueur ?",
+    answer: "Tenez-le d'une main, faites pivoter votre stick analogique pour le faire tourner en cercle, et relâchez votre gâchette de saisie lorsqu'il atteint le sommet de l'arc ascendant."
+  },
+  {
+    question: "Pourquoi mon personnage lâche-t-il la corniche automatiquement ?",
+    answer: "Cela arrive généralement si vous relâchez accidentellement la gâchette ou si votre manette perd momentanément la connexion. Assurez-vous que la batterie de votre manette est chargée."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Heave Ho 2 Cómo jugar: Guía de controles cooperativos y física",
+  description: "Domina los controles y la física de Heave Ho 2. Aprende estrategias de balanceo cooperativo, mecánica de juego en solitario y consejos de navegación de niveles para la demo de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Heave+Ho+2+How+to+Play",
+  date: "2026-07-18",
+  author: "Equipo de la Wiki de Heave Ho 2",
+  keywords: "heave ho 2 cómo jugar, controles, guía cooperativa, física, demo de steam"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Dominar los conceptos básicos**: Aprende **cómo jugar a Heave Ho 2** centrándote en el impulso, la coordinación de las manos y la sincronización del agarre.
+- **Balanceo cooperativo**: Coordínate con tu compañero para balancearte y generar impulso antes de soltar el agarre.
+- **Evita estirarte demasiado**: Estirar a tu personaje en exceso reduce el control y aumenta el riesgo de caer en peligros.
+- **Puntos de control de seguridad**: Asegura siempre al menos una mano en una superficie sólida antes de alcanzar algo con la otra.
+</Callout>
+
+<Section icon={Map} title="Primeros pasos y descripción general de la demo">
+
+Aprender a navegar por los entornos caóticos de este juego de plataformas basado en la física requiere paciencia y coordinación. El lanzamiento de la demo para PC en Steam en julio de 2026 ofrece a los jugadores una oportunidad temprana para poner a prueba sus habilidades. En este juego, los jugadores controlan a un personaje con brazos excepcionalmente largos, y el objetivo es balancearse, lanzarse y trepar a través de huecos peligrosos para llegar al portal al final de cada etapa. Comprender el ciclo básico de la física es esencial antes de intentar maniobras cooperativas complejas.
+
+**Puntos destacados del video:**
+- Demuestra la jugabilidad principal basada en la física cooperativa.
+- Muestra un adelanto de los caóticos entornos multijugador.
+- Detalla el lanzamiento de la demo para PC en Steam.
+
+<YouTubeEmbed videoId="xYRhczUghdQ" title="Juega la demo de Heave Ho 2 para PC ahora en Steam" />
+
+La versión demo ofrece un vistazo al motor de física, permitiendo que hasta cuatro jugadores se unan localmente. Aunque el juego completo ofrecerá una gama más amplia de opciones de personalización y peligros de nivel, la demo sirve como un excelente campo de entrenamiento para dominar el movimiento basado en el impulso.
+
+| Característica | Versión Demo | Lanzamiento Completo |
+|---|---|---|
+| Niveles Jugables | Selección limitada | Mapas de campaña y desafíos |
+| Número de Jugadores | 1 a 4 jugadores locales | Cooperativo local y online completo |
+| Personalización | Atuendos básicos | Personalización completa del personaje |
+| Coste | Gratis en Steam | Versión comercial de pago |
+
+<Callout type="tip" title="Práctica en la Demo">
+Usa la demo gratuita de Steam para practicar el movimiento en solitario antes de saltar a sesiones multijugador, ya que ayuda a desarrollar la memoria muscular para los controles de agarre.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Domina los controles y la mecánica de la física">
+
+Para entender **cómo jugar a Heave Ho 2**, primero debes dominar su esquema de control único. A diferencia de los juegos de plataformas tradicionales, no controlas los pies ni el salto. En su lugar, controlas dos manos de forma independiente. Usas el stick analógico para rotar tus brazos y los gatillos izquierdo y derecho para agarrar superficies con las manos correspondientes. Soltar un gatillo en el punto máximo de un balanceo lanza a tu personaje por el aire.
+
+| Entrada de Control | Acción del Mando | Alternativa de Teclado |
+|---|---|---|
+| Agarre Izquierdo | Gatillo Izquierdo (LT / L2) | Shift Izquierdo o Tecla A |
+| Agarre Derecho | Gatillo Derecho (RT / R2) | Shift Derecho o Tecla D |
+| Rotación de Brazos | Stick Analógico Izquierdo | Teclas de flecha o Ratón |
+| Reinicio Rápido | Botón Y o Triángulo | Tecla R |
+
+Gestionar el impulso es la mecánica central del ciclo de juego. Cuando cuelgas de una sola mano, puedes girar el stick analógico para balancearte de un lado a otro. Cuanto más amplio sea el arco de tu balanceo, más velocidad acumularás. Si sueltas el agarre en el ángulo correcto, esa velocidad se traduce en una trayectoria de proyectil, enviándote volando hacia la siguiente plataforma.
+
+<CardGrid cols={3}>
+  <Card title="El Ancla">
+    - **Una mano asegurada**
+    - Punto de pivote para balanceos
+    - Control estable
+  </Card>
+  <Card title="El Péndulo">
+    - **Dos manos balanceándose**
+    - Alta generación de impulso
+    - Nivel de riesgo medio
+  </Card>
+  <Card title="El Proyectil">
+    - **Ninguna mano sujeta**
+    - Tiempo máximo en el aire
+    - Alto riesgo de caída
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Fatiga de Agarre">
+Sujetarse a una superficie durante demasiado tiempo no agota la resistencia, pero apresurar el lanzamiento puede hacer que pierdas por completo la plataforma de destino.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estrategias cooperativas paso a paso">
+
+El juego cooperativo es donde el título realmente brilla, pero también introduce el mayor potencial de fracaso. Al jugar con otros, puedes agarrarte a las manos, pies o cuerpos de tus compañeros para formar cadenas humanas. Esto permite cruzar huecos masivos que serían imposibles de superar individualmente.
+
+<Steps>
+  <Step num="1" title="Anclar al jugador principal">
+    Un jugador debe agarrarse firmemente a una pared o plataforma sólida. Este jugador actúa como el ancla y no debe soltar su agarre bajo ninguna circunstancia durante el balanceo.
+  </Step>
+  <Step num="2" title="Formar la cadena humana">
+    El segundo jugador agarra la mano libre o el cuerpo del jugador ancla. Los jugadores adicionales pueden unirse a la parte inferior de la cadena para extender su alcance.
+  </Step>
+  <Step num="3" title="Generar impulso de balanceo">
+    El jugador más bajo de la cadena gira su stick analógico para balancear toda la cadena de un lado a otro, acumulando impulso gradualmente.
+  </Step>
+  <Step num="4" title="Lanzar y agarrar">
+    En el punto máximo del balanceo, el jugador más bajo suelta su agarre de la cadena (o el ancla lanza a todo el grupo) para alcanzar la plataforma de destino.
+  </Step>
+</Steps>
+
+La comunicación es vital al ejecutar estos pasos. Una simple cuenta atrás ayuda a asegurar que todos suelten sus agarres en el momento correcto, evitando que los jugadores caigan al abismo.
+
+| Tipo de Peligro | Nivel de Peligro | Solución Recomendada |
+|---|---|---|
+| Picos | Alto | Balancéate sobre ellos usando una cadena de dos jugadores |
+| Electricidad | Alto | Evita el contacto y espera a que termine el ciclo |
+| Corrientes de Viento | Medio | Usa un impulso fuerte para atravesar la corriente |
+| Plataformas Móviles | Medio | Sincroniza tu lanzamiento para que coincida con la ruta de la plataforma |
+
+<Callout type="success" title="Seguridad en la Cadena">
+Al formar una cadena, el jugador de arriba debe mantener siempre ambas manos ancladas si es posible para proporcionar la máxima estabilidad a los jugadores de abajo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación para el éxito del nivel">
+
+Para obtener las calificaciones más altas y desbloquear objetos cosméticos, debes completar los niveles de manera eficiente minimizando las muertes. Recoger las monedas de oro esparcidas por los niveles añade una capa extra de dificultad, ya que deben llevarse al portal de salida sin que se caigan.
+
+<Checklist
+  id="level-completion-goals"
+  title="Hitos de finalización de nivel:"
+  items={[
+    "Localizar el portal de salida del nivel antes de moverse",
+    "Identificar todos los peligros de picos a lo largo del camino",
+    "Recoger la moneda de oro oculta en la etapa",
+    "Llegar al portal con todos los jugadores vivos",
+    "Completar la etapa por debajo del tiempo límite objetivo"
+  ]}
+/>
+
+Lograr estos hitos requiere un equilibrio entre velocidad y precaución. Mientras que las prisas suelen llevar a errores fatales, tardar demasiado impide ganar medallas de oro.
+
+| Rango de Medalla | Requisito de Tiempo | Requisito de Moneda |
+|---|---|---|
+| Oro | Por debajo del tiempo objetivo | Moneda recogida y asegurada |
+| Plata | Cerca del tiempo objetivo | Moneda recogida o asegurada |
+| Bronce | Sin límite de tiempo | No se requiere moneda |
+
+<Callout type="info" title="Mecánica de las Monedas">
+Si un jugador que lleva una moneda cae en un peligro, la moneda reaparece en su ubicación original, lo que requiere que vuelvas a buscarla.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas frecuentes">
+
+Comprender los matices del motor de física puede ayudarte a evitar errores comunes durante las sesiones multijugador. A continuación se presentan las respuestas a las preguntas más comunes sobre el movimiento, la configuración multijugador y las estrategias de juego.
+
+<FAQ items={[
+  {
+    question: "¿Cómo se juega a Heave Ho 2 en solitario?",
+    answer: "Al jugar solo, controlas a un único personaje y debes confiar enteramente en trepar por las paredes, balancearte desde clavijas y generar impulso propio para cruzar los huecos."
+  },
+  {
+    question: "¿Se puede jugar multijugador online en la demo de Steam?",
+    answer: "La demo de Steam admite principalmente cooperativo local, pero los jugadores pueden usar Steam Remote Play Together para invitar a amigos online."
+  },
+  {
+    question: "¿Cuál es la mejor manera de lanzar a otro jugador?",
+    answer: "El jugador que lanza debe balancear al otro jugador en un movimiento circular y soltar el agarre cuando el jugador lanzado apunte hacia el objetivo."
+  },
+  {
+    question: "¿Cómo te recuperas de un mal balanceo?",
+    answer: "Si fallas una plataforma, estira rápidamente ambas manos para agarrar cualquier superficie cercana o a un compañero antes de caer fuera de la pantalla."
+  }
+]} />
+
+<Callout type="tip" title="Consejo Final">
+No dudes en usar el botón de reinicio rápido si un jugador se queda atascado en un área inalcanzable, ya que ahorra tiempo durante las partidas rápidas.
+</Callout>
+
+</Section>

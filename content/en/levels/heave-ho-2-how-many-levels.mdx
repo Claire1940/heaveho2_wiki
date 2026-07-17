@@ -1,0 +1,155 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Heave Ho 2: How Many Levels and World Breakdown",
+  description: "Discover the total level count in Heave Ho 2, explore the eight themed worlds, and master cooperative mechanics in this physics-based party game guide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/DC2626/fff?text=Heave+Ho+2+Levels",
+  date: "2026-07-18",
+  author: "heave ho 2 Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Heave Ho 2 levels** include 72 cooperative stages and 56 unique versus challenges.
+- The game features **eight themed worlds**, each introducing distinct physics-based puzzles and mechanics.
+- Successful completion requires **coordinated teamwork**, precise grip timing, and effective use of support items.
+- Players can enjoy these levels through both **online and local multiplayer** for up to four participants.
+</Callout>
+
+<Section icon={Map} title="Understanding Heave Ho 2 Content">
+
+The campaign of Heave Ho 2 is structured across eight distinct worlds, offering a progression of physics-based challenges. Each world is designed to test your team's ability to communicate, swing, and execute precise maneuvers.
+
+**Video Highlights:**
+- Essential grip and release techniques for difficult gaps.
+- Demonstrations of how to form effective human chains.
+- Strategies for navigating world-specific hazards.
+
+<YouTubeEmbed videoId="xYRhczUghdQ" title="Heave Ho 2 Gameplay Overview" />
+
+The following table outlines the distribution of content across the game's core modes, helping you understand the scale of the experience.
+
+| Mode | Content Type | Quantity |
+| :--- | :--- | :--- |
+| Co-op Campaign | Themed Worlds | 8 |
+| Co-op Campaign | Total Levels | 72 |
+| Showdown Mode | Random Stages | 56 |
+| Achievements | Steam Milestones | 21 |
+
+<Callout type="tip" title="Strategic Note">
+Focus on completing the main route of each level first. Once you have mastered the basic mechanics of a world, revisit levels to tackle optional objectives like time trials and hidden silhouettes.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="World Progression and Mechanics">
+
+Navigating the eight worlds requires adapting to new mechanics, ranging from zero-gravity navigation to complex object-handling puzzles.
+
+| World | Core Mechanic | Objective Focus |
+| :--- | :--- | :--- |
+| Flying High | Ski lifts/Gondolas | Vertical traversal |
+| Manor Mysteries | Key/Lock puzzles | Exploration/Handoffs |
+| Spacebound Squad | Zero-G movement | Vehicle coordination |
+| Chef's Orders | Ingredient handling | Stack management |
+| Shipwrecked | Co-op traversal | Obstacle avoidance |
+| Transfolab | Device interaction | Precision timing |
+| Cascade Show | Dynamic elements | Chain momentum |
+| Medieval Travels | Throne transport | Stability control |
+
+<Callout type="warning" title="Difficulty Spike">
+Worlds like Transfolab and Medieval Travels introduce complex devices. If your group is struggling, remember that the cat drone may appear to assist your team after repeated failures.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mastering Movement and Controls">
+
+Success in all 72 levels depends on your mastery of the unique two-handed control scheme. Unlike traditional platformers, your movement is entirely physics-driven.
+
+<Steps>
+  <Step num="1" title="Establish an Anchor">
+    Always ensure at least one player is firmly gripping a safe surface before others attempt to swing or reach for the next objective.
+  </Step>
+  <Step num="2" title="Coordinate Momentum">
+    Communicate with your team to synchronize swings. Rotating in the same direction builds the momentum required to cross larger gaps.
+  </Step>
+  <Step num="3" title="Execute Safe Transfers">
+    When passing a teammate or an object, release only the connecting hand once the receiver has confirmed a secure grip on the target.
+  </Step>
+  <Step num="4" title="Utilize Support Items">
+    Equip items like the Umbrella for better aerial control or Arm Spray for those tricky, long-distance reaches.
+  </Step>
+</Steps>
+
+<CardGrid cols={3}>
+  <Card title="Anchor Player">
+    - **Stability**
+    - Essential for chains
+    - Safety point
+  </Card>
+  <Card title="Swing Caller">
+    - **Rhythm**
+    - Directs momentum
+    - Timing coordination
+  </Card>
+  <Card title="Object Handler">
+    - **Task-focused**
+    - Manages keys/food
+    - Requires support
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Trophy} title="Unlockables and Achievements">
+
+Beyond the 72 campaign levels, players can pursue 21 Steam achievements that reward thorough exploration and mastery of secondary objectives.
+
+<Checklist
+  id="completion-goals"
+  title="Completionist Checklist:"
+  items={[
+    "Complete all 8 campaign worlds",
+    "Clear every 'Crowning' challenge",
+    "Find all hidden 'Mysterious hands'",
+    "Open every available gift",
+    "Achieve 100% completion"
+  ]}
+/>
+
+<Callout type="success" title="Reward Track">
+Completing optional objectives is the primary way to unlock new cosmetics and crossover skins, including characters from other popular indie titles.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How many levels are in Heave Ho 2?",
+    answer: "There are 72 cooperative campaign levels spread across eight themed worlds, plus 56 additional random stages for versus play."
+  },
+  {
+    question: "Can I play Heave Ho 2 levels online?",
+    answer: "Yes, Heave Ho 2 supports online co-op, local couch co-op, and online versus modes for 2-4 players."
+  },
+  {
+    question: "What should I do if a level is too difficult?",
+    answer: "Focus on the main route first, utilize support items like the cat drone, and coordinate your swings with a designated team caller."
+  },
+  {
+    question: "Are there different versions of the levels for Switch 2?",
+    answer: "The game behavior is consistent across PC, Nintendo Switch, and Nintendo Switch 2, ensuring a uniform experience regardless of the platform."
+  }
+]} />
+
+</Section>

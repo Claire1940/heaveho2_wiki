@@ -1,1 +1,674 @@
-{}
+{
+  "en": {
+    "achievements": [
+      {
+        "slug": "heave-ho-2-100-percent",
+        "file": "heave-ho-2-100-percent"
+      },
+      {
+        "slug": "heave-ho-2-achievements",
+        "file": "heave-ho-2-achievements"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "heave-ho-2-beginner-guide",
+        "file": "heave-ho-2-beginner-guide"
+      },
+      {
+        "slug": "heave-ho-2-controls",
+        "file": "heave-ho-2-controls"
+      },
+      {
+        "slug": "heave-ho-2-demo-gameplay",
+        "file": "heave-ho-2-demo-gameplay"
+      },
+      {
+        "slug": "heave-ho-2-difficulty",
+        "file": "heave-ho-2-difficulty"
+      },
+      {
+        "slug": "heave-ho-2-how-long-to-beat",
+        "file": "heave-ho-2-how-long-to-beat"
+      },
+      {
+        "slug": "heave-ho-2-how-to-play",
+        "file": "heave-ho-2-how-to-play"
+      },
+      {
+        "slug": "heave-ho-2-tips",
+        "file": "heave-ho-2-tips"
+      },
+      {
+        "slug": "heave-ho-2-walkthrough",
+        "file": "heave-ho-2-walkthrough"
+      }
+    ],
+    "items": [
+      {
+        "slug": "heave-ho-2-items",
+        "file": "heave-ho-2-items"
+      },
+      {
+        "slug": "heave-ho-2-spaceship",
+        "file": "heave-ho-2-spaceship"
+      },
+      {
+        "slug": "heave-ho-2-unlockables",
+        "file": "heave-ho-2-unlockables"
+      }
+    ],
+    "levels": [
+      {
+        "slug": "heave-ho-2-all-levels",
+        "file": "heave-ho-2-all-levels"
+      },
+      {
+        "slug": "heave-ho-2-how-many-levels",
+        "file": "heave-ho-2-how-many-levels"
+      },
+      {
+        "slug": "heave-ho-2-worlds",
+        "file": "heave-ho-2-worlds"
+      }
+    ],
+    "multiplayer": [
+      {
+        "slug": "heave-ho-2-couch-co-op",
+        "file": "heave-ho-2-couch-co-op"
+      },
+      {
+        "slug": "heave-ho-2-crossplay",
+        "file": "heave-ho-2-crossplay"
+      },
+      {
+        "slug": "heave-ho-2-gameshare",
+        "file": "heave-ho-2-gameshare"
+      },
+      {
+        "slug": "heave-ho-2-how-many-players",
+        "file": "heave-ho-2-how-many-players"
+      },
+      {
+        "slug": "heave-ho-2-local-multiplayer",
+        "file": "heave-ho-2-local-multiplayer"
+      },
+      {
+        "slug": "heave-ho-2-online-multiplayer",
+        "file": "heave-ho-2-online-multiplayer"
+      },
+      {
+        "slug": "heave-ho-2-single-player",
+        "file": "heave-ho-2-single-player"
+      },
+      {
+        "slug": "heave-ho-2-switch-how-many-players",
+        "file": "heave-ho-2-switch-how-many-players"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "heave-ho-2-eshop",
+        "file": "heave-ho-2-eshop"
+      },
+      {
+        "slug": "heave-ho-2-ps5",
+        "file": "heave-ho-2-ps5"
+      },
+      {
+        "slug": "heave-ho-2-steam",
+        "file": "heave-ho-2-steam"
+      },
+      {
+        "slug": "heave-ho-2-steamdb",
+        "file": "heave-ho-2-steamdb"
+      },
+      {
+        "slug": "heave-ho-2-switch-2",
+        "file": "heave-ho-2-switch-2"
+      },
+      {
+        "slug": "heave-ho-2-switch",
+        "file": "heave-ho-2-switch"
+      },
+      {
+        "slug": "heave-ho-2-xbox",
+        "file": "heave-ho-2-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "heave-ho-2-demo",
+        "file": "heave-ho-2-demo"
+      },
+      {
+        "slug": "heave-ho-2-launch-trailer",
+        "file": "heave-ho-2-launch-trailer"
+      },
+      {
+        "slug": "heave-ho-2-physical",
+        "file": "heave-ho-2-physical"
+      },
+      {
+        "slug": "heave-ho-2-price",
+        "file": "heave-ho-2-price"
+      },
+      {
+        "slug": "heave-ho-2-release-date",
+        "file": "heave-ho-2-release-date"
+      },
+      {
+        "slug": "heave-ho-2-review",
+        "file": "heave-ho-2-review"
+      },
+      {
+        "slug": "heave-ho-2-trailer",
+        "file": "heave-ho-2-trailer"
+      }
+    ]
+  },
+  "es": {
+    "achievements": [
+      {
+        "slug": "heave-ho-2-100-percent",
+        "file": "heave-ho-2-100-percent"
+      },
+      {
+        "slug": "heave-ho-2-achievements",
+        "file": "heave-ho-2-achievements"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "heave-ho-2-beginner-guide",
+        "file": "heave-ho-2-beginner-guide"
+      },
+      {
+        "slug": "heave-ho-2-controls",
+        "file": "heave-ho-2-controls"
+      },
+      {
+        "slug": "heave-ho-2-demo-gameplay",
+        "file": "heave-ho-2-demo-gameplay"
+      },
+      {
+        "slug": "heave-ho-2-difficulty",
+        "file": "heave-ho-2-difficulty"
+      },
+      {
+        "slug": "heave-ho-2-how-long-to-beat",
+        "file": "heave-ho-2-how-long-to-beat"
+      },
+      {
+        "slug": "heave-ho-2-how-to-play",
+        "file": "heave-ho-2-how-to-play"
+      },
+      {
+        "slug": "heave-ho-2-tips",
+        "file": "heave-ho-2-tips"
+      },
+      {
+        "slug": "heave-ho-2-walkthrough",
+        "file": "heave-ho-2-walkthrough"
+      }
+    ],
+    "items": [
+      {
+        "slug": "heave-ho-2-items",
+        "file": "heave-ho-2-items"
+      },
+      {
+        "slug": "heave-ho-2-spaceship",
+        "file": "heave-ho-2-spaceship"
+      },
+      {
+        "slug": "heave-ho-2-unlockables",
+        "file": "heave-ho-2-unlockables"
+      }
+    ],
+    "levels": [
+      {
+        "slug": "heave-ho-2-all-levels",
+        "file": "heave-ho-2-all-levels"
+      },
+      {
+        "slug": "heave-ho-2-how-many-levels",
+        "file": "heave-ho-2-how-many-levels"
+      },
+      {
+        "slug": "heave-ho-2-worlds",
+        "file": "heave-ho-2-worlds"
+      }
+    ],
+    "multiplayer": [
+      {
+        "slug": "heave-ho-2-couch-co-op",
+        "file": "heave-ho-2-couch-co-op"
+      },
+      {
+        "slug": "heave-ho-2-crossplay",
+        "file": "heave-ho-2-crossplay"
+      },
+      {
+        "slug": "heave-ho-2-gameshare",
+        "file": "heave-ho-2-gameshare"
+      },
+      {
+        "slug": "heave-ho-2-how-many-players",
+        "file": "heave-ho-2-how-many-players"
+      },
+      {
+        "slug": "heave-ho-2-local-multiplayer",
+        "file": "heave-ho-2-local-multiplayer"
+      },
+      {
+        "slug": "heave-ho-2-online-multiplayer",
+        "file": "heave-ho-2-online-multiplayer"
+      },
+      {
+        "slug": "heave-ho-2-single-player",
+        "file": "heave-ho-2-single-player"
+      },
+      {
+        "slug": "heave-ho-2-switch-how-many-players",
+        "file": "heave-ho-2-switch-how-many-players"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "heave-ho-2-eshop",
+        "file": "heave-ho-2-eshop"
+      },
+      {
+        "slug": "heave-ho-2-ps5",
+        "file": "heave-ho-2-ps5"
+      },
+      {
+        "slug": "heave-ho-2-steam",
+        "file": "heave-ho-2-steam"
+      },
+      {
+        "slug": "heave-ho-2-steamdb",
+        "file": "heave-ho-2-steamdb"
+      },
+      {
+        "slug": "heave-ho-2-switch-2",
+        "file": "heave-ho-2-switch-2"
+      },
+      {
+        "slug": "heave-ho-2-switch",
+        "file": "heave-ho-2-switch"
+      },
+      {
+        "slug": "heave-ho-2-xbox",
+        "file": "heave-ho-2-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "heave-ho-2-demo",
+        "file": "heave-ho-2-demo"
+      },
+      {
+        "slug": "heave-ho-2-launch-trailer",
+        "file": "heave-ho-2-launch-trailer"
+      },
+      {
+        "slug": "heave-ho-2-physical",
+        "file": "heave-ho-2-physical"
+      },
+      {
+        "slug": "heave-ho-2-price",
+        "file": "heave-ho-2-price"
+      },
+      {
+        "slug": "heave-ho-2-release-date",
+        "file": "heave-ho-2-release-date"
+      },
+      {
+        "slug": "heave-ho-2-review",
+        "file": "heave-ho-2-review"
+      },
+      {
+        "slug": "heave-ho-2-trailer",
+        "file": "heave-ho-2-trailer"
+      }
+    ]
+  },
+  "fr": {
+    "achievements": [
+      {
+        "slug": "heave-ho-2-100-percent",
+        "file": "heave-ho-2-100-percent"
+      },
+      {
+        "slug": "heave-ho-2-achievements",
+        "file": "heave-ho-2-achievements"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "heave-ho-2-beginner-guide",
+        "file": "heave-ho-2-beginner-guide"
+      },
+      {
+        "slug": "heave-ho-2-controls",
+        "file": "heave-ho-2-controls"
+      },
+      {
+        "slug": "heave-ho-2-demo-gameplay",
+        "file": "heave-ho-2-demo-gameplay"
+      },
+      {
+        "slug": "heave-ho-2-difficulty",
+        "file": "heave-ho-2-difficulty"
+      },
+      {
+        "slug": "heave-ho-2-how-long-to-beat",
+        "file": "heave-ho-2-how-long-to-beat"
+      },
+      {
+        "slug": "heave-ho-2-how-to-play",
+        "file": "heave-ho-2-how-to-play"
+      },
+      {
+        "slug": "heave-ho-2-tips",
+        "file": "heave-ho-2-tips"
+      },
+      {
+        "slug": "heave-ho-2-walkthrough",
+        "file": "heave-ho-2-walkthrough"
+      }
+    ],
+    "items": [
+      {
+        "slug": "heave-ho-2-items",
+        "file": "heave-ho-2-items"
+      },
+      {
+        "slug": "heave-ho-2-spaceship",
+        "file": "heave-ho-2-spaceship"
+      },
+      {
+        "slug": "heave-ho-2-unlockables",
+        "file": "heave-ho-2-unlockables"
+      }
+    ],
+    "levels": [
+      {
+        "slug": "heave-ho-2-all-levels",
+        "file": "heave-ho-2-all-levels"
+      },
+      {
+        "slug": "heave-ho-2-how-many-levels",
+        "file": "heave-ho-2-how-many-levels"
+      },
+      {
+        "slug": "heave-ho-2-worlds",
+        "file": "heave-ho-2-worlds"
+      }
+    ],
+    "multiplayer": [
+      {
+        "slug": "heave-ho-2-couch-co-op",
+        "file": "heave-ho-2-couch-co-op"
+      },
+      {
+        "slug": "heave-ho-2-crossplay",
+        "file": "heave-ho-2-crossplay"
+      },
+      {
+        "slug": "heave-ho-2-gameshare",
+        "file": "heave-ho-2-gameshare"
+      },
+      {
+        "slug": "heave-ho-2-how-many-players",
+        "file": "heave-ho-2-how-many-players"
+      },
+      {
+        "slug": "heave-ho-2-local-multiplayer",
+        "file": "heave-ho-2-local-multiplayer"
+      },
+      {
+        "slug": "heave-ho-2-online-multiplayer",
+        "file": "heave-ho-2-online-multiplayer"
+      },
+      {
+        "slug": "heave-ho-2-single-player",
+        "file": "heave-ho-2-single-player"
+      },
+      {
+        "slug": "heave-ho-2-switch-how-many-players",
+        "file": "heave-ho-2-switch-how-many-players"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "heave-ho-2-eshop",
+        "file": "heave-ho-2-eshop"
+      },
+      {
+        "slug": "heave-ho-2-ps5",
+        "file": "heave-ho-2-ps5"
+      },
+      {
+        "slug": "heave-ho-2-steam",
+        "file": "heave-ho-2-steam"
+      },
+      {
+        "slug": "heave-ho-2-steamdb",
+        "file": "heave-ho-2-steamdb"
+      },
+      {
+        "slug": "heave-ho-2-switch-2",
+        "file": "heave-ho-2-switch-2"
+      },
+      {
+        "slug": "heave-ho-2-switch",
+        "file": "heave-ho-2-switch"
+      },
+      {
+        "slug": "heave-ho-2-xbox",
+        "file": "heave-ho-2-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "heave-ho-2-demo",
+        "file": "heave-ho-2-demo"
+      },
+      {
+        "slug": "heave-ho-2-launch-trailer",
+        "file": "heave-ho-2-launch-trailer"
+      },
+      {
+        "slug": "heave-ho-2-physical",
+        "file": "heave-ho-2-physical"
+      },
+      {
+        "slug": "heave-ho-2-price",
+        "file": "heave-ho-2-price"
+      },
+      {
+        "slug": "heave-ho-2-release-date",
+        "file": "heave-ho-2-release-date"
+      },
+      {
+        "slug": "heave-ho-2-review",
+        "file": "heave-ho-2-review"
+      },
+      {
+        "slug": "heave-ho-2-trailer",
+        "file": "heave-ho-2-trailer"
+      }
+    ]
+  },
+  "ja": {
+    "achievements": [
+      {
+        "slug": "heave-ho-2-100-percent",
+        "file": "heave-ho-2-100-percent"
+      },
+      {
+        "slug": "heave-ho-2-achievements",
+        "file": "heave-ho-2-achievements"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "heave-ho-2-beginner-guide",
+        "file": "heave-ho-2-beginner-guide"
+      },
+      {
+        "slug": "heave-ho-2-controls",
+        "file": "heave-ho-2-controls"
+      },
+      {
+        "slug": "heave-ho-2-demo-gameplay",
+        "file": "heave-ho-2-demo-gameplay"
+      },
+      {
+        "slug": "heave-ho-2-difficulty",
+        "file": "heave-ho-2-difficulty"
+      },
+      {
+        "slug": "heave-ho-2-how-long-to-beat",
+        "file": "heave-ho-2-how-long-to-beat"
+      },
+      {
+        "slug": "heave-ho-2-how-to-play",
+        "file": "heave-ho-2-how-to-play"
+      },
+      {
+        "slug": "heave-ho-2-tips",
+        "file": "heave-ho-2-tips"
+      },
+      {
+        "slug": "heave-ho-2-walkthrough",
+        "file": "heave-ho-2-walkthrough"
+      }
+    ],
+    "items": [
+      {
+        "slug": "heave-ho-2-items",
+        "file": "heave-ho-2-items"
+      },
+      {
+        "slug": "heave-ho-2-spaceship",
+        "file": "heave-ho-2-spaceship"
+      },
+      {
+        "slug": "heave-ho-2-unlockables",
+        "file": "heave-ho-2-unlockables"
+      }
+    ],
+    "levels": [
+      {
+        "slug": "heave-ho-2-all-levels",
+        "file": "heave-ho-2-all-levels"
+      },
+      {
+        "slug": "heave-ho-2-how-many-levels",
+        "file": "heave-ho-2-how-many-levels"
+      },
+      {
+        "slug": "heave-ho-2-worlds",
+        "file": "heave-ho-2-worlds"
+      }
+    ],
+    "multiplayer": [
+      {
+        "slug": "heave-ho-2-couch-co-op",
+        "file": "heave-ho-2-couch-co-op"
+      },
+      {
+        "slug": "heave-ho-2-crossplay",
+        "file": "heave-ho-2-crossplay"
+      },
+      {
+        "slug": "heave-ho-2-gameshare",
+        "file": "heave-ho-2-gameshare"
+      },
+      {
+        "slug": "heave-ho-2-how-many-players",
+        "file": "heave-ho-2-how-many-players"
+      },
+      {
+        "slug": "heave-ho-2-local-multiplayer",
+        "file": "heave-ho-2-local-multiplayer"
+      },
+      {
+        "slug": "heave-ho-2-online-multiplayer",
+        "file": "heave-ho-2-online-multiplayer"
+      },
+      {
+        "slug": "heave-ho-2-single-player",
+        "file": "heave-ho-2-single-player"
+      },
+      {
+        "slug": "heave-ho-2-switch-how-many-players",
+        "file": "heave-ho-2-switch-how-many-players"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "heave-ho-2-eshop",
+        "file": "heave-ho-2-eshop"
+      },
+      {
+        "slug": "heave-ho-2-ps5",
+        "file": "heave-ho-2-ps5"
+      },
+      {
+        "slug": "heave-ho-2-steam",
+        "file": "heave-ho-2-steam"
+      },
+      {
+        "slug": "heave-ho-2-steamdb",
+        "file": "heave-ho-2-steamdb"
+      },
+      {
+        "slug": "heave-ho-2-switch-2",
+        "file": "heave-ho-2-switch-2"
+      },
+      {
+        "slug": "heave-ho-2-switch",
+        "file": "heave-ho-2-switch"
+      },
+      {
+        "slug": "heave-ho-2-xbox",
+        "file": "heave-ho-2-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "heave-ho-2-demo",
+        "file": "heave-ho-2-demo"
+      },
+      {
+        "slug": "heave-ho-2-launch-trailer",
+        "file": "heave-ho-2-launch-trailer"
+      },
+      {
+        "slug": "heave-ho-2-physical",
+        "file": "heave-ho-2-physical"
+      },
+      {
+        "slug": "heave-ho-2-price",
+        "file": "heave-ho-2-price"
+      },
+      {
+        "slug": "heave-ho-2-release-date",
+        "file": "heave-ho-2-release-date"
+      },
+      {
+        "slug": "heave-ho-2-review",
+        "file": "heave-ho-2-review"
+      },
+      {
+        "slug": "heave-ho-2-trailer",
+        "file": "heave-ho-2-trailer"
+      }
+    ]
+  }
+}

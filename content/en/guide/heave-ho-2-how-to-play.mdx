@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Heave Ho 2 How to Play: Co-Op Controls & Physics Guide",
+  description: "Master the controls and physics of Heave Ho 2. Learn cooperative swing strategies, solo play mechanics, and level navigation tips for the 2026 demo.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Heave+Ho+2+How+to+Play",
+  date: "2026-07-18",
+  author: "heave ho 2 Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Mastering the basics**: Learn **heave ho 2 how to play** by focusing on momentum, hand coordination, and grip timing.
+- **Cooperative swinging**: Coordinate with your partner to swing and build momentum before letting go of your grip.
+- **Avoid over-stretching**: Stretching your character too far reduces control and increases the risk of falling into hazards.
+- **Safety checkpoints**: Always secure at least one hand to a solid surface before reaching out with the other.
+</Callout>
+
+<Section icon={Map} title="Getting Started and Demo Overview">
+
+Learning how to navigate the chaotic environments of this physics-based platformer requires patience and coordination. The release of the PC demo on Steam in July 2026 gives players an early opportunity to test their skills. In this game, players control a character with exceptionally long arms, and the goal is to swing, toss, and climb across hazardous gaps to reach the portal at the end of each stage. Understanding the basic physics loop is essential before attempting complex cooperative maneuvers.
+
+**Video Highlights:**
+- Demonstrates the core cooperative physics gameplay.
+- Previews the chaotic multiplayer environments.
+- Outlines the release of the PC demo on Steam.
+
+<YouTubeEmbed videoId="xYRhczUghdQ" title="Play the Heave Ho 2 PC Demo Now on Steam" />
+
+The demo version provides a sneak peek into the physics engine, allowing up to four players to join locally. While the full game offers a broader array of customization options and level hazards, the demo serves as an excellent training ground for mastering the momentum-based movement.
+
+| Feature | Demo Version | Full Release |
+|---|---|---|
+| Playable Levels | Limited selection | Campaign and challenge maps |
+| Player Count | 1 to 4 local players | Full local and online co-op |
+| Customization | Basic outfits | Full character customization |
+| Cost | Free on Steam | Paid retail version |
+
+<Callout type="tip" title="Demo Practice">
+Use the free Steam demo to practice solo movement before jumping into multiplayer sessions, as it helps build muscle memory for the grip controls.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Master the Controls and Physics Mechanics">
+
+To understand **heave ho 2 how to play**, you must first master the unique control scheme. Unlike traditional platformers, you do not control feet or jumping. Instead, you control two hands independently. You use the analog stick to rotate your arms and the left and right triggers to grab surfaces with the corresponding hands. Releasing a trigger at the peak of a swing launches your character through the air.
+
+| Control Input | Controller Action | Keyboard Alternative |
+|---|---|---|
+| Left Grip | Left Trigger (LT / L2) | Left Shift or A Key |
+| Right Grip | Right Trigger (RT / R2) | Right Shift or D Key |
+| Arm Rotation | Left Analog Stick | Arrow Keys or Mouse |
+| Quick Reset | Y Button or Triangle | R Key |
+
+Managing momentum is the core mechanic of the gameplay loop. When you hang from a single hand, you can rotate the analog stick to swing back and forth. The wider the arc of your swing, the more velocity you gather. If you release your grip at the correct angle, that velocity translates into a projectile trajectory, sending you flying toward the next platform.
+
+<CardGrid cols={3}>
+  <Card title="The Anchor">
+    - **One hand secured**
+    - Pivot point for swings
+    - Steady control
+  </Card>
+  <Card title="The Pendulum">
+    - **Two hands swinging**
+    - High momentum generation
+    - Medium risk level
+  </Card>
+  <Card title="The Projectile">
+    - **No hands attached**
+    - Maximum air time
+    - High risk of falling
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Grip Fatigue">
+Holding onto a surface for too long does not drain stamina, but rushing your release can cause you to miss your target platform completely.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Co-Op Strategies">
+
+Cooperative play is where the game truly shines, but it also introduces the highest potential for failure. When playing with others, you can grab onto your teammates' hands, feet, or bodies to form human chains. This allows you to cross massive gaps that would be impossible to clear individually.
+
+<Steps>
+  <Step num="1" title="Anchor the Lead Player">
+    One player must firmly grip a solid wall or platform. This player acts as the anchor and must not release their grip under any circumstances during the swing.
+  </Step>
+  <Step num="2" title="Form the Human Chain">
+    The second player grabs the free hand or body of the anchor player. Additional players can attach themselves to the bottom of the chain to extend its reach.
+  </Step>
+  <Step num="3" title="Build Swing Momentum">
+    The lowest player in the chain rotates their analog stick to swing the entire chain back and forth, gradually building momentum.
+  </Step>
+  <Step num="4" title="Launch and Grab">
+    At the peak of the swing, the lowest player releases their grip on the chain (or the anchor launches the entire group) to reach the destination platform.
+  </Step>
+</Steps>
+
+Communication is vital when executing these steps. A simple countdown helps ensure that everyone releases their grips at the correct moment, preventing players from dropping into the abyss.
+
+| Hazard Type | Danger Level | Recommended Solution |
+|---|---|---|
+| Spikes | High | Swing over them using a two-player chain |
+| Electricity | High | Avoid contact and wait for the cycle to end |
+| Wind Currents | Medium | Use heavy momentum to cut through the draft |
+| Moving Platforms | Medium | Time your launch to match the platform path |
+
+<Callout type="success" title="Chain Safety">
+When forming a chain, the player at the top should always keep both hands anchored if possible to provide maximum stability for the players below.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist for Level Success">
+
+To earn the highest ratings and unlock cosmetic items, you must complete levels efficiently while minimizing deaths. Collecting the gold coins scattered throughout the levels adds an extra layer of difficulty, as they must be carried to the exit portal without being dropped.
+
+<Checklist
+  id="level-completion-goals"
+  title="Level Completion Milestones:"
+  items={[
+    "Locate the level exit portal before moving",
+    "Identify all spike hazards along the path",
+    "Collect the hidden gold coin in the stage",
+    "Reach the portal with all players alive",
+    "Complete the stage under the target time limit"
+  ]}
+/>
+
+Achieving these milestones requires a balance between speed and caution. While rushing often leads to fatal mistakes, taking too long prevents you from earning gold medals.
+
+| Medal Tier | Time Requirement | Coin Requirement |
+|---|---|---|
+| Gold | Under target time | Coin collected and secured |
+| Silver | Close to target time | Coin collected or secured |
+| Bronze | No time limit | No coin required |
+
+<Callout type="info" title="Coin Mechanics">
+If a player carrying a coin falls into a hazard, the coin respawns at its original location, requiring you to retrieve it again.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+
+Understanding the nuances of the physics engine can help you avoid common pitfalls during multiplayer sessions. Below are answers to the most common questions regarding movement, multiplayer setups, and gameplay strategies.
+
+<FAQ items={[
+  {
+    question: "How do you play Heave Ho 2 solo?",
+    answer: "When playing solo, you control a single character and must rely entirely on wall-climbing, swinging from pegs, and building solo momentum to cross gaps."
+  },
+  {
+    question: "Can you play online multiplayer in the Steam demo?",
+    answer: "The Steam demo primarily supports local co-op, but players can use Steam Remote Play Together to invite friends online."
+  },
+  {
+    question: "What is the best way to throw another player?",
+    answer: "The throwing player should swing the other player in a circular motion and release the grip when the thrown player is pointing toward the target."
+  },
+  {
+    question: "How do you recover from a bad swing?",
+    answer: "If you miss a platform, quickly reach out with both hands to grab any nearby surface or teammate before falling off the screen."
+  }
+]} />
+
+<Callout type="tip" title="Final Advice">
+Do not hesitate to use the quick reset button if a player gets stuck in an unreachable area, as it saves time during speed runs.
+</Callout>
+
+</Section>

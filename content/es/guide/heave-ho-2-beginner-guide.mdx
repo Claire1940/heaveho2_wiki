@@ -1,0 +1,190 @@
+import { Hand, Move, Users, Gem, Settings, Target, Zap, Shield } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía para principiantes de Heave Ho 2: Dominando la física y las tácticas cooperativas",
+  description: "Domina la caótica física de Heave Ho 2 con nuestra guía para principiantes. Aprende técnicas de movimiento esenciales, estrategias de cadenas cooperativas y cómo recoger cada moneda.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/3b82f6/fff?text=Heave+Ho+2+Beginner+Guide",
+  date: "2026-07-18",
+  author: "Equipo de la Wiki de Heave Ho 2"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Guía para principiantes de Heave Ho 2**: Este juego de plataformas basado en la física requiere un control preciso de cada extremidad y del impulso.
+- **Mecánica principal**: Usa los gatillos izquierdo y derecho para agarrar superficies o compañeros de equipo; **nunca te sueltes** a menos que tengas un lugar donde aterrizar.
+- **Física del balanceo**: El impulso se genera al girar la palanca analógica mientras te sostienes de un punto fijo o de un amigo.
+- **Trabajo en equipo**: La comunicación es vital, ya que las cadenas de jugadores pueden salvar enormes brechas que son imposibles de cruzar en solitario.
+- **Coleccionables**: Las monedas suelen estar en zonas de alto riesgo y requieren un "portador" designado para llegar a la meta.
+</Callout>
+
+<Section icon={Hand} title="Fundamentos mecánicos y controles">
+
+Te damos la bienvenida al mundo del caos basado en la física. En esta **guía para principiantes de Heave Ho 2**, desglosamos los controles fundamentales que determinan si vuelas como un águila o caes como una patata. El juego utiliza un esquema de control engañosamente simple donde tu enfoque principal está en dos botones: los gatillos (o botones superiores) izquierdo y derecho, que corresponden a las manos izquierda y derecha de tu personaje.
+
+Aprender a coordinar estas manos de forma independiente es el primer gran obstáculo para los nuevos jugadores. A diferencia de los juegos de plataformas estándar, tu movimiento está completamente dictado por el lugar donde te agarras y cómo balanceas el peso de tu cuerpo.
+
+| Botón de control | Acción realizada | Mejor caso de uso |
+| :--- | :--- | :--- |
+| **Gatillo izquierdo (L2/LT)** | Agarra con la mano izquierda | Sostenerse de paredes, suelos o compañeros de equipo |
+| **Gatillo derecho (R2/RT)** | Agarra con la mano derecha | Estabilizar tu posición o estirarse |
+| **Palanca analógica izquierda** | Rotar el cuerpo del personaje | Generar impulso y apuntar balanceos |
+| **Ambos gatillos** | Agarre con dos manos | Máxima estabilidad en plataformas estrechas |
+| **Palanca + Soltar** | Lanzamiento/Lanzar | Cruzar grandes brechas o llegar a la meta |
+
+<Callout type="info" title="Consejo de estabilidad">
+Cuando cuelgues de un compañero de equipo, intenta usar **ambas manos** siempre que sea posible. Esto evita que tu personaje gire sin control y facilita que la persona que está arriba apunte su balanceo.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Movimiento individual">
+    - **Escalar paredes**: Alternar manos para subir superficies verticales.
+    - **Arrastrarse por el suelo**: Arrastrar tu cuerpo por el suelo plano usando agarres rápidos.
+    - **Auto-balanceo**: Usar una sola mano para pivotar sobre una esquina.
+  </Card>
+  <Card title="Coordinación de equipo">
+    - **Cadenas humanas**: Enlazar manos para llegar a plataformas lejanas.
+    - **El péndulo**: Balancear al jugador inferior para ganar una altura enorme.
+    - **El lanzamiento**: Soltar a un compañero en el punto máximo de un balanceo para ganar distancia.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Move} title="Dominando el impulso y la física del balanceo">
+
+El núcleo de la estrategia de la **guía para principiantes de Heave Ho 2** gira en torno al impulso. Eres esencialmente un peso en una cuerda. Para moverte con eficacia, debes entender cómo interactúan la gravedad y la fuerza centrífuga con la física estilo "patata" de tu personaje.
+
+Cuando cuelgas de una mano, tu personaje se balanceará de forma natural. Al mover la palanca analógica en un movimiento circular, puedes hacer que tu cuerpo rote. Una vez que acumules suficiente velocidad, soltar el botón de agarre en la posición de las "12 en punto" o las "2 en punto" (dependiendo de tu objetivo) te lanzará por el aire.
+
+| Etapa del balanceo | Acción del jugador | Física resultante |
+| :--- | :--- | :--- |
+| **Cuelgue inicial** | Mantener pulsado un gatillo | Suspensión estática con balanceo menor |
+| **Preparación** | Rotar la palanca rápidamente | Generación de fuerza centrífuga y velocidad |
+| **Arco máximo** | Identificar el ángulo de lanzamiento | Máxima energía potencial para el salto |
+| **Soltar** | Soltar el gatillo | Conversión del impulso en vuelo |
+| **Aterrizaje** | Preparar la mano opuesta | Agarre inmediato para evitar caer al vacío |
+
+<Callout type="warning" title="Advertencia de impulso">
+Rotar en exceso puede provocar "mareo", lo que hace que tu personaje sea más difícil de controlar durante un breve segundo. Busca rotaciones suaves y constantes en lugar de girar la palanca frenéticamente.
+</Callout>
+
+<Steps>
+  <Step num="1" title="El agarre de anclaje">
+    Asegúrate a una superficie sólida con tu mano más fuerte (normalmente la más cercana a la dirección a la que quieres ir).
+  </Step>
+  <Step num="2" title="La acumulación">
+    Gira la palanca analógica en la dirección del balanceo. Si te balanceas hacia la derecha, gira en el sentido de las agujas del reloj; si te balanceas hacia la izquierda, gira en sentido contrario.
+  </Step>
+  <Step num="3" title="El punto de liberación">
+    Suelta el gatillo cuando el cuerpo de tu personaje apunte ligeramente por encima de tu objetivo previsto. La física causará una ligera caída en tu trayectoria.
+  </Step>
+  <Step num="4" title="La captura">
+    A medida que te acerques a la nueva plataforma, mantén pulsados ambos gatillos. Esto asegura que la primera mano que haga contacto se enganche de inmediato.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Users} title="Estrategias avanzadas de cadenas cooperativas">
+
+Heave Ho 2 está diseñado para el juego cooperativo. Aunque es posible jugar en solitario, el juego brilla cuando de 2 a 4 jugadores trabajan juntos para resolver acertijos ambientales. La "Cadena humana" es el movimiento más icónico del juego y es esencial para superar las fases posteriores y más complejas.
+
+En una cadena, el jugador superior actúa como el "Ancla", mientras que el jugador inferior actúa como el "Columpio". Los jugadores intermedios son los "Eslabones". Cada rol tiene responsabilidades específicas para garantizar que todo el grupo no caiga al abismo.
+
+| Rol en la cadena | Responsabilidad principal | Habilidad crítica |
+| :--- | :--- | :--- |
+| **Ancla** | Mantenerse sujeto a la pared | Gran disciplina de agarre y paciencia |
+| **Eslabón** | Mantener la conexión | Sostener ambas manos de los compañeros |
+| **Columpio** | Generar impulso | Sincronización precisa para la liberación final |
+| **Portador** | Sostener la moneda del nivel | Manejar agarres a una mano mientras se balancea |
+
+<Callout type="tip" title="Estrategia profesional">
+Si una cadena empieza a tambalearse demasiado, el Ancla debe dejar de moverse por completo. Deja que la física se estabilice antes de intentar el siguiente balanceo. La comunicación es más rápida que reaccionar solo a las señales visuales.
+</Callout>
+
+**Métricas de eficiencia de la cadena:**
+- **Cadena de 2 jugadores**: Ideal para precisión y brechas estrechas. Bajo impulso pero alto control.
+- **Cadena de 3 jugadores**: El "punto ideal". Excelente para la mayoría de las brechas y proporciona suficiente peso para balanceos fuertes.
+- **Cadena de 4 jugadores**: Alcance máximo pero extremadamente caótico. Requiere un Ancla muy fuerte para soportar el peso combinado.
+
+</Section>
+
+<Section icon={Gem} title="Monedas, coleccionables y personalización">
+
+Cada nivel en Heave Ho 2 cuenta con una moneda de oro. Recogerlas es la forma principal de desbloquear nuevos aspectos, sombreros y voces de personajes. Sin embargo, la moneda añade una capa de dificultad significativa porque ocupa una de tus manos.
+
+Cuando recoges una moneda, solo puedes usar la mano libre para agarrar superficies o compañeros de equipo. Esto hace que escalar y balancearse sea significativamente más peligroso.
+
+| Objeto coleccionable | Modificador de dificultad | Tipo de recompensa |
+| :--- | :--- | :--- |
+| **Moneda estándar** | +50% de dificultad | 1 ficha para la máquina de gachapón |
+| **Fichas ocultas** | +75% de dificultad | Desbloqueo de trajes raros |
+| **Estrellas de contrarreloj** | Requiere alta velocidad | Emblemas de prestigio |
+| **Aspectos secretos** | Acertijos ambientales | Modelos de personajes únicos |
+
+<Callout type="success" title="Consejo para las monedas">
+Puedes "pasar" la moneda entre jugadores. Si el portador actual tiene dificultades, haz que un compañero de equipo agarre la moneda directamente de su mano. Esto permite al equipo turnarse la carga de llevar el peso.
+</Callout>
+
+<Checklist
+  id="completion-goals"
+  title="Lista de verificación para completar el nivel:"
+  items={[
+    "Llegar a la bandera de meta con todos los jugadores vivos",
+    "Recoger la moneda de oro antes de terminar",
+    "Evitar todos los pinchos y peligros eléctricos",
+    "Completar el nivel por debajo del tiempo de par",
+    "Desbloquear el aspecto de personaje oculto (si aplica)"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Settings} title="Consejos de supervivencia para niveles difíciles">
+
+A medida que progreses por los diferentes mundos, te encontrarás con peligros como sierras móviles, plataformas que se desmoronan e hielo resbaladizo. El éxito en estas áreas requiere más que un simple balanceo básico; requiere conciencia ambiental.
+
+Una de las características más importantes es el tirón de "Asistencia". Si un compañero se cae o se queda atascado, los jugadores que están en la meta a veces pueden activar una cuerda o un mecanismo de tracción para ayudar a traer al rezagado a casa. Usa estas herramientas siempre que estén disponibles para evitar reinicios innecesarios.
+
+| Tipo de peligro | Efecto en el jugador | Mejor contraestrategia |
+| :--- | :--- | :--- |
+| **Pinchos** | Muerte instantánea/Reinicio | Movimientos lentos y deliberados; sin balanceos bruscos |
+| **Rayos eléctricos** | Parálisis temporal | Movimiento basado en la sincronización; esperar al ciclo |
+| **Sierras móviles** | Muerte instantánea | Predecir la trayectoria y balancearse durante los huecos |
+| **Superficies de hielo** | Cero fricción/agarre | Usar los cuerpos de los compañeros como anclas |
+| **Corrientes de viento** | Empuja al personaje | Inclinarse hacia el viento para mantener la posición |
+
+<Callout type="warning" title="Penalización por muerte">
+En la mayoría de los modos, si un jugador muere, todo el equipo se reinicia al último punto de control. Trata la vida de tus compañeros como si fuera la tuya.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Puedo jugar a Heave Ho 2 en solitario?",
+    answer: "Sí, puedes jugar en solitario, pero los niveles están diseñados específicamente para la física cooperativa. Algunos acertijos serán significativamente más difíciles de resolver solo, ya que no tendrás compañeros para formar cadenas."
+  },
+  {
+    question: "¿Cómo desbloqueo más trajes en la guía para principiantes de Heave Ho 2?",
+    answer: "Desbloqueas trajes gastando las monedas que recoges en los niveles en la 'Máquina' que se encuentra en el menú principal. Cada tirada cuesta una cantidad fija de fichas."
+  },
+  {
+    question: "¿Cuál es la mejor manera de cruzar una brecha enorme?",
+    answer: "La mejor manera es formar una cadena humana. El ancla se sujeta a la plataforma de inicio y el resto de los jugadores se balancean. El último jugador de la cadena se suelta y se agarra al destino, para luego arrastrar al resto del equipo."
+  },
+  {
+    question: "¿Qué pasa si pierdo la moneda fuera del mapa?",
+    answer: "En la mayoría de los niveles, la moneda volverá a aparecer en su ubicación original si cae al abismo, lo que te permite intentarlo de nuevo siempre que no hayas terminado el nivel."
+  }
+]} />
+
+</Section>

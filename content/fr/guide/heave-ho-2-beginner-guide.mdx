@@ -1,0 +1,191 @@
+import { Hand, Move, Users, Gem, Settings, Target, Zap, Shield } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guide du débutant Heave Ho 2 : Maîtriser la physique et les tactiques en coop",
+  description: "Maîtrisez la physique chaotique de Heave Ho 2 avec notre guide du débutant. Apprenez les techniques de mouvement essentielles, les stratégies de chaîne en coop et comment collecter chaque pièce.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/3b82f6/fff?text=Heave+Ho+2+Beginner+Guide",
+  date: "2026-07-18",
+  author: "Équipe du Wiki Heave Ho 2",
+  keywords: "Heave Ho 2, guide débutant, physique, coop, multijoueur, astuces"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Guide du débutant Heave Ho 2** : Ce jeu de plateforme basé sur la physique nécessite un contrôle précis de chaque membre et de l'élan.
+- **Mécanique de base** : Utilisez les gâchettes gauche et droite pour saisir des surfaces ou des coéquipiers ; **ne lâchez jamais** à moins d'avoir un point de chute.
+- **Physique du balancement** : L'élan est généré en faisant tourner le stick analogique tout en se tenant à un point fixe ou à un ami.
+- **Travail d'équipe** : La communication est vitale car les chaînes de joueurs peuvent franchir des fossés massifs impossibles à traverser en solo.
+- **Objets de collection** : Les pièces sont souvent placées dans des zones à haut risque et nécessitent un \"porteur\" désigné pour atteindre l'objectif.
+</Callout>
+
+<Section icon={Hand} title="Bases mécaniques et commandes">
+
+Bienvenue dans le monde du chaos basé sur la physique. Dans ce **guide du débutant Heave Ho 2**, nous détaillons les commandes fondamentales qui déterminent si vous planez comme un aigle ou tombez comme une patate. Le jeu utilise un système de contrôle d'une simplicité trompeuse où votre attention principale se porte sur deux boutons : les gâchettes gauche et droite (ou bumpers), qui correspondent aux mains gauche et droite de votre personnage.
+
+Apprendre à coordonner ces mains de manière indépendante est le premier obstacle majeur pour les nouveaux joueurs. Contrairement aux jeux de plateforme standard, votre mouvement est entièrement dicté par l'endroit où vous vous accrochez et la manière dont vous balancez le poids de votre corps.
+
+| Commande | Action effectuée | Meilleur cas d'utilisation |
+| :--- | :--- | :--- |
+| **Gâchette gauche (L2/LT)** | Saisit avec la main gauche | Se tenir aux murs, aux sols ou aux coéquipiers |
+| **Gâchette droite (R2/RT)** | Saisit avec la main droite | Stabiliser votre position ou tendre le bras |
+| **Stick analogique gauche** | Faire pivoter le corps | Générer de l'élan et viser les balancements |
+| **Doubles gâchettes** | Saisie à deux mains | Stabilité maximale sur les plateformes étroites |
+| **Stick + Relâcher** | Lancement/Lancer | Franchir de grands écarts ou atteindre l'objectif |
+
+<Callout type="info" title="Astuce de stabilité">
+Lorsque vous êtes suspendu à un coéquipier, essayez d'utiliser **vos deux mains** dès que possible. Cela empêche votre personnage de tourner de manière incontrôlée et facilite la visée pour la personne au-dessus de vous.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Mouvement individuel">
+    - **Escalade murale** : Alterner les mains pour grimper sur des surfaces verticales.
+    - **Ramper au sol** : Faire glisser son corps sur un sol plat en utilisant des saisies rapides.
+    - **Auto-balancement** : Utiliser une seule main pour pivoter autour d'un angle.
+  </Card>
+  <Card title="Coordination d'équipe">
+    - **Chaînes humaines** : Se tenir la main pour atteindre des plateformes éloignées.
+    - **Le pendule** : Balancer le joueur du bas pour gagner une hauteur massive.
+    - **Le lancer** : Relâcher un coéquipier au sommet d'un balancement pour gagner de la distance.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Move} title="Maîtriser l'élan et la physique du balancement">
+
+Le cœur de la stratégie de ce **guide du débutant Heave Ho 2** tourne autour de l'élan. Vous êtes essentiellement un poids au bout d'une corde. Pour vous déplacer efficacement, vous devez comprendre comment la gravité et la force centrifuge interagissent avec la physique de \"patate\" de votre personnage.
+
+Lorsque vous êtes suspendu par une seule main, votre personnage pendra naturellement. En déplaçant le stick analogique dans un mouvement circulaire, vous pouvez faire pivoter votre corps. Une fois que vous avez pris assez de vitesse, relâcher le bouton de saisie à la position \"12 heures\" ou \"2 heures\" (selon votre cible) vous propulsera dans les airs.
+
+| Étape du balancement | Action du joueur | Physique résultante |
+| :--- | :--- | :--- |
+| **Suspension initiale** | Maintenir une gâchette | Suspension statique avec un léger balancement |
+| **Échauffement** | Faire pivoter le stick rapidement | Accumulation de force centrifuge et de vitesse |
+| **Arc maximal** | Identifier l'angle de lancement | Énergie potentielle maximale pour le saut |
+| **Relâchement** | Lâcher la gâchette | Conversion de l'élan en vol |
+| **Atterrissage** | Préparer la main opposée | Saisie immédiate pour éviter de tomber |
+
+<Callout type="warning" title="Avertissement sur l'élan">
+Une rotation excessive peut entraîner un \"étourdissement\" où votre personnage devient plus difficile à contrôler pendant une brève seconde. Visez des rotations fluides et régulières plutôt qu'un tournoiement frénétique du stick.
+</Callout>
+
+<Steps>
+  <Step num="1" title="La saisie d'ancrage">
+    Fixez-vous à une surface solide avec votre main la plus forte (généralement celle qui est la plus proche de la direction où vous voulez aller).
+  </Step>
+  <Step num="2" title="La montée en puissance">
+    Faites pivoter le stick analogique dans la direction du balancement. Si vous balancez vers la droite, tournez dans le sens des aiguilles d'une montre ; si vous balancez vers la gauche, tournez dans le sens inverse.
+  </Step>
+  <Step num="3" title="Le point de relâchement">
+    Relâchez la gâchette lorsque le corps de votre personnage pointe légèrement au-dessus de votre cible prévue. La physique provoquera une légère baisse de votre trajectoire.
+  </Step>
+  <Step num="4" title="La réception">
+    À l'approche de la nouvelle plateforme, maintenez les deux gâchettes. Cela garantit que la première main qui entre en contact s'accrochera immédiatement.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Users} title="Stratégies avancées de chaîne en coop">
+
+Heave Ho 2 est conçu pour le jeu coopératif. Bien que le jeu en solo soit possible, il brille vraiment lorsque 2 à 4 joueurs travaillent ensemble pour résoudre des énigmes environnementales. La \"Chaîne Humaine\" est le mouvement le plus emblématique du jeu et est essentielle pour terminer les niveaux ultérieurs plus complexes.
+
+Dans une chaîne, le joueur du haut agit comme l'\"Ancre\", tandis que le joueur du bas agit comme le \"Voltigeur\". Les joueurs intermédiaires sont les \"Liens\". Chaque rôle a des responsabilités spécifiques pour s'assurer que tout le groupe ne s'écrase pas dans l'abîme.
+
+| Rôle dans la chaîne | Responsabilité principale | Compétence critique |
+| :--- | :--- | :--- |
+| **Ancre** | Rester attaché au mur | Grande discipline de saisie et patience |
+| **Lien** | Maintenir la connexion | Tenir les deux mains des coéquipiers |
+| **Voltigeur** | Générer de l'élan | Timing précis pour le relâchement final |
+| **Porteur** | Tenir la pièce du niveau | Gérer les saisies à une main tout en se balançant |
+
+<Callout type="tip" title="Stratégie de pro">
+Si une chaîne commence à trop osciller, l'Ancre doit s'arrêter complètement de bouger. Laissez la physique se stabiliser avant de tenter le prochain balancement. La communication est plus rapide que la simple réaction aux indices visuels.
+</Callout>
+
+**Mesures d'efficacité de la chaîne :**
+- **Chaîne à 2 joueurs** : Idéale pour la précision et les écarts étroits. Élan faible mais contrôle élevé.
+- **Chaîne à 3 joueurs** : Le \"juste milieu\". Excellent pour la plupart des fossés et offre assez de poids pour des balancements puissants.
+- **Chaîne à 4 joueurs** : Portée maximale mais extrêmement chaotique. Nécessite une Ancre très solide pour supporter le poids combiné.
+
+</Section>
+
+<Section icon={Gem} title="Pièces, objets de collection et personnalisation">
+
+Chaque niveau de Heave Ho 2 comporte une pièce d'or. Les collecter est le principal moyen de débloquer de nouveaux skins, chapeaux et voix de personnages. Cependant, la pièce ajoute une couche de difficulté significative car elle occupe l'une de vos mains.
+
+Lorsque vous ramassez une pièce, vous ne pouvez utiliser que votre main restante pour saisir des surfaces ou des coéquipiers. Cela rend l'escalade et le balancement nettement plus dangereux.
+
+| Objet de collection | Modificateur de difficulté | Type de récompense |
+| :--- | :--- | :--- |
+| **Pièce standard** | +50% de difficulté | 1 jeton pour la machine à Gacha |
+| **Jetons cachés** | +75% de difficulté | Déblocage de costumes rares |
+| **Étoiles de contre-la-montre** | Haute vitesse requise | Emblèmes de prestige |
+| **Skins secrets** | Énigmes environnementales | Modèles de personnages uniques |
+
+<Callout type="success" title="Astuce pour les pièces">
+Vous pouvez vous \"passer\" la pièce entre joueurs. Si le porteur actuel est en difficulté, demandez à un coéquipier de prendre la pièce directement de sa main. Cela permet à l'équipe de faire tourner la charge du transport.
+</Callout>
+
+<Checklist
+  id="completion-goals"
+  title="Liste de contrôle pour terminer un niveau :"
+  items={[
+    "Atteindre le drapeau d'arrivée avec tous les joueurs en vie",
+    "Collecter la pièce d'or avant de finir",
+    "Éviter toutes les pointes et les dangers électriques",
+    "Terminer le niveau sous le temps imparti",
+    "Débloquer le skin de personnage caché (le cas échéant)"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Settings} title="Conseils de survie pour les niveaux difficiles">
+
+À mesure que vous progressez dans les différents mondes, vous rencontrerez des dangers tels que des scies mobiles, des plateformes qui s'effondrent et de la glace glissante. Le succès dans ces zones nécessite plus qu'un simple balancement de base ; il nécessite une conscience de l'environnement.
+
+L'une des fonctionnalités les plus importantes est l'\"Aide\" à la traction. Si un coéquipier tombe ou reste coincé, les joueurs à l'arrivée peuvent parfois déclencher une corde ou un mécanisme de traction pour aider le traînard à rentrer. Utilisez ces outils dès qu'ils sont disponibles pour éviter les redémarrages inutiles.
+
+| Type de danger | Effet sur le joueur | Meilleure contre-stratégie |
+| :--- | :--- | :--- |
+| **Pointes** | Mort instantanée/Reset | Mouvements lents et délibérés ; pas de balancements sauvages |
+| **Rayons électriques** | Paralysie temporaire | Mouvement basé sur le timing ; attendre la fin du cycle |
+| **Scies mobiles** | Mort instantanée | Prédire la trajectoire et se balancer pendant les ouvertures |
+| **Surfaces glacées** | Zéro friction/adhérence | Utiliser le corps des coéquipiers comme ancres |
+| **Courants de vent** | Pousse le personnage | Se pencher contre le vent pour maintenir sa position |
+
+<Callout type="warning" title="Pénalité de mort">
+Dans la plupart des modes, si un joueur meurt, toute l'équipe revient au dernier point de contrôle. Traitez la vie de vos coéquipiers comme la vôtre.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Puis-je jouer à Heave Ho 2 en solo ?",
+    answer: "Oui, vous pouvez jouer en solo, mais les niveaux sont spécifiquement conçus pour la physique coopérative. Certaines énigmes seront nettement plus difficiles seul car vous n'aurez pas de coéquipiers pour former des chaînes."
+  },
+  {
+    question: "Comment débloquer plus de costumes dans Heave Ho 2 ?",
+    answer: "Vous débloquez des costumes en dépensant les pièces collectées dans les niveaux à la 'Machine' située dans le menu principal. Chaque tirage coûte un certain nombre de jetons."
+  },
+  {
+    question: "Quel est le meilleur moyen de franchir un fossé massif ?",
+    answer: "Le meilleur moyen est de former une chaîne humaine. L'ancre tient la plateforme de départ, et le reste des joueurs se balance. Le dernier joueur de la chaîne lâche prise et saisit la destination, puis tire le reste de l'équipe."
+  },
+  {
+    question: "Que se passe-t-il si je perds la pièce hors de la carte ?",
+    answer: "Dans la plupart des niveaux, la pièce réapparaîtra à son emplacement d'origine si elle tombe dans l'abîme, vous permettant de réessayer tant que vous n'avez pas terminé le niveau."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Heave Ho 2 Todos los Niveles: Guía para Cada Mundo Cooperativo",
+  description: "Guía completa de los 72 niveles cooperativos en Heave Ho 2. Domina ocho mundos temáticos, desbloquea a todos los personajes y completa cada desafío con nuestros consejos expertos.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/e63946/fff?text=Heave+Ho+2+Level+Guide",
+  date: "2026-07-18",
+  author: "Equipo de Wiki de Heave Ho 2",
+  keywords: "Heave Ho 2 niveles, guía cooperativa, walkthrough, mundos de Heave Ho 2"
+}
+
+<Callout type="info" title="Guía Rápida">
+- La cobertura de **todos los niveles de Heave Ho 2** incluye 72 etapas cooperativas distribuidas en ocho mundos temáticos distintos.
+- El **movimiento basado en la física** es la mecánica principal; los jugadores deben agarrar, balancearse y lanzarse para llegar a la meta.
+- La **coordinación de equipo** es esencial, ya que muchos niveles requieren formar cadenas humanas o transportar objetos como llaves e ingredientes.
+- Los **objetos de apoyo desbloqueables**, como la Piedra Ima (Ima Rock) y el Espray de Brazo (Arm Spray), ayudan a los equipos a superar brechas particularmente difíciles.
+- Los **objetivos de finalización** implican rejugar niveles para superar cronómetros, encontrar manos misteriosas y coleccionables ocultos para alcanzar el 100%.
+</Callout>
+
+<Section icon={Trophy} title="Heave Ho 2 Todos los Niveles: Resumen de la Campaña">
+
+Heave Ho 2 se lanzó oficialmente el 16 de julio de 2026, aportando una expansión caótica y cargada de física a la querida franquicia cooperativa. El juego presenta una campaña masiva que consta de 72 niveles cooperativos distribuidos en ocho mundos únicos. Cada mundo introduce peligros ambientales específicos y acertijos mecánicos que requieren que un grupo de 2 a 4 jugadores trabaje en perfecta (o perfectamente desastrosa) armonía. Ya sea que juegues en PC, Nintendo Switch o la nueva Nintendo Switch 2, dominar cada etapa requiere paciencia y un agarre firme.
+
+| Nombre del Mundo | Niveles Totales | Tema Principal | Mecánica Clave |
+| :--- | :--- | :--- | :--- |
+| **Vuelo Alto** | 9 Niveles | Montañas Heladas | Telesillas y góndolas |
+| **Misterios de la Mansión** | 9 Niveles | Mansión Encantada | Puzzles de llaves y cerraduras |
+| **Escuadrón Espacial** | 9 Niveles | Espacio Exterior | Gravedad cero y naves espaciales |
+| **Órdenes del Chef** | 9 Niveles | Cocina Gigante | Transportar ingredientes pesados |
+| **Naufragio** | 9 Niveles | Islas Tropicales | Peligros de agua y cuerdas |
+| **Transfolab** | 9 Niveles | Laboratorio de Ciencias | Dispositivos interactivos de precisión |
+| **Espectáculo en Cascada** | 9 Niveles | Escenario de Alto Riesgo | Plataformas móviles y láseres |
+| **Viajes Medievales** | 9 Niveles | Reino del Castillo | Transportar el trono del Rey |
+
+<Callout type="tip" title="Estrategia de Anclaje">
+En cada nivel, designa a un jugador como el "Ancla Permanente". Este jugador rara vez debe soltar su agarre de una superficie sólida, sirviendo como red de seguridad para el resto del equipo durante los balanceos arriesgados.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Modo Cooperativo">
+    - Soporte para **2–4 jugadores**
+    - Enfoque en pantalla compartida
+    - Prioridad en la supervivencia
+  </Card>
+  <Card title="Modo Versus">
+    - **56 niveles aleatorios**
+    - Carreras competitivas
+    - Física de ritmo rápido
+  </Card>
+  <Card title="Conjuntos de Desafíos">
+    - **Objetivos opcionales**
+    - Cronómetros y Reliquias
+    - Skins desbloqueables
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Map} title="Guías Detalladas de Mundos y Mecánicas">
+
+Navegar por **todos los niveles de Heave Ho 2** requiere comprender la personalidad distintiva de cada mundo. El juego no solo aumenta la dificultad mediante saltos más ajustados; añade capas de complejidad al obligar a los jugadores a interactuar con el entorno de nuevas maneras. Por ejemplo, en "Misterios de la Mansión", no basta con llegar al final; debes encontrar una llave física escondida en el nivel y transportarla de forma segura hasta la salida. Esto cambia la dinámica del equipo, ya que el jugador que sostiene la llave solo tiene una mano disponible para agarrarse.
+
+| Mundo | Peligro Primario | Requisito de Equipo | Calificación de Dificultad |
+| :--- | :--- | :--- | :--- |
+| **Vuelo Alto** | Elevadores Móviles | Sincronizar soltadas | ★★☆☆☆ |
+| **Escuadrón Espacial** | Sin Gravedad | Control de impulso | ★★★★☆ |
+| **Órdenes del Chef** | Objetos Voluminosos | Levantamiento equilibrado | ★★★☆☆ |
+| **Viajes Medievales** | Trono Inestable | Tracción sincronizada | ★★★★★ |
+
+En "Escuadrón Espacial", el motor de física cambia para adaptarse a la gravedad cero. El balanceo tradicional es reemplazado por mecánicas de "empuje". Si tu equipo suelta el agarre simultáneamente sin una trayectoria, flotarán a la deriva sin rumbo. La coordinación aquí es mayor que en cualquier otro mundo, lo que lo convierte en un obstáculo frecuente para grupos casuales.
+
+<Callout type="warning" title="Física de Objetos">
+Al transportar objetos como el trono del Rey o ingredientes gigantes de hamburguesas, el peso del artículo afecta tu velocidad de balanceo. No intentes dar "vueltas completas" mientras sostienes objetos pesados, ya que es probable que pierdas el agarre.
+</Callout>
+
+En el mundo final, "Viajes Medievales", la dificultad alcanza su punto máximo con los niveles de transporte del trono. Debes mantener al Rey erguido mientras cruzas brechas. Si el trono se vuelca, el nivel se reinicia. Esto requiere que al menos dos jugadores sostengan la base del trono mientras un tercer jugador actúa como "líder de balanceo" para encontrar el siguiente punto de anclaje.
+
+</Section>
+
+<Section icon={Target} title="Dominando la Técnica de la Cadena Humana">
+
+Para superar las secciones más difíciles de **todos los niveles de Heave Ho 2**, debes dominar el arte de la cadena humana. Esta es la estrategia fundamental para cruzar brechas que son más anchas que el alcance de un solo personaje. Una cadena exitosa es un puente viviente que requiere comunicación constante.
+
+<Steps>
+  <Step num="1" title="Establecer el Ancla">
+    El jugador más fuerte se agarra a una superficie sólida y fija con ambas manos. Este jugador no debe soltarse hasta que el frente de la cadena haya asegurado una nueva posición.
+  </Step>
+  <Step num="2" title="Formar el Eslabón">
+    El segundo jugador agarra los pies o las manos del ancla. Los jugadores siguientes se unen entre sí, extendiendo la cadena hacia la plataforma objetivo.
+  </Step>
+  <Step num="3" title="Generar Impulso">
+    Los jugadores en el medio y al frente de la cadena rotan sus cuerpos con un ritmo sincronizado. Usa la señal verbal "1-2-3-¡Ya!" para maximizar el arco.
+  </Step>
+  <Step num="4" title="El Lanzamiento y Captura">
+    En el punto máximo del balanceo, el jugador guía extiende una mano libre hacia el objetivo. Una vez que se agarra a la nueva superficie, el ancla trasera puede soltarse y balancearse hacia adelante para unirse al grupo.
+  </Step>
+</Steps>
+
+<Callout type="success" title="La Comunicación es Clave">
+Usa comandos simples de una sola palabra como "Sujeta", "Gira" y "Suelta". En la versión de Nintendo Switch 2, se recomienda encarecidamente usar el GameChat para el juego remoto para asegurar que el tiempo esté sincronizado.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Desbloqueables y Desafíos de Nivel Opcionales">
+
+Simplemente llegar a la línea de meta es solo el comienzo. Para lograr el 100% de finalización en **todos los niveles de Heave Ho 2**, los jugadores deben participar en el sistema de objetivos secundarios. Estos objetivos se rastrean a través de los Logros de Steam y los menús de recompensas del juego. Completar estos desafíos desbloquea artículos cosméticos y equipo de apoyo que hace que los niveles posteriores sean más manejables.
+
+| Tipo de Objetivo | Descripción | Tipo de Recompensa |
+| :--- | :--- | :--- |
+| **Desafíos de Cronómetro** | Superar el tiempo par | Prestigio / Medallas |
+| **Manos Misteriosas** | Encontrar manos ocultas | Skins de Personaje |
+| **Colección de Reliquias** | Recuperar objetos antiguos | Progreso del Museo |
+| **Sesiones de Fotos** | Tomar fotos específicas | Cajas de Regalo |
+| **Coronación** | Alcanzar la corona | Cascos Especiales |
+
+<Callout type="info" title="Objetos de Apoyo">
+Si tienes dificultades con un nivel específico, consulta tu menú de "Desbloqueables". Objetos como la **Piedra Ima** (que te congela en el aire) o el **Espray de Brazo** (que extiende tu alcance) pueden equiparse para proporcionar una ventaja significativa en la campaña.
+</Callout>
+
+El juego presenta skins de colaboración de otros títulos de Devolver Digital. Al completar hitos específicos de "Adicto a los Regalos", puedes desbloquear personajes de *Among Us*, *Cult of the Lamb* y *DAVE THE DIVER*. Estos son puramente cosméticos, pero añaden una capa de diversión a la física caótica.
+
+</Section>
+
+<Section icon={Shield} title="Características de la Plataforma y Requisitos del Sistema">
+
+Heave Ho 2 está optimizado para una variedad de configuraciones de hardware. Aunque el juego parece simple, los cálculos de física para cuatro jugadores y objetos interactivos pueden ser exigentes en sistemas más antiguos. La versión de Nintendo Switch 2 ofrece una función única de "GameShare", que permite a un propietario compartir el juego con hasta otros tres jugadores locales o en línea.
+
+| Componente | Mínimo (1080p/60 Bajo) | Recomendado (1080p/60 Alto) |
+| :--- | :--- | :--- |
+| **SO** | Windows 10 x64 | Windows 11 x64 |
+| **CPU** | Intel i5-4670K / AMD FX-8350 | Intel i7-6950X / Ryzen 7 2700 |
+| **RAM** | 8 GB | 8 GB |
+| **GPU** | GTX 760 / Radeon R9 270X | GTX 1080 / Radeon RX Vega 56 |
+| **Almacenamiento** | 4 GB disponibles | 4 GB disponibles |
+
+<Callout type="warning" title="Configuración del Mando">
+Heave Ho 2 se juega mejor con un mando. Aunque existe soporte para teclado, la precisión analógica necesaria para balancearse hace que un gamepad sea casi obligatorio para los niveles de nivel superior.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Lista de Verificación de Finalización y Preguntas Frecuentes">
+
+Antes de considerar el juego como "terminado", usa la siguiente lista de verificación para asegurarte de que no te has saltado ningún hito importante en la campaña.
+
+<Checklist
+  id="heave-ho-2-completion"
+  title="Hitos de la Campaña:"
+  items={[
+    "Completar los 9 niveles en Vuelo Alto",
+    "Desbloquear la nave espacial de 'Escuadrón Espacial'",
+    "Transportar con éxito al Rey en Viajes Medievales",
+    "Coleccionar los 21 Logros de Steam",
+    "Desbloquear la skin de colaboración de Among Us",
+    "Superar los cronómetros de los 72 niveles cooperativos"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "¿Cuántos niveles hay en Heave Ho 2?",
+    answer: "Hay 72 niveles de campaña cooperativa repartidos en ocho mundos, además de 56 niveles aleatorios para el modo competitivo Versus."
+  },
+  {
+    question: "¿Puedo jugar todos los niveles de Heave Ho 2 en solitario?",
+    answer: "Aunque el juego está diseñado para el modo cooperativo, técnicamente puedes jugar solo controlando dos manos simultáneamente, pero es significativamente más difícil y carece de las mecánicas de cadena humana."
+  },
+  {
+    question: "¿Cuál es el mejor mundo para empezar para principiantes?",
+    answer: "Vuelo Alto es el mundo de inicio previsto. Introduce mecánicas básicas de balanceo y plataformas móviles sin los peligros de alto riesgo que se encuentran en mundos posteriores como Transfolab."
+  },
+  {
+    question: "¿Cómo desbloqueo nuevos personajes en Heave Ho 2?",
+    answer: "Los personajes se desbloquean completando objetivos opcionales como encontrar Manos Misteriosas, superar desafíos de cronómetro y abrir Cajas de Regalo obtenidas durante el juego."
+  }
+]} />
+
+<Callout type="tip" title="Consejo Final">
+Si tu equipo se queda atascado en un nivel por más de 10 minutos, el juego puede ofrecer la asistencia del "Dron Gato". No temas usarlo para progresar, ya que siempre puedes volver más tarde para completar el nivel correctamente una vez que tengas mejor equipo.
+</Callout>
+
+</Section>

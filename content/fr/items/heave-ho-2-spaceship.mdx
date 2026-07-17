@@ -1,0 +1,182 @@
+import { Map, Target, Swords, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Vaisseau spatial Heave Ho 2 : Guide de pilotage coopératif & astuces",
+  description: "Maîtrisez le vaisseau spatial de Heave Ho 2 dans le Monde 3 : Escouade spatiale. Apprenez les commandes de pilotage en coop, les stratégies en apesanteur et débloquez des succès cachés.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Spaceship+Co-op+Guide",
+  date: "2026-07-18",
+  author: "Équipe du Wiki Heave Ho 2"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Objectif principal** : Coordonner les poussées des propulseurs pour naviguer dans les niveaux en apesanteur du Monde 3.
+- **Mécanique clé** : Apprivoiser la physique de l'apesanteur où chaque saisie et relâchement modifie la trajectoire de l'équipe.
+- **Meilleure stratégie** : Attribuer des rôles dédiés pour diriger et stabiliser le **vaisseau spatial de Heave Ho 2** avant le lancement.
+- **Conseil crucial** : Utiliser des objets de soutien déblocables comme la "Ima Rock" pour créer des points d'ancrage en plein vol.
+- **Meilleur choix** : Jouer avec une équipe complète de quatre joueurs pour maximiser votre portée et votre contrôle lors des manœuvres serrées.
+</Callout>
+
+<Section icon={Map} title="Présentation du monde : Escouade spatiale">
+
+Heave Ho 2 est sorti le 16 juillet 2026, apportant un tout nouveau niveau de jeu coopératif chaotique basé sur la physique sur PC, Nintendo Switch et Nintendo Switch 2. Parmi les huit mondes thématiques, le Monde 3, Escouade spatiale, propose aux joueurs le test ultime de coordination : naviguer dans des environnements en apesanteur et maîtriser le **vaisseau spatial de Heave Ho 2**. Ce monde change complètement les règles de déplacement traditionnelles en introduisant la physique de l'apesanteur, où chaque saisie, relâchement et balancement a une réaction profonde sur votre trajectoire.
+
+Dans cette aventure cosmique, les joueurs doivent collaborer pour traverser des parcours d'obstacles en apesanteur, esquiver des débris spatiaux en rotation et piloter une fusée commune. Contrairement aux premiers niveaux de la montagne ou du manoir, la gravité ne vous ramènera pas en sécurité vers le bas. À la place, un saut manqué signifie dériver indéfiniment dans le vide, à moins qu'un coéquipier ne puisse vous tendre une main secourable.
+
+| Type de niveau | Mécaniques de base | Objectif principal |
+| :--- | :--- | :--- |
+| Navigation en apesanteur | Dérive en apesanteur, saisies manuelles | Guider tous les joueurs en sécurité vers la zone de sortie |
+| Pilotage de vaisseau | Poussées coordonnées des propulseurs, direction | Piloter le véhicule de l'équipe à travers des passages étroits |
+| Obstacles mobiles | Débris en rotation, dangers laser | Chronométrer vos lancements pour contourner les lasers actifs |
+| Missions de sauvetage | Ancres manquantes, longues chaînes humaines | Se donner la main pour récupérer les joueurs à la dérive dans l'espace |
+
+Pour survivre à ces défis cosmiques, les joueurs doivent passer des mécanismes de balancement traditionnels à une propulsion basée sur l'élan. Chaque impulsion contre un mur vous propulse indéfiniment vers l'avant jusqu'à ce que vous saisissiez une autre surface ou qu'un coéquipier vous serve d'ancre.
+
+<Callout type="tip" title="Contrôle de la dérive en apesanteur">
+Dans les niveaux en apesanteur, l'inertie est votre plus grand défi. Évitez que tous les joueurs ne lâchent les points d'ancrage en même temps, sous peine de voir toute votre équipe dériver impuissante vers les dangers de l'espace profond. Gardez au moins un joueur ancré à un mur solide pendant que les autres explorent le chemin suivant.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Maîtriser le vaisseau spatial de Heave Ho 2 : Commandes coopératives">
+
+La pièce maîtresse du Monde 3 est la séquence de véhicule coopératif. Le **vaisseau spatial de Heave Ho 2** n'est pas contrôlé par un seul pilote ; il dispose plutôt de plusieurs poignées interactives qui nécessitent une manipulation physique de la part de toute l'équipe. Pour se déplacer, pivoter et diriger le vaisseau, les joueurs doivent saisir des leviers de propulseur spécifiques et faire tourner les bras de leur personnage de manière synchronisée. 
+
+Sans une communication claire, le vaisseau partira en vrille de manière incontrôlée, heurtant les obstacles et réinitialisant votre progression. Comprendre votre rôle à bord est la première étape vers un lancement réussi.
+
+| Rôle | Commande requise | Responsabilité principale |
+| :--- | :--- | :--- |
+| Pilote (Propulseur gauche) | Rotation du stick analogique + Gâchette gauche | Contrôle la poussée gauche et la rotation dans le sens inverse des aiguilles d'une montre |
+| Co-pilote (Propulseur droit) | Rotation du stick analogique + Gâchette droite | Contrôle la poussée droite et la rotation dans le sens des aiguilles d'une montre |
+| Stabilisateur | Saisies alternées des mains sur la coque | Maintient le vaisseau équilibré et empêche les rotations incontrôlées |
+| Navigateur | Mouvement libre, observation active | Saisit les clés ou les cibles pendant que le vaisseau est en mouvement |
+
+Pour réussir à naviguer dans les couloirs étroits de l'Escouade spatiale, suivez cette séquence de pilotage étape par étape.
+
+<Steps>
+  <Step num="1" title="Sécurisez vos poignées">
+    Chaque joueur doit s'accrocher à une poignée désignée sur le vaisseau spatial. Assurez-vous que les poignées des propulseurs gauche et droit soient occupées par vos joueurs les plus coordonnés.
+  </Step>
+  <Step num="2" title="Synchronisez la poussée">
+    Pour avancer en ligne droite, les pilotes gauche et droit doivent faire tourner leurs sticks analogiques à l'unisson. De petits cercles rythmés fonctionnent mieux que des mouvements désordonnés.
+  </Step>
+  <Step num="3" title="Exécutez des virages contrôlés">
+    Pour tourner à gauche, le pilote de droite doit appliquer de la poussée tandis que le pilote de gauche reste immobile. Inversez ce processus pour effectuer des virages précis vers la droite.
+  </Step>
+  <Step num="4" title="Amarrez et sortez en toute sécurité">
+    Une fois la plateforme d'atterrissage atteinte, les stabilisateurs doivent immédiatement tendre le bras et s'accrocher au décor. Ne lâchez pas vos poignées du vaisseau tant que celui-ci n'est pas entièrement ancré.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Défaut de coordination des propulseurs">
+Si les deux pilotes des propulseurs tirent dans des directions opposées sans communiquer, le vaisseau tournera rapidement sur lui-même. Désignez un leader vocal clair pour annoncer le timing de la poussée, comme "pousse à gauche" ou "les deux en avant", afin de maintenir une trajectoire stable.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Solution & stratégies pour l'Escouade spatiale">
+
+Les niveaux de la campagne de l'Escouade spatiale combinent des passages étroits, des barrières de lasers mobiles et des puits de gravité qui dévient votre vaisseau de sa trajectoire. Réussir à naviguer dans ces niveaux nécessite un mélange d'ancrage défensif et de transferts d'élan agressifs. 
+
+Lors du pilotage du vaisseau, l'environnement lui-même devient un danger. Percuter les murs ne détruira pas le vaisseau immédiatement, mais l'impact peut éjecter les joueurs de leurs poignées, les faisant dériver vers les dangers environnants.
+
+| Obstacle | Niveau de danger | Contre-stratégie |
+| :--- | :--- | :--- |
+| Débris mobiles | Moyen | Attendre que le cycle orbital se dégage avant de se lancer |
+| Barrières laser | Élevé | Assigner un stabilisateur pour maintenir l'ancrage pendant que les autres passent |
+| Passages étroits | Élevé | Réduire la vitesse des propulseurs et utiliser la direction à un seul bras |
+| Courants de vent en apesanteur | Moyen | Accumuler de l'élan dans la direction opposée avant de traverser |
+
+Pour aider les joueurs à surmonter ces défis, Heave Ho 2 propose plusieurs objets de soutien déblocables. Ces objets peuvent être sélectionnés avant d'entrer dans un niveau pour aider votre équipe lors des segments difficiles.
+
+<CardGrid cols={3}>
+  <Card title="Ima Rock">
+    - **Gel en plein vol** : Fige instantanément votre personnage en plein vol.
+    - **Utilité en coop** : Sert de plateforme temporaire et stable pour vos coéquipiers.
+    - **Stratégie spatiale** : Parfait pour stopper une dérive accidentelle en apesanteur.
+  </Card>
+  <Card title="Arm Spray">
+    - **Portée étendue** : Augmente temporairement la longueur de vos bras.
+    - **Utilité en coop** : Facilite grandement les saisies lointaines et le sauvetage des coéquipiers.
+    - **Stratégie spatiale** : Vital pour former des chaînes humaines à travers d'immenses vides en apesanteur.
+  </Card>
+  <Card title="Umbrella">
+    - **Contrôle de flottaison** : Permet de flotter lentement à la manière de Mary Poppins.
+    - **Utilité en coop** : Offre un contrôle plus précis sur les vitesses de descente et de dérive.
+    - **Stratégie spatiale** : Aide à stabiliser la trajectoire lors du lancement depuis le vaisseau.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Victoire en coop">
+Terminer l'aventure de l'Escouade spatiale débloque le succès Steam "Escouade spatiale" et fait progresser vos pistes de récompenses pour obtenir des skins de crossover exclusifs, y compris des cosmétiques d'Among Us.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Liste des succès et objets de collection">
+
+Pour les complétistes, le Monde 3 propose plusieurs défis optionnels. Ceux-ci incluent la recherche de mains mystérieuses cachées, la réalisation de poses de silhouette et le dépassement des chronomètres stricts fixés par les développeurs. Collecter ces récompenses vous rapproche du très convoité succès de complétion à 100 %.
+
+Comme les niveaux en apesanteur vous permettent de dériver dans n'importe quelle direction, l'exploration est grandement récompensée. Fouillez derrière les grands champs de débris et les zones hors écran pour dénicher des secrets cachés.
+
+| Type de collection | Emplacement du niveau | Condition de déblocage |
+| :--- | :--- | :--- |
+| Main mystérieuse | Niveau 3-2 | Regarder derrière les débris de panneaux solaires en rotation |
+| Silhouette cachée | Niveau 3-4 | Positionner trois joueurs à l'intérieur de l'ombre en forme d'étoile |
+| Défi de relique | Niveau 3-5 | Transporter le cristal spatial en sécurité jusqu'au piédestal doré |
+| Défi de temps | Tous les niveaux | Battre le temps de référence des développeurs lors d'une partie propre |
+
+Utilisez la liste ci-dessous pour suivre votre progression à travers les défis de l'Escouade spatiale.
+
+<Checklist
+  id="spacebound-goals"
+  title="Objectifs de complétion de l'Escouade spatiale :"
+  items={[
+    "Terminer tous les niveaux de la campagne du Monde 3",
+    "Trouver et saisir la main mystérieuse cachée dans le Niveau 3-2",
+    "Résoudre l'énigme de la silhouette cachée en forme d'étoile dans le Niveau 3-4",
+    "Réussir le défi de la relique du cristal spatial dans le Niveau 3-5",
+    "Battre le chronomètre cible sur au moins trois niveaux"
+  ]}
+/>
+
+<Callout type="info" title="Rappel pour les rejouabilités">
+N'essayez pas de récupérer la relique et de battre le chronomètre lors de votre première tentative. Concentrez-vous d'abord sur une complétion propre pour apprendre la disposition du niveau, puis utilisez la sélection de niveau individuelle pour récupérer les succès manquants.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ de l'Escouade spatiale">
+
+Pour vous aider à tirer le meilleur parti de votre voyage cosmique, voici les réponses aux questions les plus fréquemment posées par les joueurs dans le Monde 3.
+
+<FAQ items={[
+  {
+    question: "Comment contrôle-t-on le vaisseau spatial de Heave Ho 2 avec seulement deux joueurs ?",
+    answer: "À deux joueurs, un joueur doit prendre le contrôle du propulseur gauche tandis que l'autre gère le propulseur droit. La communication est essentielle, car vous devez tous deux synchroniser vos rotations pour avancer tout droit."
+  },
+  {
+    question: "Que se passe-t-il si un joueur dérive complètement hors de l'écran en apesanteur ?",
+    answer: "Si un joueur dérive trop loin et ne peut pas être atteint, il finira par éclater et réapparaître au dernier point de contrôle sécurisé ou à l'emplacement actuel du vaisseau spatial."
+  },
+  {
+    question: "Peut-on utiliser l'aide du Chat-Drone dans les niveaux de vaisseau spatial ?",
+    answer: "Oui. Si votre équipe est bloquée sur une séquence de vaisseau spécifique pendant un long moment, le Chat-Drone d'aide apparaîtra pour vous guider et tracter votre vaisseau au-delà de l'obstacle."
+  },
+  {
+    question: "Comment débloquer les skins de crossover dans le Monde 3 ?",
+    answer: "Les skins de crossover, y compris les personnages d'Among Us et de Kingdom Come: Deliverance II, se débloquent en remplissant des objectifs optionnels comme les silhouettes et en collectant des boîtes cadeaux."
+  }
+]} />
+
+<Callout type="tip" title="Aide du Chat-Drone">
+Si vous êtes bloqué sur une séquence de pilotage de vaisseau difficile, n'hésitez pas à laisser le jeu vous aider. Vous pourrez toujours revenir plus tard avec des stratégies mieux coordonnées pour décrocher vos médailles d'or.
+</Callout>
+
+</Section>

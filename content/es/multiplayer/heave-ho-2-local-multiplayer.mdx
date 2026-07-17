@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Monitor, Users } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Multijugador local de Heave Ho 2: Guía de configuración y estrategias cooperativas",
+  description: "Domina el multijugador local de Heave Ho 2 con nuestra guía sobre configuración, características de plataformas, 72 niveles cooperativos y técnicas avanzadas de balanceo basadas en físicas para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/e63946/fff?text=Local+Multiplayer+Guide",
+  date: "2026-07-18",
+  author: "Equipo de la Wiki de Heave Ho 2",
+  keywords: "heave ho 2, multijugador local, cooperativo, guía, configuración, estrategias"
+}
+
+<Callout type="info" title="Guía rápida">
+- El **multijugador local de Heave Ho 2** admite hasta cuatro jugadores en una sola pantalla en consolas PC y Nintendo Switch.
+- **Mecánica principal**: Controla dos manos de forma independiente usando los gatillos para agarrar, balancear y lanzar a tus compañeros de equipo a lo largo de 72 niveles cooperativos.
+- **Características de la plataforma**: Los usuarios de Nintendo Switch 2 pueden utilizar la nueva función GameShare para jugar con amigos que no tengan el juego.
+- **Modo Versus**: Más allá de la cooperación, el juego cuenta con 56 niveles de Enfrentamiento (Showdown) para un caos competitivo basado en la física.
+- **Desbloqueables**: Completa objetivos opcionales para conseguir aspectos de colaboración con títulos como *Among Us* y *Cult of the Lamb*.
+</Callout>
+
+<Section icon={Monitor} title="Disponibilidad en plataformas y rendimiento">
+
+Ya sea que reúnas a tus amigos en el sofá o te conectes a través de Steam, dominar el **multijugador local de Heave Ho 2** es la clave para sobrevivir a las caóticas físicas de la última obra maestra de Le Cartel Studio. Lanzado el 16 de julio de 2026, el juego ha ampliado su alcance para incluir soporte nativo para Nintendo Switch 2, ofreciendo opciones mejoradas de conectividad local. El juego tiene un precio competitivo de $9.99 en todas las tiendas digitales, lo que lo convierte en una opción accesible para cualquier colección de juegos de fiesta.
+
+Para los jugadores de PC, los requisitos de hardware siguen siendo modestos, lo que garantiza que incluso las laptops de gama media puedan albergar una sesión de cuatro jugadores sin caídas de fotogramas. Mantener unos 60 FPS estables es fundamental porque el momento de soltarse depende por completo del impulso visual.
+
+| Característica | PC Windows (Steam) | Nintendo Switch | Nintendo Switch 2 |
+| :--- | :--- | :--- | :--- |
+| **Máx. de jugadores locales** | 4 jugadores | 4 jugadores | 4 jugadores |
+| **Precio (USD)** | $9.99 | $9.99 | $9.99 |
+| **Almacenamiento requerido** | 4 GB | 2.4 GB | 2.4 GB |
+| **Función especial** | Remote Play Together | Portátil/Acoplado (Docked) | GameShare local |
+| **Objetivo de rendimiento** | 1080p / 60 FPS | 1080p (Acoplado) | 1080p / 60 FPS |
+
+<Callout type="tip" title="Consejo profesional">
+Si juegas en una laptop, asegúrate de estar conectado a una fuente de alimentación. Los cálculos basados en la física de *Heave Ho 2* pueden causar ligeros tirones en los modos de ahorro de batería, lo que a menudo provoca la eliminación accidental de todo el equipo.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Optimización de la configuración del multijugador local de Heave Ho 2">
+
+Configurar una sesión local es sencillo, pero la coordinación comienza incluso antes de pulsar el botón de inicio. El juego utiliza una perspectiva de pantalla compartida, lo que significa que todos los jugadores deben permanecer dentro de la misma vista de cámara. Esto requiere una mentalidad de "no dejar a ningún jugador atrás". En Nintendo Switch 2, la función GameShare permite que un propietario organice una sesión para hasta otras tres consolas cercanas, cerrando eficazmente la brecha entre el juego local en el sofá y el juego inalámbrico local.
+
+<Steps>
+  <Step num="1" title="Conectar mandos">
+    Asegúrate de que todos los gamepads estén sincronizados antes de iniciar el juego. En PC, se recomiendan los mandos XInput (Xbox) para un soporte nativo plug-and-play.
+  </Step>
+  <Step num="2" title="Seleccionar modo de juego">
+    Elige entre la Campaña (72 niveles) o el Enfrentamiento (56 niveles versus) desde el menú principal.
+  </Step>
+  <Step num="3" title="Personalización del personaje">
+    Cada jugador elige un color y un atuendo únicos. Aprovecha este momento para asignar "roles" (por ejemplo, el Ancla o el Balanceador).
+  </Step>
+  <Step num="4" title="Calibrar el agarre">
+    Entra en el área de tutorial para asegurarte de que todos los jugadores entiendan qué gatillo controla cada mano.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Conflicto de mandos">
+Evita mezclar Joy-Cons y mandos Pro en el hardware de la Switch antigua si notas retraso de entrada (input lag). Para disfrutar de la mejor experiencia, utiliza tipos de mando idénticos para los cuatro jugadores.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Dominando la física de la cooperación">
+
+El núcleo del **multijugador local de Heave Ho 2** radica en el control independiente de las manos de tu personaje. A diferencia de los plataformas tradicionales, aquí no hay botón de salto. Te mueves agarrándote a superficies y usando el peso de tu cuerpo para generar fuerza centrífuga. Esto requiere un alto nivel de comunicación verbal entre los jugadores locales.
+
+<CardGrid cols={2}>
+  <Card title="La estrategia del ancla">
+    Un jugador permanece firmemente sujeto a una plataforma segura mientras los demás forman una cadena. Este jugador es la red de seguridad y nunca debe soltarse hasta que la parte delantera de la cadena esté asegurada.
+  </Card>
+  <Card title="El látigo humano">
+    Al balancearse con un movimiento rítmico, el ancla puede hacer "latiguear" el extremo de la cadena a través de enormes vacíos. Sincronizar la liberación en el punto máximo del arco es esencial para obtener la máxima distancia.
+  </Card>
+  <Card title="Escalada mano sobre mano">
+    Para las secciones verticales, alterna tus agarres (Izquierda-Derecha-Izquierda) mientras giras la palanca analógica en un movimiento circular para escalar paredes de manera eficiente.
+  </Card>
+  <Card title="La maniobra de captura">
+    Si un compañero de equipo se cae, un jugador suelto puede extender un brazo para atraparlo en el aire. Esto requiere que el jugador que cae mantenga las manos abiertas y listas para agarrar.
+  </Card>
+</CardGrid>
+
+| Acción | Entrada del mando | Uso táctico |
+| :--- | :--- | :--- |
+| **Agarre izquierdo** | Gatillo L / ZL | Anclarse a superficies o compañeros de equipo |
+| **Agarre derecho** | Gatillo R / ZR | Alcanzar el siguiente punto de agarre |
+| **Rotar** | Palanca analógica izquierda | Acumular impulso para los balanceos |
+| **Soltar** | Soltar el gatillo | Lanzarte a ti mismo o a un compañero de equipo |
+| **Dron de asistencia** | Automático (tras fallar) | Evita huecos extremadamente difíciles |
+
+<Callout type="success" title="Técnica avanzada">
+Usa el objeto desbloqueable "Ima Rock" para congelar a tu personaje en el aire. Esto crea una plataforma temporal y estacionaria que tus compañeros de equipo pueden agarrar para reiniciar su impulso.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Guía de mundos y objetivos de la campaña">
+
+La campaña abarca ocho mundos temáticos, cada uno de los cuales introduce peligros ambientales únicos que desafiarán la coordinación de tu equipo. Desde las resbaladizas laderas de las montañas hasta el vacío de gravedad cero del espacio, tu grupo local tendrá que adaptar sus estrategias constantemente.
+
+| Nombre del mundo | Mecánica principal | Peligro principal |
+| :--- | :--- | :--- |
+| **Flying High** | Teleféricos y góndolas | Plataformas móviles y superficies heladas |
+| **Manor Mysteries** | Rompecabezas de llaves y cerraduras | Transportar objetos mientras se escala |
+| **Spacebound Squad** | Gravedad cero | Falta de fricción y pilotaje de naves espaciales |
+| **Chef's Orders** | Apilamiento de ingredientes | Objetos grandes y voluminosos (hamburguesas/platos) |
+| **Shipwrecked** | Travesía náutica | Balancearse entre mástiles y escombros |
+| **Medieval Travels** | Transporte del trono | Mantener al Rey erguido y a salvo |
+
+<Checklist
+  id="completion-goals"
+  title="Lista de verificación para completar mundos:"
+  items={[
+    "Llegar a la salida con todos los jugadores vivos",
+    "Encontrar y agarrar la Mano Misteriosa en cada nivel",
+    "Completar el Desafío de Tiempo para obtener medallas de oro",
+    "Localizar siluetas ocultas para desbloquear personajes",
+    "Recoger todas las reliquias en el mundo del Museo"
+  ]}
+/>
+
+<Callout type="info" title="Variedad de niveles">
+Con 72 niveles cooperativos, la curva de dificultad es pronunciada. Si tu grupo local se queda atascado en un escenario específico durante más de 10 minutos, el juego ofrecerá un "Dron Gato" para ayudar a llevar al equipo hasta la línea de meta.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Desbloqueables y contenido de colaboración">
+
+Uno de los aspectos más gratificantes del **multijugador local de Heave Ho 2** es su extenso sistema de personalización. Al completar objetivos opcionales y encontrar regalos ocultos, los jugadores pueden desbloquear una variedad de aspectos, incluidos crossovers de gran relevancia con otros éxitos de Devolver Digital. Estos aspectos son puramente cosméticos, pero añaden un toque de personalidad a tus caóticas sesiones.
+
+| Tipo de objeto | Cómo desbloquear | Ejemplos |
+| :--- | :--- | :--- |
+| **Aspectos de colaboración** | Encontrar siluetas ocultas | Among Us, Cult of the Lamb, Balatro |
+| **Equipo de apoyo** | Completar rutas de recompensa | Espray de brazo, Paraguas, Pistolas de juguete |
+| **Regalos** | Recoger regalos en el nivel | Sombreros, Gafas, Colores únicos |
+| **Logros** | Completar tareas específicas | "Adictor a los regalos", "Campeón del tiempo" |
+
+<Callout type="tip" title="Consejo de desbloqueo">
+El "Espray de brazo" es particularmente útil para el juego local, ya que amplía el alcance de tu personaje, lo que facilita enormemente salvar a un amigo que se cae o alcanzar una plataforma lejana que normalmente requeriría una cadena de cuatro personas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes: multijugador local de Heave Ho 2">
+
+<FAQ items={[
+  {
+    question: "¿Cuántos jugadores pueden jugar al multijugador local de Heave Ho 2?",
+    answer: "El juego admite de 2 a 4 jugadores en modo cooperativo local de sofá o en modos versus locales. No se recomienda jugar en solitario, ya que los rompecabezas están diseñados para el trabajo en equipo."
+  },
+  {
+    question: "¿Necesito varias copias del juego para jugar en local en Switch 2?",
+    answer: "No. Gracias a la función GameShare en Nintendo Switch 2, un propietario puede compartir el juego con hasta tres jugadores cercanos para una sesión local."
+  },
+  {
+    question: "¿Puedo jugar en multijugador local y con jugadores en línea al mismo tiempo?",
+    answer: "Sí, el juego admite el 'juego combinado' (combo play), donde dos jugadores locales pueden unirse a una sala en línea para jugar con otros dos amigos remotos."
+  },
+  {
+    question: "¿Cuál es la diferencia entre Cooperativo y Enfrentamiento?",
+    answer: "El modo Cooperativo se centra en los 72 niveles de la campaña donde todos deben llegar a la meta. Enfrentamiento (Showdown) es un modo competitivo con 56 niveles donde los jugadores compiten o luchan para ser el primero en ganar cinco rondas."
+  }
+]} />
+
+<Callout type="success" title="Veredicto final">
+*Heave Ho 2* sigue siendo el estándar de oro para los juegos de fiesta basados en la física en 2026. Ya sea que juegues por primera vez o busques completar el 100%, la experiencia multijugador local no tiene rival en su capacidad para generar risas y frustración amistosa.
+</Callout>
+
+</Section>
