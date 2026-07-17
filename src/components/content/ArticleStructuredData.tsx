@@ -13,7 +13,7 @@ export function ArticleStructuredData({
 	locale,
 	slug,
 }: ArticleStructuredDataProps) {
-	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.heaveho2.wiki'
 	const articleUrl =
 		locale === 'en'
 			? `${siteUrl}/${contentType}/${slug}`
@@ -54,11 +54,11 @@ export function ArticleStructuredData({
 		dateModified: ('lastModified' in frontmatter && frontmatter.lastModified) || frontmatter.date,
 		author: {
 			'@type': 'Organization',
-			name: 'Lucid Blocks Wiki Team',
+			name: 'Heave Ho 2 Wiki Team',
 		},
 		publisher: {
 			'@type': 'Organization',
-			name: 'Lucid Blocks Wiki',
+			name: 'Heave Ho 2 Wiki',
 			logo: {
 				'@type': 'ImageObject',
 				url: `${siteUrl}/images/hero.webp`,

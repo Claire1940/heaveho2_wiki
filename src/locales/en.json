@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Heave Ho 2 Wiki - Levels, Co-op & Unlockables",
+      "description": "Heave Ho 2 Wiki covers all 72 co-op levels, eight worlds, controls, online and local multiplayer, versus modes, unlockables, achievements, and updates.",
+      "keywords": "Heave Ho 2, Steam, Switch 2, co-op, levels, worlds, controls, unlockables, achievements",
+      "ogTitle": "Heave Ho 2 Wiki - Levels, Co-op & Unlockables",
+      "ogDescription": "Heave Ho 2 Wiki covers all 72 co-op levels, eight worlds, controls, online and local multiplayer, versus modes, unlockables, achievements, and updates.",
+      "twitterTitle": "Heave Ho 2 Wiki - Levels, Co-op & Unlockables",
+      "twitterDescription": "Heave Ho 2 Wiki covers all 72 co-op levels, eight worlds, controls, versus modes, unlockables, and updates."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
+    "badge": "Chaotic 2–4 Player Physics Co-op",
+    "title": "Heave Ho 2 Wiki",
+    "description": "Swing, grab, and launch friends through 72 co-op levels across eight themed worlds, with online and local play, versus challenges, unlockables, and chaotic physics.",
+    "getFreeCodesCTA": "View Guides",
     "playOnSteamCTA": "Play on Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "2–4",
+        "label": "Players"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "8",
+        "label": "Themed Worlds"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "72",
+        "label": "Co-op Levels"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "56",
+        "label": "Versus Levels"
       }
     }
   },
@@ -785,26 +785,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Play Heave Ho 2?",
+    "description": "Join the Heave Ho 2 community on Discord and Steam for co-op guides, level walkthroughs, versus tips, and update discussions!",
     "joinCommunity": "Join Discord",
     "joinGame": "Play on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Heave Ho 2 Wiki",
+    "description": "Your complete resource hub for Heave Ho 2 levels, worlds, co-op, versus modes, unlockables, and update guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
-    "twitter": "X / Twitter",
+    "twitter": "Reddit",
     "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "steamStore": "Play on Steam",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Heave Ho 2 Wiki. Not affiliated with Devolver Digital or Le Cartel Studio.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
