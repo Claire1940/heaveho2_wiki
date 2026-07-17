@@ -1,12 +1,12 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Heave Ho 2 Wiki - Levels, Co-op & Unlockables",
+  "short_name": "Heave Ho 2",
+  "description": "Heave Ho 2 Wiki covers all 72 co-op levels, eight worlds, controls, online and local multiplayer, versus modes, unlockables, achievements, and updates.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#ff0010",
+  "background_color": "#fdf6ec",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
