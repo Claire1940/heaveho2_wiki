@@ -52,728 +52,533 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Heave Ho 2 Gameplay",
+    "description": "Grab surfaces, form human chains, swing across gaps, and launch your friends toward the goal in a chaotic physics-based co-op party game for 2 to 4 players."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "title": "Heave Ho 2",
+    "titleHighlight": "Guides",
+    "subtitle": "Everything you need to play Heave Ho 2: release info, beginner basics, controls, multiplayer, world walkthroughs, items, achievements, and PC settings.",
     "cards": [
+      {
+        "icon": "Gamepad2",
+        "title": "Release & Platforms",
+        "description": "Release date, price, demos, and PC vs Switch differences"
+      },
       {
         "icon": "BookOpen",
         "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "description": "Grabbing, human chains, swinging, and recovery basics"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "Hand",
+        "title": "Controls & Swinging",
+        "description": "Hand inputs, momentum, throws, catches, and landings"
       },
       {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "icon": "Users",
+        "title": "Multiplayer & Co-op",
+        "description": "Online co-op, couch play, Showdown, and GameShare"
+      },
+      {
+        "icon": "Map",
+        "title": "World Walkthrough",
+        "description": "All eight themed worlds and their campaign stages"
       },
       {
         "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
+        "title": "Items & Unlocks",
+        "description": "Stage tools, support gear, gifts, and crossover skins"
       },
       {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
+        "icon": "Trophy",
+        "title": "Achievements",
+        "description": "All 21 Steam achievements and completion goals"
       },
       {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "Cpu",
+        "title": "System Requirements",
+        "description": "Minimum and recommended PC specs and settings"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+    "heaveHo2ReleaseDatePricePlatforms": {
+      "title": "Heave Ho 2 Release Date, Price and Platform Comparison",
+      "eyebrow": "Release Information",
+      "intro": "Heave Ho 2 launched on July 16, 2026 for Windows PC, Nintendo Switch, and Nintendo Switch 2. All three versions support local and online multiplayer for up to four players, while the native Nintendo Switch 2 edition adds local and online GameShare.",
+      "platforms": [
+        {
+          "name": "Windows PC",
+          "store": "Steam",
+          "releaseDate": "July 16, 2026",
+          "price": "$9.99",
+          "players": "2-4 players",
+          "demo": "Free Steam demo with local and online co-op for 2-4 players",
+          "highlights": [
+            "Steam Remote Play Together",
+            "Steam Achievements",
+            "Steam Cloud",
+            "Family Sharing"
+          ],
+          "storage": "4 GB available space",
+          "storeUrl": "https://store.steampowered.com/app/2802740/Heave_Ho_2/"
+        },
+        {
+          "name": "Nintendo Switch",
+          "store": "Nintendo eShop",
+          "releaseDate": "July 16, 2026",
+          "price": "$9.99",
+          "players": "Up to 4 players on one system or online",
+          "demo": "Free downloadable Nintendo eShop demo",
+          "highlights": [
+            "TV, tabletop, and handheld modes",
+            "Nintendo Switch Online play",
+            "Save Data Cloud",
+            "Plays consistently on Nintendo Switch 2"
+          ],
+          "storage": "2.4 GB file size",
+          "storeUrl": "https://www.nintendo.com/us/store/products/heave-ho-2-switch/"
+        },
+        {
+          "name": "Nintendo Switch 2",
+          "store": "Nintendo eShop",
+          "releaseDate": "July 16, 2026",
+          "price": "$9.99",
+          "players": "Up to 4 players on one system or online",
+          "demo": "Free downloadable Nintendo eShop demo",
+          "highlights": [
+            "Local GameShare",
+            "Online GameShare through GameChat",
+            "One owner shares with up to three players",
+            "Nintendo Switch Online play"
+          ],
+          "storage": "2.4 GB file size",
+          "storeUrl": "https://www.nintendo.com/us/store/products/heave-ho-2-switch-2/"
+        }
+      ],
+      "languageNote": "All versions support English, French, Italian, German, Spanish, Japanese, Korean, Brazilian Portuguese, Russian, Simplified Chinese, and Traditional Chinese."
+    },
+    "heaveHo2BeginnerGuide": {
+      "title": "Heave Ho 2 Beginner Guide",
+      "eyebrow": "Getting Started",
+      "intro": "Most campaign stages ask a team of 2-4 players to travel from the start to the finish by grabbing platforms, objects, and each other. Learn the basic loop of gripping, chaining, swinging, and recovering before tackling the eight themed worlds.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "Learn Your Two Hands",
+          "instruction": "Your character is a head with two independently controlled gripping hands. Practice holding a safe surface with one hand while reaching for the next grip with the other.",
+          "teamTip": "Call out left hand or right hand before releasing when another player depends on your grip."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Create a Reliable Anchor",
+          "instruction": "Before a long crossing, place one player on a secure platform and keep at least one of that player's hands attached to the environment.",
+          "teamTip": "The anchored player should move as little as possible while teammates reposition."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "Build a Human Chain",
+          "instruction": "Grab a teammate's hand, head, or body and extend the group outward from the anchor. Longer chains reach platforms a single player cannot.",
+          "teamTip": "Put the strongest anchor at the back and the player making the next grab at the front."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "title": "Generate Swinging Momentum",
+          "instruction": "Rotate the team in one direction, then reverse at the right moment to grow the swing. Use several controlled movements instead of one huge jump.",
+          "teamTip": "Have one player count the rhythm so everyone knows when to pull, extend, and release."
+        },
+        {
+          "title": "Release and Catch Safely",
+          "instruction": "The moving player should extend a free hand toward the target before the throw. Release only the connecting hand, then grip the destination as soon as it overlaps.",
+          "teamTip": "Keep the remaining chain stable until the thrown player confirms the new grip is secure."
+        },
+        {
+          "title": "Move the Team Forward",
+          "instruction": "Once the front player lands, they become the new anchor. Transfer teammates one at a time or swing the rest of the chain toward the new position.",
+          "teamTip": "Slow transfers are usually safer than launching the whole group across a hard gap at once."
+        },
+        {
+          "title": "Recover from Failed Jumps",
+          "instruction": "When a player misses, everyone still attached should stop swinging and preserve the anchor. Offer a free hand as a rescue point, or reset the short attempt if the chain falls.",
+          "teamTip": "After repeated failures, change the chain order or use unlocked support items such as extended arms."
         }
       ],
       "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
+        "Always keep at least one player anchored before the team swings.",
+        "Releasing near the fastest outward point of a swing converts rotation into distance.",
+        "Complete the main route first, then replay for timers, silhouettes, mysterious hands, and photos.",
+        "Use the cat drone assistance that appears after a long struggle to bypass stalled sections."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
+    "heaveHo2ControlsSwinging": {
+      "title": "Heave Ho 2 Controls and Swinging Techniques",
+      "eyebrow": "Controls and Movement",
+      "intro": "Heave Ho 2 has no traditional jump. Movement comes from rotating your arms and body, gripping with the correct hand, releasing at the right moment, and transferring momentum between surfaces and teammates.",
+      "controls": [
         {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
+          "action": "Move and Rotate",
+          "input": "Move the left analog stick",
+          "effect": "Rotates and directs the character's arms and body around the current grip point.",
+          "technique": "Use small circular movements near narrow platforms and larger sweeps when building momentum."
         },
         {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
+          "action": "Grip with Left Hand",
+          "input": "Hold the left grip button or trigger",
+          "effect": "Closes the left hand around a nearby surface, object, or teammate.",
+          "technique": "Keep the left hand attached as an anchor while searching for the next grip with the right."
         },
         {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
+          "action": "Grip with Right Hand",
+          "input": "Hold the right grip button or trigger",
+          "effect": "Closes the right hand around a nearby surface, object, or teammate.",
+          "technique": "Check the on-screen hand indicator before releasing during crowded human-chain sections."
         },
         {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
+          "action": "Release a Hand",
+          "input": "Release the matching grip button",
+          "effect": "Opens that hand while the other stays attached if its button is still held.",
+          "technique": "Release near the fastest outward point of a swing to convert rotation into distance."
+        },
+        {
+          "action": "Climb a Surface",
+          "input": "Alternate left and right grips while rotating upward",
+          "effect": "Moves the character hand-over-hand along walls, poles, and ledges.",
+          "technique": "Place the free hand above the anchored hand before releasing the lower grip."
+        },
+        {
+          "action": "Throw a Teammate",
+          "input": "Grip the teammate, build momentum, then release the connecting hand",
+          "effect": "Launches the held player toward a distant surface or teammate.",
+          "technique": "The thrown player should keep one hand free and point it at the landing target before release."
+        },
+        {
+          "action": "Catch a Teammate",
+          "input": "Move an open hand into the teammate and hold the matching grip",
+          "effect": "Stops a teammate's fall or connects them to the human chain.",
+          "technique": "Open the catching hand early and keep your body stable instead of chasing the fall."
+        },
+        {
+          "action": "Rotate a Human Chain",
+          "input": "All connected players move in the same circular direction",
+          "effect": "Builds shared momentum for moving several players across a wide gap.",
+          "technique": "Choose one caller to set the rhythm and keep the rear anchor attached until the front lands."
         }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
       ]
     },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+    "heaveHo2MultiplayerCoop": {
+      "title": "Heave Ho 2 Multiplayer and Co-op Options",
+      "eyebrow": "Multiplayer",
+      "intro": "Heave Ho 2 brings the series online while keeping shared-screen couch play. Cooperate through the eight worlds or compete in Showdown challenges built around racing, survival, and grabbing objectives.",
+      "modes": [
+        {
+          "mode": "Online Co-op",
+          "platforms": "PC, Switch, Switch 2",
+          "players": "2-4",
+          "requirements": "Internet; Nintendo versions need Nintendo Switch Online",
+          "details": "Play campaign levels with remote friends and move every player and object to the goal together."
+        },
+        {
+          "mode": "Local Couch Co-op",
+          "platforms": "PC, Switch, Switch 2",
+          "players": "2-4",
+          "requirements": "One system with enough controllers",
+          "details": "All players cooperate on the same system with a shared camera and display."
+        },
+        {
+          "mode": "Online Showdown",
+          "platforms": "PC, Switch, Switch 2",
+          "players": "2-4",
+          "requirements": "Internet; Nintendo versions need Nintendo Switch Online",
+          "details": "Compete in rotating races, survival rounds, and handle-grab contests; first to five wins takes the match."
+        },
+        {
+          "mode": "Local Showdown",
+          "platforms": "PC, Switch, Switch 2",
+          "players": "2-4",
+          "requirements": "One system with enough controllers",
+          "details": "Play the competitive Showdown playlist locally on a shared screen."
+        },
+        {
+          "mode": "Shared-Screen Play",
+          "platforms": "PC, Switch, Switch 2",
+          "players": "2-4 local",
+          "requirements": "Players stay within the same gameplay view",
+          "details": "Local multiplayer uses one shared camera rather than separate per-player views."
+        },
+        {
+          "mode": "Steam Remote Play Together",
+          "platforms": "Windows PC",
+          "players": "Up to 4",
+          "requirements": "Host owns the Steam version; guests connect via Remote Play",
+          "details": "Streams the host's local session to remote players for couch-style modes online."
+        },
+        {
+          "mode": "Local GameShare",
+          "platforms": "Nintendo Switch 2",
+          "players": "1 owner + up to 3",
+          "requirements": "A Nintendo Switch 2 starts the GameShare session",
+          "details": "The owner shares Heave Ho 2 with nearby players so they can join without buying a copy."
+        },
+        {
+          "mode": "Online GameShare",
+          "platforms": "Nintendo Switch 2",
+          "players": "1 owner + up to 3",
+          "requirements": "GameChat, internet, Nintendo Accounts, and Nintendo Switch Online",
+          "details": "The owner starts GameShare over GameChat to share the game with remote friends."
+        }
+      ]
+    },
+    "heaveHo2WalkthroughWorlds": {
+      "title": "All Eight Heave Ho 2 Worlds",
+      "eyebrow": "Campaign Guide",
+      "intro": "Follow the full co-op campaign across eight themed adventures and about 60 levels. Each world adds new traversal rules, team objectives, hazards, and optional challenges.",
+      "worlds": [
+        {
+          "name": "Flying High",
+          "order": 1,
+          "mechanics": ["Ski lifts", "Gondolas", "Icy mountain traversal", "Swinging between moving supports"],
+          "objective": "Move the group across elevated routes and reach the finish around moving transport and exposed gaps.",
+          "tip": "Use short, controlled swings around moving platforms before attempting timer or collectible objectives."
+        },
+        {
+          "name": "Manor Mysteries",
+          "order": 2,
+          "mechanics": ["Hidden keys", "Locked exits", "Room exploration", "Object handoffs"],
+          "objective": "Search the manor, recover the keys each stage needs, and bring the team to the unlocked exit.",
+          "tip": "Protect the key carrier with a stable chain and pass the key across gaps in short handoffs."
+        },
+        {
+          "name": "Spacebound Squad",
+          "order": 3,
+          "mechanics": ["Zero-gravity movement", "Spaceship piloting", "Momentum control", "Coordinated vehicle operation"],
+          "objective": "Navigate weightless stages and cooperate closely when a level asks the group to fly a spaceship.",
+          "tip": "Assign clear roles before vehicle sections so one player positions while others stabilize or prepare the next grab."
+        },
+        {
+          "name": "Chef's Orders",
+          "order": 4,
+          "mechanics": ["Large ingredient handling", "Plate stacking", "Kitchen obstacles", "Interactive food objects"],
+          "objective": "Carry and stack the required ingredients on a plate while keeping bulky objects under control.",
+          "tip": "Move one ingredient at a time, keep one player anchored, and use deliberate handoffs over throws."
+        },
+        {
+          "name": "Shipwrecked",
+          "order": 5,
+          "mechanics": ["Co-op traversal", "World-specific objects", "Team carrying and swinging", "Optional challenge routes"],
+          "objective": "Clear the Shipwrecked adventure by getting every player through each cooperative level.",
+          "tip": "Secure the standard clear first, then replay for timer, collectible, and positioning challenges."
+        },
+        {
+          "name": "Transfolab",
+          "order": 6,
+          "mechanics": ["Laboratory stages", "Co-op puzzles", "Interactive devices", "Precision hand coordination"],
+          "objective": "Work through the Transfolab adventure while adapting to each stage's devices and puzzle rules.",
+          "tip": "Let one player test each mechanism while the rest keep safe anchor points and a recovery chain."
+        },
+        {
+          "name": "Cascade Show",
+          "order": 7,
+          "mechanics": ["Late-campaign challenges", "Moving stage elements", "Precision swinging", "Optional replays"],
+          "objective": "Complete the Cascade Show adventure by coordinating movement across demanding stages.",
+          "tip": "Use one caller for release timing and split conflicting optional objectives across separate replays."
+        },
+        {
+          "name": "Medieval Travels",
+          "order": 8,
+          "mechanics": ["Transporting a king on a throne", "Keeping cargo upright", "Medieval challenges", "Cat-drone assistance"],
+          "objective": "Carry the king through throne-transport levels without tipping him, then finish the campaign.",
+          "tip": "Place players on opposite sides, use small synchronized moves, and avoid big swings while the throne is unsupported."
+        }
+      ]
+    },
+    "heaveHo2ItemsUnlocks": {
+      "title": "Heave Ho 2 Items, Unlocks and Cosmetics",
+      "eyebrow": "Items and Rewards",
+      "intro": "Heave Ho 2 mixes world-specific stage objects with equippable support tools. Optional objectives also advance reward tracks containing gifts, cosmetics, crossover skins, and gameplay items.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "name": "Pop Guns",
+          "type": "Stage Object",
+          "effect": "A shooting-based tool used in push, pull, shoot, and squeeze challenges.",
+          "bestUse": "Coordinate each shot with the team so the target player or object is ready for the result."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "name": "Drones",
+          "type": "Stage and Assist Object",
+          "effect": "Part of the interactive object set; a cat drone can appear after a long struggle to help the team forward.",
+          "bestUse": "Use drone assistance to bypass a stalled section, then replay later for optional goals."
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "name": "Spaceships",
+          "type": "Stage Vehicle",
+          "effect": "A cooperative vehicle used in zero-gravity stages, piloted and stabilized by the group.",
+          "bestUse": "Assign piloting and stabilizing roles before launch instead of everyone pulling a different way."
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
+          "name": "Keys",
+          "type": "Puzzle Object",
+          "effect": "Hidden keys must be found and carried to unlock stage exits.",
+          "bestUse": "Protect the key carrier with a stable chain and pass the key across gaps in short steps."
         },
         {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
+          "name": "Ski Lifts and Gondolas",
+          "type": "Traversal Object",
+          "effect": "Moving transport platforms carry players through icy mountain routes and create timed grabs.",
+          "bestUse": "Keep one player safely attached until the next support is within reach."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
+          "name": "Camera",
+          "type": "Equippable Objective Tool",
+          "effect": "Lets the team capture required photos of specific actions or poses for Photo challenges.",
+          "bestUse": "Equip it for photo objectives and stage the required scene before the final route."
         },
         {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
+          "name": "Ima Rock",
+          "type": "Unlockable Support Item",
+          "effect": "Freezes the user in midair so another player can use them as a temporary platform.",
+          "bestUse": "Activate it over a gap to create a stable midpoint for a teammate's next grab."
         },
         {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "name": "Arm Spray",
+          "type": "Unlockable Support Item",
+          "effect": "Extends an ally's arms, making distant platforms and teammates easier to grab.",
+          "bestUse": "Apply it before a long reach, a difficult rescue, or a route where one player must stay anchored far away."
+        },
+        {
+          "name": "Umbrella",
+          "type": "Unlockable Mobility Item",
+          "effect": "Allows floating and gives the user more control while crossing open space.",
+          "bestUse": "Use it to slow a fall, extend a jump, or approach a distant grab with less downward speed."
+        },
+        {
+          "name": "Gifts and Crossover Cosmetics",
+          "type": "Collection Reward",
+          "effect": "Adds character cosmetics and crossover skins, including an Among Us Crewmate and Henry from Kingdom Come: Deliverance II.",
+          "bestUse": "Replay stages with unfinished objectives, open every gift for the Gift Addict achievement, and finish the reward tracks."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
+    "heaveHo2Achievements": {
+      "title": "Heave Ho 2 Achievement Checklist",
+      "eyebrow": "21 Steam Achievements",
+      "intro": "Track all 21 Steam achievements, from finishing the eight campaign worlds to clearing every optional challenge set and reaching 100 percent completion.",
       "groups": [
         {
-          "name": "Exploration",
+          "name": "Campaign Progress",
           "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
+            { "name": "Flying high", "requirement": "Finish the Flying high adventure." },
+            { "name": "Manor mysteries", "requirement": "Finish the Manor mysteries adventure." },
+            { "name": "Spacebound squad", "requirement": "Finish the Spacebound squad adventure." },
+            { "name": "Chef's orders", "requirement": "Finish the Chef's orders adventure." },
+            { "name": "Shipwrecked", "requirement": "Finish the Shipwrecked adventure." },
+            { "name": "Transfolab", "requirement": "Finish the Transfolab adventure." },
+            { "name": "Cascade show", "requirement": "Finish the Cascade show adventure." },
+            { "name": "Medieval travels", "requirement": "Finish the Medieval travels adventure." }
           ]
         },
         {
-          "name": "Crafting and Summoning",
+          "name": "Optional Challenge Sets",
           "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
+            { "name": "King's court", "requirement": "Clear all Crowning challenges." },
+            { "name": "Animal rescue", "requirement": "Clear all Baby animal challenges." },
+            { "name": "Button bosses", "requirement": "Clear all Big button challenges." },
+            { "name": "Museum curators", "requirement": "Clear all Relic challenges." },
+            { "name": "Arty-farty", "requirement": "Clear all Graff-canvas challenges." },
+            { "name": "Shadow theater", "requirement": "Clear all Silhouette challenges." },
+            { "name": "Hand hunters", "requirement": "Clear all Mysterious hand challenges." },
+            { "name": "Sous-chefs in chief", "requirement": "Clear all Hidden recipe challenges." },
+            { "name": "Photo collector", "requirement": "Clear all Photo challenges." },
+            { "name": "Timer champions", "requirement": "Clear all Timer challenges." }
           ]
         },
         {
-          "name": "Mobility and Utility",
+          "name": "Collection and Completion",
           "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
-        },
-        {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
+            { "name": "Gift addict", "requirement": "Open all gifts." },
+            { "name": "Globe Trotters", "requirement": "Finish all co-op levels." },
+            { "name": "100%", "requirement": "Game 100% complete." }
           ]
         }
       ]
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
+    "heaveHo2SystemRequirements": {
+      "title": "Heave Ho 2 PC Requirements and 1080p Settings",
+      "eyebrow": "PC Performance",
+      "intro": "The official PC targets cover 1080p at 60 FPS on both Low and High quality. Heave Ho 2 requires a 64-bit version of Windows and 4 GB of available storage.",
+      "specs": [
+        { "component": "Operating System", "minimum": "Windows 10 x64 Bit", "recommended": "Windows 11 x64 Bit" },
+        { "component": "Processor", "minimum": "Intel Core i5-4670K or AMD FX-8350", "recommended": "Intel Core i7-6950X or AMD Ryzen 7 2700" },
+        { "component": "Memory", "minimum": "8 GB RAM", "recommended": "8 GB RAM" },
+        { "component": "Graphics", "minimum": "GeForce GTX 760, Radeon R9 270X, or Intel UHD Graphics 620", "recommended": "GeForce GTX 1080, Radeon RX Vega 56, or Intel Arc A580" },
+        { "component": "DirectX", "minimum": "Version 11", "recommended": "Version 12" },
+        { "component": "Storage", "minimum": "4 GB available space", "recommended": "4 GB available space" },
+        { "component": "Architecture", "minimum": "64-bit OS and processor required", "recommended": "64-bit OS and processor required" },
+        { "component": "Target", "minimum": "Low Quality, 1080p, 60 FPS", "recommended": "High Quality, 1080p, 60 FPS" }
+      ],
+      "settingsCards": [
         {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
+          "name": "Minimum-Spec PCs",
+          "preset": "Low @ 1920x1080, 60 FPS",
+          "tips": [
+            "Start from the official Low Quality target.",
+            "Close heavy browser tabs and recording software before hosting online play.",
+            "If frames still drop, lower the resolution below 1080p before changing anything else."
+          ]
         },
         {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
+          "name": "Recommended-Spec PCs",
+          "preset": "High @ 1920x1080, 60 FPS",
+          "tips": [
+            "Use High Quality at 1080p for the official recommended target.",
+            "Keep graphics drivers current and ensure the game uses the dedicated GPU on laptops.",
+            "Prioritize a stable 60 FPS in co-op so grabs and releases are easier to time."
+          ]
         },
         {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
-      "steps": [
-        {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
-        },
-        {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
-        },
-        {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
-        },
-        {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
-        },
-        {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "name": "Below-Minimum Hardware",
+          "preset": "Low @ below 1080p as needed",
+          "tips": [
+            "Choose the Low preset and lower resolution in small steps.",
+            "Run the game while the laptop is plugged in on its performance power mode.",
+            "Avoid simultaneous streaming or recording on older integrated graphics."
+          ]
         }
       ]
     }
   },
   "faq": {
-    "title": "Frequently Asked",
-    "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "title": "Heave Ho 2",
+    "titleHighlight": "FAQ",
+    "subtitle": "Quick answers to the most common Heave Ho 2 questions before you play.",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Heave Ho 2?",
+        "answer": "Heave Ho 2 is a chaotic physics-based co-op party game for 2-4 players. You grab surfaces, form human chains, swing across gaps, and launch teammates toward the goal across eight themed worlds."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "When did Heave Ho 2 release?",
+        "answer": "Heave Ho 2 was released on July 16, 2026 for Windows PC, Nintendo Switch, and Nintendo Switch 2."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "What platforms is Heave Ho 2 on?",
+        "answer": "Heave Ho 2 is available on Steam for Windows PC and on the Nintendo eShop for both Nintendo Switch and Nintendo Switch 2. The Switch 2 version adds local and online GameShare."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "How many players does Heave Ho 2 support?",
+        "answer": "Heave Ho 2 supports 2-4 players in online co-op, online Showdown, shared-screen co-op, and shared-screen Showdown. You can also team up through Steam Remote Play Together."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "How much does Heave Ho 2 cost?",
+        "answer": "Heave Ho 2 costs $9.99 on Steam and the Nintendo eShop. A free demo with local and online co-op is also available."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "How many levels and worlds are in Heave Ho 2?",
+        "answer": "Heave Ho 2 includes eight themed worlds with about 72 co-op levels and 56 randomized versus levels. Each level also offers optional objectives such as timers, silhouettes, and photos."
+      },
+      {
+        "question": "Does Heave Ho 2 have crossplay and GameShare?",
+        "answer": "Nintendo Switch 2 owners can use local GameShare and online GameShare through GameChat to share Heave Ho 2 with up to three other players. Steam players can use Remote Play Together to bring friends into couch-style modes."
+      },
+      {
+        "question": "Can I play Heave Ho 2 solo?",
+        "answer": "Heave Ho 2 is built around 2-4 player co-op, but you can start a session alone to explore mechanics. The campaign is designed for teams, so the best experience comes from playing with friends locally or online."
       }
     ]
   },
@@ -801,125 +606,61 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
-      "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Guides"
+    "beginner": {
+      "title": "Heave Ho 2 Beginner Guides",
+      "description": "Start Heave Ho 2 with the core loop of grabbing, human chains, swinging, and recovery.",
+      "metaTitle": "Heave Ho 2 Beginner Guide - How to Play",
+      "metaDescription": "Learn how to play Heave Ho 2 with beginner tips on grabbing, human chains, swinging, and recovering from failed jumps.",
+      "categoryLabel": "BEGINNER GUIDES"
     },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
-      "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+    "controls": {
+      "title": "Heave Ho 2 Controls",
+      "description": "Master Heave Ho 2 movement, hand grips, swinging, throws, and catches.",
+      "metaTitle": "Heave Ho 2 Controls and Swinging Guide",
+      "metaDescription": "Complete Heave Ho 2 controls guide covering hand inputs, momentum, throws, catches, and safe landings.",
+      "categoryLabel": "CONTROLS"
     },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
-      "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Items"
+    "levels": {
+      "title": "Heave Ho 2 Levels and Worlds",
+      "description": "Walkthroughs for all eight Heave Ho 2 worlds and their campaign levels.",
+      "metaTitle": "Heave Ho 2 Walkthrough - All Worlds and Levels",
+      "metaDescription": "Full Heave Ho 2 walkthrough covering all eight themed worlds, campaign levels, puzzles, and difficult stages.",
+      "categoryLabel": "LEVELS"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
-      "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Biomes"
+    "coop": {
+      "title": "Heave Ho 2 Co-op and Multiplayer",
+      "description": "Online co-op, couch play, Showdown, Remote Play, and GameShare for Heave Ho 2.",
+      "metaTitle": "Heave Ho 2 Multiplayer and Co-op Guide",
+      "metaDescription": "Compare Heave Ho 2 online co-op, local couch play, Showdown, Steam Remote Play Together, and Nintendo Switch 2 GameShare.",
+      "categoryLabel": "MULTIPLAYER"
     },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
-      "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Building Guides"
+    "versus": {
+      "title": "Heave Ho 2 Versus Mode",
+      "description": "Rules, maps, and tactics for Heave Ho 2 Showdown versus levels.",
+      "metaTitle": "Heave Ho 2 Versus and Showdown Guide",
+      "metaDescription": "Heave Ho 2 versus mode guide covering Showdown rules, the 56 randomized levels, win conditions, and team tactics.",
+      "categoryLabel": "VERSUS"
     },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
-      "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
+    "unlockables": {
+      "title": "Heave Ho 2 Unlockables",
+      "description": "Characters, cosmetics, support items, gifts, and crossover skins in Heave Ho 2.",
+      "metaTitle": "Heave Ho 2 Items, Unlocks and Cosmetics",
+      "metaDescription": "Unlockable characters, cosmetics, support gear, gifts, and crossover skins in Heave Ho 2.",
+      "categoryLabel": "UNLOCKABLES"
+    },
+    "platforms": {
+      "title": "Heave Ho 2 Platforms",
+      "description": "Price, demos, system requirements, and Switch vs Switch 2 features for Heave Ho 2.",
+      "metaTitle": "Heave Ho 2 Platforms, Price and System Requirements",
+      "metaDescription": "Heave Ho 2 platform guide covering Steam, Nintendo Switch, Nintendo Switch 2, pricing, demos, GameShare, and PC requirements.",
+      "categoryLabel": "PLATFORMS"
+    },
+    "updates": {
+      "title": "Heave Ho 2 Updates",
+      "description": "Patch notes, fixes, and new content updates for Heave Ho 2.",
+      "metaTitle": "Heave Ho 2 Updates and Patch Notes",
+      "metaDescription": "Track Heave Ho 2 updates, hotfixes, new content, and known issues with concise patch notes by date.",
+      "categoryLabel": "UPDATES"
     }
   }
 }
