@@ -10,14 +10,7 @@
       "twitterDescription": "Heave Ho 2 Wiki covers all 72 co-op levels, eight worlds, controls, versus modes, unlockables, and updates."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
