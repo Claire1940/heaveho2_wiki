@@ -1,1 +1,893 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "Wiki Heave Ho 2 - Niveaux, Co-op et Objets à débloquer",
+      "description": "Le Wiki Heave Ho 2 couvre l'intégralité des 72 niveaux en coop, huit mondes, commandes, multijoueur local et en ligne, modes versus, objets à débloquer, succès et mises à jour.",
+      "keywords": "Heave Ho 2, Steam, Switch 2, co-op, niveaux, mondes, commandes, objets à débloquer, succès",
+      "ogTitle": "Wiki Heave Ho 2 - Niveaux, Co-op et Objets à débloquer",
+      "ogDescription": "Le Wiki Heave Ho 2 couvre l'intégralité des 72 niveaux en coop, huit mondes, commandes, multijoueur local et en ligne, modes versus, objets à débloquer, succès et mises à jour.",
+      "twitterTitle": "Wiki Heave Ho 2 - Niveaux, Co-op et Objets à débloquer",
+      "twitterDescription": "Le Wiki Heave Ho 2 couvre l'intégralité des 72 niveaux en coop, huit mondes, commandes, modes versus, objets à débloquer et mises à jour."
+    }
+  },
+  "nav": {
+    "release": "Sortie",
+    "platforms": "Plateformes",
+    "multiplayer": "Multijoueur",
+    "guide": "Guide",
+    "levels": "Niveaux",
+    "items": "Objets",
+    "achievements": "Succès"
+  },
+  "common": {
+    "home": "Accueil",
+    "more": "Plus",
+    "playNow": "Jouer sur Steam",
+    "switchLanguage": "Changer de langue",
+    "switchTheme": "Changer de thème",
+    "lightMode": "Mode clair",
+    "darkMode": "Mode sombre",
+    "notFound": "Page non trouvée",
+    "notFoundDescription": "La page que vous recherchez n'existe pas.",
+    "backToHome": "Retour à l'accueil",
+    "relatedArticles": "Articles similaires",
+    "readMore": "Lire la suite",
+    "articlesComingSoon": "Articles à venir"
+  },
+  "hero": {
+    "badge": "Co-op physique chaotique de 2 à 4 joueurs",
+    "title": "Wiki Heave Ho 2",
+    "description": "Balancez, attrapez et lancez vos amis à travers 72 niveaux en coop et huit mondes thématiques, avec du jeu local et en ligne, des défis versus, des objets à débloquer et une physique chaotique.",
+    "getFreeCodesCTA": "Voir les guides",
+    "playOnSteamCTA": "Jouer sur Steam",
+    "stats": {
+      "stat1": {
+        "value": "2–4",
+        "label": "Joueurs"
+      },
+      "stat2": {
+        "value": "8",
+        "label": "Mondes thématiques"
+      },
+      "stat3": {
+        "value": "72",
+        "label": "Niveaux coop"
+      },
+      "stat4": {
+        "value": "56",
+        "label": "Niveaux Versus"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay de Heave Ho 2",
+    "description": "Agrippez les surfaces, formez des chaînes humaines, balancez-vous au-dessus du vide et propulsez vos amis vers l'arrivée dans ce party game coopératif chaotique basé sur la physique pour 2 à 4 joueurs."
+  },
+  "tools": {
+    "title": "Heave Ho 2",
+    "titleHighlight": "Guides",
+    "subtitle": "Tout ce dont vous avez besoin pour jouer à Heave Ho 2 : infos de sortie, bases pour débutants, commandes, multijoueur, guides des mondes, objets, succès et paramètres PC.",
+    "cards": [
+      {
+        "icon": "Gamepad2",
+        "title": "Sortie et plateformes",
+        "description": "Date de sortie, prix, démos et différences entre PC et Switch"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guide du débutant",
+        "description": "Agrippage, chaînes humaines, balancements et bases de la récupération"
+      },
+      {
+        "icon": "Hand",
+        "title": "Commandes et balancements",
+        "description": "Commandes, élan, lancers, rattrapages et atterrissages"
+      },
+      {
+        "icon": "Users",
+        "title": "Multijoueur et coop",
+        "description": "Coop en ligne, jeu en local, Showdown et GameShare"
+      },
+      {
+        "icon": "Map",
+        "title": "Guide des mondes",
+        "description": "Les huit mondes thématiques et leurs niveaux de campagne"
+      },
+      {
+        "icon": "Pack",
+        "title": "Objets et déblocages",
+        "description": "Outils de niveau, équipement de soutien, cadeaux et skins crossover"
+      },
+      {
+        "icon": "Trophée",
+        "title": "Succès",
+        "description": "Les 21 succès Steam et objectifs de complétion"
+      },
+      {
+        "icon": "Processeur",
+        "title": "Configuration requise",
+        "description": "Caractéristiques et paramètres PC minimaux et recommandés"
+      }
+    ]
+  },
+  "modules": {
+    "heaveHo2ReleaseDatePricePlatforms": {
+      "title": "Date de sortie, prix et comparaison des plateformes pour Heave Ho 2",
+      "eyebrow": "Informations de sortie",
+      "intro": "Heave Ho 2 est sorti le 16 juillet 2026 sur Windows PC, Nintendo Switch et Nintendo Switch 2. Les trois versions prennent en charge le multijoueur local et en ligne jusqu'à quatre joueurs, tandis que l'édition native Nintendo Switch 2 ajoute le GameShare local et en ligne.",
+      "platforms": [
+        {
+          "name": "Windows PC",
+          "store": "Steam",
+          "releaseDate": "16 juillet 2026",
+          "price": "9,99 $",
+          "players": "2-4 joueurs",
+          "demo": "Démo Steam gratuite avec coop locale et en ligne pour 2-4 joueurs",
+          "highlights": [
+            "Steam Remote Play Together",
+            "Succès Steam",
+            "Steam Cloud",
+            "Partage familial"
+          ],
+          "storage": "4 Go d'espace disponible",
+          "storeUrl": "https://store.steampowered.com/app/2802740/Heave_Ho_2/"
+        },
+        {
+          "name": "Nintendo Switch",
+          "store": "Nintendo eShop",
+          "releaseDate": "16 juillet 2026",
+          "price": "9,99 $",
+          "players": "Jusqu'à 4 joueurs sur une seule console ou en ligne",
+          "demo": "Démo Nintendo eShop téléchargeable gratuitement",
+          "highlights": [
+            "Modes téléviseur, sur table et portable",
+            "Jeu en ligne Nintendo Switch Online",
+            "Cloud des données de sauvegarde",
+            "Fonctionne de manière fluide sur Nintendo Switch 2"
+          ],
+          "storage": "Taille du fichier : 2,4 Go",
+          "storeUrl": "https://www.nintendo.com/us/store/products/heave-ho-2-switch/"
+        },
+        {
+          "name": "Nintendo Switch 2",
+          "store": "Nintendo eShop",
+          "releaseDate": "16 juillet 2026",
+          "price": "9,99 $",
+          "players": "Jusqu'à 4 joueurs sur une seule console ou en ligne",
+          "demo": "Démo gratuite téléchargeable sur le Nintendo eShop",
+          "highlights": [
+            "GameShare local",
+            "GameShare en ligne via GameChat",
+            "Un propriétaire partage avec jusqu'à trois joueurs",
+            "Jeu en ligne Nintendo Switch Online"
+          ],
+          "storage": "Taille du fichier : 2,4 Go",
+          "storeUrl": "https://www.nintendo.com/us/store/products/heave-ho-2-switch-2/"
+        }
+      ],
+      "languageNote": "Toutes les versions sont disponibles en anglais, français, italien, allemand, espagnol, japonais, coréen, portugais brésilien, russe, chinois simplifié et chinois traditionnel."
+    },
+    "heaveHo2BeginnerGuide": {
+      "title": "Guide du débutant Heave Ho 2",
+      "eyebrow": "Bien démarrer",
+      "intro": "La plupart des niveaux de la campagne demandent à une équipe de 2 à 4 joueurs de se rendre du départ à l'arrivée en s'agrippant aux plateformes, aux objets et les uns aux autres. Apprenez les bases (s'agripper, s'enchaîner, se balancer et se rétablir) avant de vous attaquer aux huit mondes thématiques.",
+      "steps": [
+        {
+          "title": "Apprivoisez vos deux mains",
+          "instruction": "Votre personnage est une tête munie de deux mains agrippantes contrôlées indépendamment. Entraînez-vous à tenir une surface sûre d'une main tout en cherchant la prise suivante de l'autre.",
+          "teamTip": "Annoncez « main gauche » ou « main droite » avant de lâcher prise lorsqu'un autre joueur dépend de votre prise."
+        },
+        {
+          "title": "Créez un ancrage fiable",
+          "instruction": "Avant une longue traversée, placez un joueur sur une plateforme sûre et gardez au moins l'une de ses mains attachée à l'environnement.",
+          "teamTip": "Le joueur ancré doit bouger le moins possible pendant que ses coéquipiers se repositionnent."
+        },
+        {
+          "title": "Formez une chaîne humaine",
+          "instruction": "Attrapez la main, la tête ou le corps d'un coéquipier et étendez le groupe à partir du point d'ancrage. Les chaînes plus longues permettent d'atteindre des plateformes inaccessibles seul.",
+          "teamTip": "Placez l'ancrage le plus solide à l'arrière et le joueur qui effectuera la prochaine saisie à l'avant."
+        },
+        {
+          "title": "Générer de l'élan de balancement",
+          "instruction": "Faites tourner l'équipe dans une direction, puis inversez au bon moment pour amplifier le balancement. Utilisez plusieurs mouvements contrôlés plutôt qu'un seul grand saut.",
+          "teamTip": "Demandez à un joueur de donner le rythme pour que tout le monde sache quand tirer, s'étirer et lâcher."
+        },
+        {
+          "title": "Lâcher et attraper en toute sécurité",
+          "instruction": "Le joueur en mouvement doit tendre une main libre vers la cible avant le lancer. Ne lâchez que la main de liaison, puis agrippez la destination dès qu'elle est à portée.",
+          "teamTip": "Maintenez le reste de la chaîne stable jusqu'à ce que le joueur lancé confirme que sa nouvelle prise est sécurisée."
+        },
+        {
+          "title": "Faire progresser l'équipe",
+          "instruction": "Une fois que le joueur à l'avant atterrit, il devient le nouvel ancrage. Transférez vos coéquipiers un par un ou balancez le reste de la chaîne vers la nouvelle position.",
+          "teamTip": "Les transferts lents sont généralement plus sûrs que de lancer tout le groupe d'un coup par-dessus un vide difficile."
+        },
+        {
+          "title": "Récupérer après un saut raté",
+          "instruction": "Lorsqu'un joueur rate sa cible, tous ceux qui sont encore attachés doivent arrêter de se balancer et maintenir l'ancrage. Proposez une main libre comme point de sauvetage, ou recommencez la tentative si la chaîne tombe.",
+          "teamTip": "Après des échecs répétés, modifiez l'ordre de la chaîne ou utilisez des objets de soutien débloqués, comme les bras allongés."
+        }
+      ],
+      "quickTips": [
+        "Gardez toujours au moins un joueur ancré avant que l'équipe ne se balance.",
+        "Lâcher prise près du point extérieur le plus rapide d'un balancement convertit la rotation en distance.",
+        "Terminez d'abord le parcours principal, puis rejouez pour les chronomètres, les silhouettes, les mains mystérieuses et les photos.",
+        "Utilisez l'aide du drone chat qui apparaît après une longue lutte pour contourner les sections bloquées."
+      ]
+    },
+    "heaveHo2ControlsSwinging": {
+      "title": "Commandes et techniques de balancement de Heave Ho 2",
+      "eyebrow": "Commandes et déplacements",
+      "intro": "Heave Ho 2 ne propose pas de saut traditionnel. Les déplacements se font en faisant tourner vos bras et votre corps, en agrippant avec la bonne main, en lâchant au bon moment et en transférant l'élan entre les surfaces et vos coéquipiers.",
+      "controls": [
+        {
+          "action": "Se déplacer et tourner",
+          "input": "Bougez le stick analogique gauche",
+          "effect": "Fait tourner et oriente les bras et le corps du personnage autour du point d'accroche actuel.",
+          "technique": "Utilisez de petits mouvements circulaires près des plateformes étroites et des mouvements plus amples pour accumuler de l'élan."
+        },
+        {
+          "action": "Agripper avec la main gauche",
+          "input": "Maintenez le bouton ou la gâchette de saisie gauche",
+          "effect": "Ferme la main gauche autour d'une surface, d'un objet ou d'un coéquipier à proximité.",
+          "technique": "Gardez la main gauche accrochée comme ancrage tout en cherchant la prochaine prise avec la droite."
+        },
+        {
+          "action": "Agripper avec la main droite",
+          "input": "Maintenez le bouton ou la gâchette de saisie droite",
+          "effect": "Ferme la main droite sur une surface, un objet ou un coéquipier à proximité.",
+          "technique": "Vérifiez l'indicateur de main à l'écran avant de lâcher prise lors des passages en chaîne humaine encombrés."
+        },
+        {
+          "action": "Lâcher une main",
+          "input": "Relâcher le bouton de saisie correspondant",
+          "effect": "Ouvre cette main tandis que l'autre reste agrippée si son bouton est toujours maintenu.",
+          "technique": "Lâcher prise près du point d'élan maximal vers l'extérieur pour convertir la rotation en distance."
+        },
+        {
+          "action": "Grimper sur une surface",
+          "input": "Alternez les prises gauche et droite tout en pivotant vers le haut",
+          "effect": "Déplace le personnage main sur main le long des murs, des poteaux et des rebords.",
+          "technique": "Placez la main libre au-dessus de la main agrippée avant de relâcher la prise inférieure."
+        },
+        {
+          "action": "Lancer un coéquipier",
+          "input": "Agrippez le coéquipier, prenez de l'élan, puis relâchez la main de liaison",
+          "effect": "Propulse le joueur tenu vers une surface ou un coéquipier éloigné.",
+          "technique": "Le joueur lancé doit garder une main libre et la diriger vers la zone de réception avant le lancer."
+        },
+        {
+          "action": "Attraper un coéquipier",
+          "input": "Dirigez une main ouverte vers le coéquipier et maintenez la prise correspondante",
+          "effect": "Stoppe la chute d'un coéquipier ou le connecte à la chaîne humaine.",
+          "technique": "Ouvrez la main de réception à l'avance et stabilisez votre corps au lieu de chercher à rattraper la chute."
+        },
+        {
+          "action": "Faire tourner une chaîne humaine",
+          "input": "Tous les joueurs connectés se déplacent dans le même sens de rotation",
+          "effect": "Génère un élan commun pour projeter plusieurs joueurs à travers un large fossé.",
+          "technique": "Désignez un meneur pour donner le rythme et gardez l'ancre arrière agrippée jusqu'à ce que l'avant se réceptionne."
+        }
+      ]
+    },
+    "heaveHo2MultiplayerCoop": {
+      "title": "Options multijoueur et coop de Heave Ho 2",
+      "eyebrow": "Multijoueur",
+      "intro": "Heave Ho 2 transpose la série en ligne tout en conservant le jeu en local sur écran partagé. Coopérez à travers les huit mondes ou affrontez-vous dans des défis Showdown axés sur la course, la survie et la capture d'objectifs.",
+      "modes": [
+        {
+          "mode": "Coop en ligne",
+          "platforms": "PC, Switch, Switch 2",
+          "players": "2-4",
+          "requirements": "Internet ; les versions Nintendo nécessitent un abonnement Nintendo Switch Online",
+          "details": "Jouez aux niveaux de la campagne avec des amis à distance et amenez ensemble chaque joueur et objet jusqu'à l'arrivée."
+        },
+        {
+          "mode": "Coop locale sur canapé",
+          "platforms": "PC, Switch, Switch 2",
+          "players": "2-4",
+          "requirements": "Un seul système avec assez de manettes",
+          "details": "Tous les joueurs coopèrent sur le même système avec une caméra et un écran partagés."
+        },
+        {
+          "mode": "Confrontation en ligne",
+          "platforms": "PC, Switch, Switch 2",
+          "players": "2-4",
+          "requirements": "Internet ; les versions Nintendo requièrent le Nintendo Switch Online",
+          "details": "Participez à des courses en rotation, des manches de survie et des concours de saisie de poignées ; le premier à cinq victoires remporte la partie."
+        },
+        {
+          "mode": "Confrontation locale",
+          "platforms": "PC, Switch, Switch 2",
+          "players": "2-4",
+          "requirements": "Un seul système avec assez de manettes",
+          "details": "Jouez à la playlist compétitive Confrontation en local sur un écran partagé."
+        },
+        {
+          "mode": "Jeu sur écran partagé",
+          "platforms": "PC, Switch, Switch 2",
+          "players": "2-4 en local",
+          "requirements": "Les joueurs restent dans la même vue de jeu",
+          "details": "Le multijoueur local utilise une seule caméra partagée plutôt que des vues séparées pour chaque joueur."
+        },
+        {
+          "mode": "Steam Remote Play Together",
+          "platforms": "PC Windows",
+          "players": "Jusqu'à 4",
+          "requirements": "L'hôte possède la version Steam ; les invités se connectent via Remote Play",
+          "details": "Diffuse la session locale de l'hôte aux joueurs distants pour profiter en ligne des modes de jeu sur canapé."
+        },
+        {
+          "mode": "GameShare local",
+          "platforms": "Nintendo Switch 2",
+          "players": "1 propriétaire + jusqu'à 3",
+          "requirements": "Une Nintendo Switch 2 lance la session GameShare",
+          "details": "Le propriétaire partage Heave Ho 2 avec les joueurs à proximité afin qu'ils puissent rejoindre la partie sans acheter le jeu."
+        },
+        {
+          "mode": "Partage de jeu en ligne",
+          "platforms": "Nintendo Switch 2",
+          "players": "1 propriétaire + jusqu'à 3",
+          "requirements": "GameChat, internet, comptes Nintendo et Nintendo Switch Online",
+          "details": "Le propriétaire lance le Partage de jeu via GameChat pour partager le jeu avec des amis à distance."
+        }
+      ]
+    },
+    "heaveHo2WalkthroughWorlds": {
+      "title": "Les huit mondes de Heave Ho 2",
+      "eyebrow": "Guide de la campagne",
+      "intro": "Suivez l'intégralité de la campagne coopérative à travers huit aventures thématiques et environ 60 niveaux. Chaque monde ajoute de nouvelles règles de déplacement, des objectifs d'équipe, des dangers et des défis optionnels.",
+      "worlds": [
+        {
+          "name": "Prendre de la hauteur",
+          "order": 1,
+          "mechanics": [
+            "Remontées mécaniques",
+            "Télécabines",
+            "Traversée de montagnes glacées",
+            "Se balancer entre des supports mobiles"
+          ],
+          "objective": "Déplacez le groupe sur des parcours surélevés et atteignez l'arrivée en contournant les transports mobiles et les vides béants.",
+          "tip": "Utilisez des balancements courts et maîtrisés autour des plateformes mobiles avant de tenter les objectifs chronométrés ou de collecte."
+        },
+        {
+          "name": "Mystères du manoir",
+          "order": 2,
+          "mechanics": [
+            "Clés cachées",
+            "Sorties verrouillées",
+            "Exploration des pièces",
+            "Passage d'objets"
+          ],
+          "objective": "Fouillez le manoir, récupérez les clés nécessaires à chaque étape et menez l'équipe vers la sortie déverrouillée.",
+          "tip": "Protégez le porteur de clé avec une chaîne stable et passez la clé au-dessus des vides par de courts relais."
+        },
+        {
+          "name": "Escouade spatiale",
+          "order": 3,
+          "mechanics": [
+            "Mouvements en apesanteur",
+            "Pilotage de vaisseau spatial",
+            "Contrôle de l'inertie",
+            "Utilisation coordonnée de véhicules"
+          ],
+          "objective": "Naviguez dans des niveaux sans gravité et coopérez étroitement lorsqu'un niveau demande au groupe de piloter un vaisseau spatial.",
+          "tip": "Attribuez des rôles clairs avant les sections en véhicule pour qu'un joueur se positionne pendant que les autres stabilisent ou préparent la prochaine prise."
+        },
+        {
+          "name": "Les ordres du chef",
+          "order": 4,
+          "mechanics": [
+            "Manipulation d'ingrédients volumineux",
+            "Empilement d'assiettes",
+            "Obstacles de cuisine",
+            "Objets alimentaires interactifs"
+          ],
+          "objective": "Transportez et empilez les ingrédients requis sur une assiette tout en maîtrisant les objets encombrants.",
+          "tip": "Déplacez un ingrédient à la fois, gardez un joueur ancré et privilégiez les passages de main en main aux lancers."
+        },
+        {
+          "name": "Naufrage",
+          "order": 5,
+          "mechanics": [
+            "Traversée en coop",
+            "Objets spécifiques au monde",
+            "Transport et balancement en équipe",
+            "Parcours de défis optionnels"
+          ],
+          "objective": "Terminez l'aventure Naufrage en faisant passer chaque joueur à travers chaque niveau coopératif.",
+          "tip": "Assurez d'abord une réussite standard, puis rejouez pour les défis de chrono, d'objets à collectionner et de positionnement."
+        },
+        {
+          "name": "Transfolab",
+          "order": 6,
+          "mechanics": [
+            "Niveaux du laboratoire",
+            "Énigmes en coop",
+            "Dispositifs interactifs",
+            "Coordination précise des mains"
+          ],
+          "objective": "Progressez dans l'aventure Transfolab tout en vous adaptant aux dispositifs et aux règles des énigmes de chaque niveau.",
+          "tip": "Laissez un joueur tester chaque mécanisme pendant que les autres maintiennent des points d'ancrage sûrs et une chaîne de sauvetage."
+        },
+        {
+          "name": "Cascade Show",
+          "order": 7,
+          "mechanics": [
+            "Défis de fin de campagne",
+            "Éléments de niveau mobiles",
+            "Balancement de précision",
+            "Rejouabilité optionnelle"
+          ],
+          "objective": "Terminez l'aventure Cascade Show en coordonnant vos mouvements à travers des niveaux exigeants.",
+          "tip": "Désignez une personne pour donner le signal du lâcher et répartissez les objectifs optionnels contradictoires sur plusieurs sessions."
+        },
+        {
+          "name": "Voyages médiévaux",
+          "order": 8,
+          "mechanics": [
+            "Transport d'un roi sur un trône",
+            "Maintien de la cargaison à la verticale",
+            "Défis médiévaux",
+            "Assistance du drone-chat"
+          ],
+          "objective": "Transportez le roi à travers les niveaux de transport de trône sans le renverser, puis terminez la campagne.",
+          "tip": "Placez les joueurs sur les côtés opposés, utilisez de petits mouvements synchronisés et évitez les grands balancements lorsque le trône n'est pas soutenu."
+        }
+      ]
+    },
+    "heaveHo2ItemsUnlocks": {
+      "title": "Objets, éléments déverrouillables et cosmétiques de Heave Ho 2",
+      "eyebrow": "Objets et récompenses",
+      "intro": "Heave Ho 2 mélange des objets de niveau spécifiques à chaque monde avec des outils de soutien équipables. Les objectifs optionnels font également progresser les pistes de récompenses contenant des cadeaux, des cosmétiques, des skins crossover et des objets de jeu.",
+      "items": [
+        {
+          "name": "Pistolets à bouchon",
+          "type": "Objet de niveau",
+          "effect": "Un outil de tir utilisé dans les défis de poussée, de traction, de tir et de pression.",
+          "bestUse": "Coordonnez chaque tir avec l'équipe afin que le joueur ou l'objet ciblé soit prêt pour le résultat."
+        },
+        {
+          "name": "Drones",
+          "type": "Objet de niveau et d'assistance",
+          "effect": "Fait partie de l'ensemble d'objets interactifs ; un drone-chat peut apparaître après une longue lutte pour aider l'équipe à progresser.",
+          "bestUse": "Utilisez l'aide du drone pour contourner une section bloquée, puis rejouez-la plus tard pour les objectifs optionnels."
+        },
+        {
+          "name": "Vaisseaux spatiaux",
+          "type": "Véhicule de niveau",
+          "effect": "Un véhicule coopératif utilisé dans les niveaux en apesanteur, piloté et stabilisé par le groupe.",
+          "bestUse": "Attribuez les rôles de pilotage et de stabilisation avant le lancement au lieu que tout le monde ne tire dans une direction différente."
+        },
+        {
+          "name": "Clés",
+          "type": "Objet d'énigme",
+          "effect": "Les clés cachées doivent être trouvées et transportées pour déverrouiller les sorties de niveau.",
+          "bestUse": "Protégez le porteur de la clé avec une chaîne stable et passez la clé par-dessus les vides par petites étapes."
+        },
+        {
+          "name": "Remontées mécaniques et télécabines",
+          "type": "Objet de traversée",
+          "effect": "Des plateformes de transport mobiles transportent les joueurs à travers des itinéraires de montagne glacés et créent des saisies chronométrées.",
+          "bestUse": "Gardez un joueur solidement attaché jusqu'à ce que le support suivant soit à portée de main."
+        },
+        {
+          "name": "Appareil photo",
+          "type": "Outil d'objectif équipable",
+          "effect": "Permet à l'équipe de prendre les photos requises d'actions ou de poses spécifiques pour les défis Photo.",
+          "bestUse": "Équipez-le pour les objectifs photo et mettez en scène la situation requise avant le parcours final."
+        },
+        {
+          "name": "Ima Rock",
+          "type": "Objet de soutien déverrouillable",
+          "effect": "Gèle l'utilisateur en plein vol pour qu'un autre joueur puisse l'utiliser comme plateforme temporaire.",
+          "bestUse": "Activez-le au-dessus d'un vide pour créer un point intermédiaire stable pour la prochaine prise d'un coéquipier."
+        },
+        {
+          "name": "Spray pour bras",
+          "type": "Objet de soutien déverrouillable",
+          "effect": "Allonge les bras d'un allié, facilitant la saisie des plateformes et des coéquipiers éloignés.",
+          "bestUse": "Appliquez-le avant une longue portée, un sauvetage difficile ou un parcours où un joueur doit rester ancré au loin."
+        },
+        {
+          "name": "Parapluie",
+          "type": "Objet de mobilité déverrouillable",
+          "effect": "Permet de planer et donne plus de contrôle à l'utilisateur lors de la traversée d'espaces vides.",
+          "bestUse": "Utilisez-le pour ralentir une chute, prolonger un saut ou aborder une prise éloignée avec moins de vitesse vers le bas."
+        },
+        {
+          "name": "Cadeaux et cosmétiques crossover",
+          "type": "Récompense de collection",
+          "effect": "Ajoute des cosmétiques de personnage et des apparences crossover, dont un équipier d'Among Us et Henry de Kingdom Come: Deliverance II.",
+          "bestUse": "Rejouez les niveaux aux objectifs inachevés, ouvrez tous les cadeaux pour obtenir le succès « Accro aux cadeaux » et terminez les parcours de récompenses."
+        }
+      ]
+    },
+    "heaveHo2Achievements": {
+      "title": "Liste des succès de Heave Ho 2",
+      "eyebrow": "21 succès Steam",
+      "intro": "Suivez les 21 succès Steam, de la fin des huit mondes de la campagne à la réussite de chaque ensemble de défis optionnels, jusqu'à atteindre les 100 % de progression.",
+      "groups": [
+        {
+          "name": "Progression de la campagne",
+          "achievements": [
+            {
+              "name": "Plein vol",
+              "requirement": "Terminez l'aventure « Plein vol »."
+            },
+            {
+              "name": "Mystères du manoir",
+              "requirement": "Terminez l'aventure « Mystères du manoir »."
+            },
+            {
+              "name": "Escouade spatiale",
+              "requirement": "Terminez l'aventure « Escouade spatiale »."
+            },
+            {
+              "name": "Aux ordres du chef",
+              "requirement": "Terminez l'aventure « Aux ordres du chef »."
+            },
+            {
+              "name": "Naufragés",
+              "requirement": "Terminez l'aventure Naufrage."
+            },
+            {
+              "name": "Transfolab",
+              "requirement": "Terminez l'aventure Transfolab."
+            },
+            {
+              "name": "Spectacle des cascades",
+              "requirement": "Terminez l'aventure Spectacle des cascades."
+            },
+            {
+              "name": "Voyages médiévaux",
+              "requirement": "Terminez l'aventure Voyages médiévaux."
+            }
+          ]
+        },
+        {
+          "name": "Ensembles de défis optionnels",
+          "achievements": [
+            {
+              "name": "Cour du Roi",
+              "requirement": "Réussissez tous les défis Couronnement."
+            },
+            {
+              "name": "Sauvetage d'animaux",
+              "requirement": "Réussissez tous les défis Bébés animaux."
+            },
+            {
+              "name": "Boss des boutons",
+              "requirement": "Réussissez tous les défis Gros boutons."
+            },
+            {
+              "name": "Conservateurs de musée",
+              "requirement": "Réussissez tous les défis Reliques."
+            },
+            {
+              "name": "Arty-farty",
+              "requirement": "Réussissez tous les défis Graff-canevas."
+            },
+            {
+              "name": "Théâtre d'ombres",
+              "requirement": "Réussissez tous les défis Silhouettes."
+            },
+            {
+              "name": "Chasseurs de mains",
+              "requirement": "Réussissez tous les défis Mains mystérieuses."
+            },
+            {
+              "name": "Sous-chefs en chef",
+              "requirement": "Réussissez tous les défis Recettes cachées."
+            },
+            {
+              "name": "Collectionneur de photos",
+              "requirement": "Réussissez tous les défis Photos."
+            },
+            {
+              "name": "Champions du chrono",
+              "requirement": "Réussissez tous les défis Chrono."
+            }
+          ]
+        },
+        {
+          "name": "Collection et complétion",
+          "achievements": [
+            {
+              "name": "Accro aux cadeaux",
+              "requirement": "Ouvrir tous les cadeaux."
+            },
+            {
+              "name": "Globe-trotteurs",
+              "requirement": "Terminer tous les niveaux coopératifs."
+            },
+            {
+              "name": "100 %",
+              "requirement": "Jeu complété à 100 %."
+            }
+          ]
+        }
+      ]
+    },
+    "heaveHo2SystemRequirements": {
+      "title": "Configuration PC requise et paramètres 1080p pour Heave Ho 2",
+      "eyebrow": "Performances sur PC",
+      "intro": "Les configurations PC officielles visent le 1080p à 60 FPS en qualité basse et élevée. Heave Ho 2 nécessite une version 64 bits de Windows et 4 Go d'espace de stockage disponible.",
+      "specs": [
+        {
+          "component": "Système d'exploitation",
+          "minimum": "Windows 10 64 bits",
+          "recommended": "Windows 11 64 bits"
+        },
+        {
+          "component": "Processeur",
+          "minimum": "Intel Core i5-4670K ou AMD FX-8350",
+          "recommended": "Intel Core i7-6950X ou AMD Ryzen 7 2700"
+        },
+        {
+          "component": "Mémoire",
+          "minimum": "8 Go de RAM",
+          "recommended": "8 Go de RAM"
+        },
+        {
+          "component": "Carte graphique",
+          "minimum": "GeForce GTX 760, Radeon R9 270X ou Intel UHD Graphics 620",
+          "recommended": "GeForce GTX 1080, Radeon RX Vega 56 ou Intel Arc A580"
+        },
+        {
+          "component": "DirectX",
+          "minimum": "Version 11",
+          "recommended": "Version 12"
+        },
+        {
+          "component": "Stockage",
+          "minimum": "4 Go d'espace disponible",
+          "recommended": "4 Go d'espace disponible"
+        },
+        {
+          "component": "Architecture",
+          "minimum": "Système d'exploitation et processeur 64 bits requis",
+          "recommended": "Système d'exploitation et processeur 64 bits requis"
+        },
+        {
+          "component": "Objectif",
+          "minimum": "Qualité basse, 1080p, 60 FPS",
+          "recommended": "Qualité haute, 1080p, 60 FPS"
+        }
+      ],
+      "settingsCards": [
+        {
+          "name": "PC à configuration minimale",
+          "preset": "Basse @ 1920x1080, 60 FPS",
+          "tips": [
+            "Commencez par la configuration cible officielle en Qualité basse.",
+            "Fermez les onglets de navigateur gourmands et les logiciels d'enregistrement avant d'héberger une partie en ligne.",
+            "Si le nombre d'images par seconde chute toujours, baissez la résolution en dessous de 1080p avant de modifier quoi que ce soit d'autre."
+          ]
+        },
+        {
+          "name": "PC à configuration recommandée",
+          "preset": "Haute @ 1920x1080, 60 FPS",
+          "tips": [
+            "Utilisez la Qualité haute en 1080p pour la configuration cible recommandée officielle.",
+            "Gardez vos pilotes graphiques à jour et assurez-vous que le jeu utilise le GPU dédié sur les ordinateurs portables.",
+            "Priorisez un taux de 60 FPS stable en coop afin que les saisies et les lâchers soient plus faciles à synchroniser."
+          ]
+        },
+        {
+          "name": "Matériel inférieur au minimum requis",
+          "preset": "Basse @ moins de 1080p selon les besoins",
+          "tips": [
+            "Choisissez le préréglage Bas et baissez la résolution progressivement.",
+            "Lancez le jeu pendant que l'ordinateur portable est branché et en mode d'alimentation \"performances\".",
+            "Évitez de streamer ou d'enregistrer simultanément sur de vieux processeurs graphiques intégrés."
+          ]
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Heave Ho 2",
+    "titleHighlight": "FAQ",
+    "subtitle": "Des réponses rapides aux questions les plus fréquentes sur Heave Ho 2 avant de commencer à jouer.",
+    "questions": [
+      {
+        "question": "Qu'est-ce que Heave Ho 2 ?",
+        "answer": "Heave Ho 2 est un party game coopératif chaotique basé sur la physique pour 2 à 4 joueurs. Agrippez des surfaces, formez des chaînes humaines, balancez-vous au-dessus du vide et lancez vos coéquipiers vers l'objectif à travers huit mondes thématiques."
+      },
+      {
+        "question": "Quand Heave Ho 2 est-il sorti ?",
+        "answer": "Heave Ho 2 est sorti le 16 juillet 2026 sur Windows PC, Nintendo Switch et Nintendo Switch 2."
+      },
+      {
+        "question": "Sur quelles plateformes Heave Ho 2 est-il disponible ?",
+        "answer": "Heave Ho 2 est disponible sur Steam pour Windows PC et sur le Nintendo eShop pour la Nintendo Switch et la Nintendo Switch 2. La version Switch 2 ajoute le GameShare local et en ligne."
+      },
+      {
+        "question": "Combien de joueurs Heave Ho 2 peut-il accueillir ?",
+        "answer": "Heave Ho 2 accueille de 2 à 4 joueurs en coop en ligne, en mode Showdown en ligne, en coop sur écran partagé et en mode Showdown sur écran partagé. Vous pouvez aussi faire équipe via le Steam Remote Play Together."
+      },
+      {
+        "question": "Combien coûte Heave Ho 2 ?",
+        "answer": "Heave Ho 2 coûte 9,99 $ sur Steam et le Nintendo eShop. Une démo gratuite avec coop locale et en ligne est également disponible."
+      },
+      {
+        "question": "Combien de niveaux et de mondes y a-t-il dans Heave Ho 2 ?",
+        "answer": "Heave Ho 2 comprend huit mondes thématiques avec environ 72 niveaux en coop et 56 niveaux versus aléatoires. Chaque niveau propose également des objectifs optionnels tels que des chronomètres, des silhouettes et des photos."
+      },
+      {
+        "question": "Est-ce que Heave Ho 2 propose le crossplay et le GameShare ?",
+        "answer": "Les propriétaires de Nintendo Switch 2 peuvent utiliser le GameShare local et le GameShare en ligne via GameChat pour partager Heave Ho 2 avec jusqu'à trois autres joueurs. Les joueurs Steam peuvent utiliser le Remote Play Together pour inviter des amis dans les modes en coopération locale."
+      },
+      {
+        "question": "Puis-je jouer à Heave Ho 2 en solo ?",
+        "answer": "Heave Ho 2 est conçu pour la coop de 2 à 4 joueurs, mais vous pouvez lancer une session seul pour explorer les mécaniques. La campagne est pensée pour les équipes, l'expérience optimale consiste donc à jouer avec des amis en local ou en ligne."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Prêt à jouer à Heave Ho 2 ?",
+    "description": "Rejoignez la communauté Heave Ho 2 sur Discord et Steam pour des guides coop, des soluces de niveaux, des astuces versus et des discussions sur les mises à jour !",
+    "joinCommunity": "Rejoindre Discord",
+    "joinGame": "Jouer sur Steam"
+  },
+  "footer": {
+    "title": "Wiki Heave Ho 2",
+    "description": "Votre centre de ressources complet pour les niveaux, les mondes, la coop, les modes versus, les objets déblocables et les guides de mise à jour de Heave Ho 2.",
+    "resources": "Ressources",
+    "community": "Communauté",
+    "legal": "Mentions légales",
+    "discord": "Discord",
+    "twitter": "Reddit",
+    "steamCommunity": "Communauté Steam",
+    "steamStore": "Jouer sur Steam",
+    "about": "À propos",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Heave Ho 2 Wiki. Non affilié à Devolver Digital ou Le Cartel Studio.",
+    "disclaimer": "Site de ressources non officiel créé par des fans."
+  },
+  "pages": {
+    "release": {
+      "title": "Infos sur la sortie et le lancement de Heave Ho 2",
+      "description": "Date de sortie, prix, démo, bandes-annonces, tests et détails de l'édition physique de Heave Ho 2 sur Steam et le Nintendo eShop.",
+      "metaTitle": "Date de sortie, prix et démo de Heave Ho 2",
+      "metaDescription": "Heave Ho 2 est sorti le 16 juillet 2026 sur Steam, Switch et Switch 2 au prix de 9,99 $ avec une démo gratuite. Détails sur la sortie complète, le prix, la bande-annonce et les tests.",
+      "categoryLabel": "SORTIE",
+      "whatIs": "Quelles sont les informations de sortie de Heave Ho 2 ?",
+      "whatIsDescription": "Heave Ho 2 est la suite du party game coopératif aux mécaniques physiques chaotiques, développé par Le Cartel Studio et édité par Devolver Digital. Il est sorti le 16 juillet 2026 sur Windows PC, Nintendo Switch et Nintendo Switch 2 au prix de 9,99 $, avec une démo gratuite disponible sur chaque plateforme.",
+      "why": "Pourquoi consulter les détails de la sortie ?",
+      "whySteps": {
+        "step1Title": "Connaître la date de lancement et le prix",
+        "step1Description": "Heave Ho 2 est sorti le 16 juillet 2026 au prix de 9,99 $ sur Steam et le Nintendo eShop, vous permettant ainsi de planifier votre achat et vos sessions en coop.",
+        "step2Title": "Essayez d'abord la démo gratuite",
+        "step2Description": "Une démo gratuite avec coop locale et en ligne vous permet de tester la physique et le multijoueur avant l'achat.",
+        "step3Title": "Choisissez la bonne plateforme",
+        "step3Description": "Comparez les fonctionnalités sur Steam, Switch et Switch 2, y compris le GameShare, le Remote Play et la prise en charge complète des langues."
+      },
+      "featured": "À la une et Essentiels",
+      "all": "Tous les guides de sortie"
+    },
+    "platforms": {
+      "title": "Plateformes et boutiques de Heave Ho 2",
+      "description": "Où jouer à Heave Ho 2 sur Steam, Nintendo Switch et Switch 2, ainsi que les pages de boutique, la taille des fichiers et les fonctionnalités des plateformes.",
+      "metaTitle": "Plateformes de Heave Ho 2 - Steam, Switch et Switch 2",
+      "metaDescription": "Heave Ho 2 est disponible sur Steam pour PC et sur le Nintendo eShop pour Switch et Switch 2. Comparez les boutiques, les tailles de fichiers, le GameShare et la prise en charge des langues.",
+      "categoryLabel": "PLATEFORMES",
+      "whatIs": "Sur quelles plateformes Heave Ho 2 est-il disponible ?",
+      "whatIsDescription": "Heave Ho 2 est disponible sur Steam pour Windows PC et sur le Nintendo eShop pour Nintendo Switch et Nintendo Switch 2. Chaque version Nintendo prend en charge le multijoueur local et en ligne jusqu'à quatre joueurs, et l'édition native Switch 2 ajoute le GameShare local et en ligne.",
+      "why": "Pourquoi comparer les plateformes ?",
+      "whySteps": {
+        "step1Title": "Choisissez votre boutique",
+        "step1Description": "Trouvez la bonne page de boutique sur Steam ou le Nintendo eShop avec le prix, la taille du fichier et l'accès à la démo.",
+        "step2Title": "Comprendre la différence entre Switch et Switch 2",
+        "step2Description": "La version Switch 2 ajoute le GameShare local et en ligne afin qu'un seul propriétaire puisse partager le jeu avec jusqu'à trois joueurs.",
+        "step3Title": "Vérifiez la configuration requise",
+        "step3Description": "Confirmez que votre PC répond à la configuration minimale ou choisissez la version Nintendo qui convient à votre installation."
+      },
+      "featured": "À la une et Essentiels",
+      "all": "Tous les guides de plateforme"
+    },
+    "multiplayer": {
+      "title": "Multijoueur et coop de Heave Ho 2",
+      "description": "Combien de joueurs Heave Ho 2 prend en charge, plus la coop en ligne et locale, le crossplay, le GameShare et le jeu en écran partagé.",
+      "metaTitle": "Multijoueur de Heave Ho 2 - Coop, Crossplay et GameShare",
+      "metaDescription": "Heave Ho 2 prend en charge 2 à 4 joueurs en coopération en ligne, en local sur canapé et en mode Showdown. Apprenez-en plus sur le crossplay, le GameShare, le Remote Play et le nombre de joueurs.",
+      "categoryLabel": "MULTIJOUEUR",
+      "whatIs": "Quels sont les modes multijoueurs de Heave Ho 2 ?",
+      "whatIsDescription": "Heave Ho 2 est conçu pour la coopération de 2 à 4 joueurs avec du multijoueur en ligne, du jeu en local sur écran partagé et des modes compétitifs Showdown. Les détenteurs de Nintendo Switch 2 peuvent utiliser le GameShare pour inviter des amis qui ne possèdent pas le jeu, et les joueurs Steam peuvent utiliser le Remote Play Together.",
+      "why": "Pourquoi lire le guide multijoueur ?",
+      "whySteps": {
+        "step1Title": "Configurer la coop rapidement",
+        "step1Description": "Suivez les étapes pour inviter des amis en ligne ou partager un écran en local pour 2 à 4 joueurs.",
+        "step2Title": "Utiliser le GameShare et le Remote Play",
+        "step2Description": "Découvrez comment le GameShare sur Switch 2 et le Steam Remote Play Together permettent à vos amis de vous rejoindre sans acheter le jeu.",
+        "step3Title": "Comprendre le crossplay",
+        "step3Description": "Découvrez quelles plateformes peuvent jouer ensemble et comment le multijoueur fonctionne entre Steam, Switch et Switch 2."
+      },
+      "featured": "En vedette et essentiels",
+      "all": "Tous les guides multijoueurs"
+    },
+    "guide": {
+      "title": "Guides et soluces Heave Ho 2",
+      "description": "Bases pour débutants, commandes, techniques de balancement, soluce complète des mondes, difficulté, astuces et durée de vie de Heave Ho 2.",
+      "metaTitle": "Guides Heave Ho 2 - Débutants, commandes et soluces",
+      "metaDescription": "Maîtrisez Heave Ho 2 avec les guides pour débutants, les commandes manuelles, les techniques de balancement et de lancer, les soluces des mondes, les réglages de difficulté et les estimations de temps de jeu.",
+      "categoryLabel": "GUIDE",
+      "whatIs": "Que contient le guide Heave Ho 2 ?",
+      "whatIsDescription": "Ces guides couvrent tout, de votre première saisie au balancement avancé : comment jouer, commandes manuelles, création de chaînes humaines, lancer de coéquipiers et soluces complètes des huit mondes thématiques.",
+      "why": "Pourquoi utiliser les guides ?",
+      "whySteps": {
+        "step1Title": "Apprendre la boucle de jeu principale",
+        "step1Description": "Commencez par l'agrippage, l'ancrage, l'enchaînement, le balancement et la récupération pour bâtir une équipe fiable.",
+        "step2Title": "Maîtriser les commandes et l'élan",
+        "step2Description": "Comprenez les commandes manuelles, le timing de relâchement et comment convertir la rotation en distance.",
+        "step3Title": "Terminer tous les mondes",
+        "step3Description": "Suivez la soluce pour les huit mondes et leurs objectifs de défi optionnels."
+      },
+      "featured": "En vedette et essentiels",
+      "all": "Tous les guides"
+    },
+    "levels": {
+      "title": "Niveaux et mondes de Heave Ho 2",
+      "description": "Combien de niveaux et de mondes compte Heave Ho 2, avec une liste complète des huit mondes thématiques et de leurs étapes coopératives.",
+      "metaTitle": "Niveaux de Heave Ho 2 - Tous les mondes et nombre d'étapes",
+      "metaDescription": "Heave Ho 2 propose huit mondes thématiques avec environ 72 niveaux coopératifs et 56 niveaux versus. Explorez chaque monde, ses mécaniques et les objectifs des étapes.",
+      "categoryLabel": "NIVEAUX",
+      "whatIs": "Quels sont les niveaux dans Heave Ho 2 ?",
+      "whatIsDescription": "Heave Ho 2 comprend huit mondes thématiques avec environ 72 niveaux coopératifs et 56 niveaux versus aléatoires. Chaque niveau coopératif propose également des objectifs facultatifs tels que des chronomètres, des silhouettes, des mains mystérieuses et des photos.",
+      "why": "Pourquoi explorer les niveaux ?",
+      "whySteps": {
+        "step1Title": "Voir le nombre total",
+        "step1Description": "Découvrez exactement combien de mondes, de niveaux coopératifs et de niveaux versus le jeu contient.",
+        "step2Title": "Apprenez les règles de chaque monde",
+        "step2Description": "Chaque monde ajoute des règles de déplacement uniques, des dangers et des objectifs d'équipe à maîtriser.",
+        "step3Title": "Planifier les objectifs facultatifs",
+        "step3Description": "Découvrez les chronomètres, les objets de collection et les défis cachés dans chaque étape pour plus de rejouabilité."
+      },
+      "featured": "En vedette et indispensables",
+      "all": "Tous les guides de niveaux"
+    },
+    "items": {
+      "title": "Objets et éléments déblocables de Heave Ho 2",
+      "description": "Objets de niveau, outils de soutien, objets déblocables, cosmétiques, cadeaux et skins de crossover dans Heave Ho 2.",
+      "metaTitle": "Objets, déblocages et cosmétiques de Heave Ho 2",
+      "metaDescription": "Guide complet des objets et éléments déblocables de Heave Ho 2 : pistolets à bouchon, drones, vaisseaux spatiaux, équipements de soutien, cadeaux, cosmétiques et skins de personnages crossover.",
+      "categoryLabel": "OBJETS",
+      "whatIs": "Quels objets trouve-t-on dans Heave Ho 2 ?",
+      "whatIsDescription": "Heave Ho 2 mélange des objets de niveau spécifiques au monde comme des pistolets à bouchon, des drones et des vaisseaux spatiaux avec des outils de soutien équipables tels que Ima Rock, Arm Spray et Umbrella, ainsi que des cosmétiques de parcours de récompenses et des skins crossover.",
+      "why": "Pourquoi connaître les objets ?",
+      "whySteps": {
+        "step1Title": "Utiliser correctement les objets de niveau",
+        "step1Description": "Coordonnez les pistolets à bouchon, les drones et les vaisseaux spatiaux pour que toute l'équipe profite de chaque outil.",
+        "step2Title": "Équiper des outils de soutien",
+        "step2Description": "Débloquez et utilisez Ima Rock, Arm Spray et Umbrella pour franchir les passages difficiles et effectuer des sauvetages.",
+        "step3Title": "Collecter toutes les récompenses",
+        "step3Description": "Ouvrez chaque cadeau et terminez les parcours de récompenses pour obtenir des cosmétiques et des skins de personnages crossover."
+      },
+      "featured": "En vedette et indispensables",
+      "all": "Tous les guides d'objets"
+    },
+    "achievements": {
+      "title": "Succès de Heave Ho 2",
+      "description": "Les 21 succès Steam de Heave Ho 2, y compris la complétion de la campagne, les séries de défis et la complétion à 100 pour cent.",
+      "metaTitle": "Succès de Heave Ho 2 - Liste des 21 succès Steam",
+      "metaDescription": "Suivez chaque succès Steam de Heave Ho 2 : complétion des mondes de la campagne, séries de défis facultatifs, collecte de cadeaux et conditions pour obtenir les 100 %.",
+      "categoryLabel": "SUCCÈS",
+      "whatIs": "Quels sont les succès de Heave Ho 2 ?",
+      "whatIsDescription": "Heave Ho 2 propose 21 succès Steam couvrant la progression de la campagne à travers les huit mondes, dix séries de défis facultatifs, ainsi que des objectifs de collecte et de complétion, y compris la complétion totale à 100 pour cent.",
+      "why": "Pourquoi suivre les succès ?",
+      "whySteps": {
+        "step1Title": "Suivre la progression de la campagne",
+        "step1Description": "Obtenez un succès en terminant chacun des huit mondes thématiques.",
+        "step2Title": "Terminer les séries de défis",
+        "step2Description": "Terminez les catégories de défis facultatifs : Couronnement, Bébé animal, Chrono, Photo et autres.",
+        "step3Title": "Atteindre les 100 %",
+        "step3Description": "Ouvrez tous les cadeaux, terminez tous les niveaux en coop et complétez entièrement le jeu pour obtenir les derniers succès."
+      },
+      "featured": "À la une et essentiels",
+      "all": "Tous les guides de succès"
+    }
+  }
+}
