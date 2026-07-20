@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Users, Tv } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Multijoueur Heave Ho 2 : Guide de configuration du Coop en ligne & du Mode Versus",
+  description: "Maîtrisez le multijoueur de Heave Ho 2 avec notre guide sur la coop en ligne, la configuration du jeu en local, les stratégies du mode versus et le cross-play pour 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Heave+Ho+2+Multiplayer+Guide",
+  date: "2026-07-21",
+  author: "L'équipe du Wiki Heave Ho 2"
+}
+
+<Callout type="info" title="Guide rapide">
+- Le **multijoueur de Heave Ho 2** propose désormais pour la première fois de l'histoire de la série un **mode coopératif en ligne natif** complet.
+- Le jeu prend en charge de **2 à 4 joueurs** dans les modes coopératifs et versus compétitifs à travers huit mondes thématiques.
+- Les joueurs peuvent utiliser le **Steam Remote Play Together** pour jouer avec des amis n'ayant que le mode local, ou rejoindre des salons en ligne dédiés.
+- La réussite exige une **coordination basée sur la physique**, où le timing de votre lâcher est tout aussi important que le maintien d'une prise solide.
+- De nouveaux **objets interactifs** comme des drones et des pistolets pop ajoutent des couches de chaos aux mécanismes de balancement traditionnels.
+</Callout>
+
+<Section icon={Users} title="Aperçu des fonctionnalités multijoueurs de Heave Ho 2">
+
+Le **multijoueur de Heave Ho 2** transforme le chaos hilarant et d'étirement de membres du classique culte original en une expérience mondiale. Alors que le premier jeu se fonctionnait principalement sur la \"coop de canapé\" (jeu local), la suite, sortie le 16 juillet 2026, introduit une infrastructure en ligne robuste. Que vous soyez suspendu au-dessus d'un gouffre sans fond dans un château médiéval ou que vous vous balanciez dans l'apesanteur de l'espace profond, l'objectif principal reste le même : attraper tout ce que vous pouvez et ne pas lâcher prise avant le bon moment.
+
+L'expérience multijoueur est divisée en deux piliers principaux : le **Jeu Coopératif**, où les joueurs forment une chaîne humaine pour atteindre l'objectif, et le **Mode Versus**, où les amitiés sont mises à l'épreuve à travers des défis physiques effrénés. L'ajout du jeu en ligne signifie que vous pouvez désormais jeter vos amis dans le vide depuis le confort de votre propre maison, peu importe où ils se trouvent.
+
+| Fonctionnalité | Multijoueur local | Multijoueur en ligne | Remote Play Together |
+| :--- | :--- | :--- | :--- |
+| **Nombre de joueurs** | 2-4 Joueurs | 2-4 Joueurs | 2-4 Joueurs |
+| **Connexion** | Écran partagé | Salons dédiés | Session diffusée |
+| **Prise en charge manette** | Requise pour tous | Recommandée | L'hôte doit posséder le jeu |
+| **Mode Versus** | Disponible | Disponible | Disponible |
+| **Succès** | Pris en charge | Pris en charge | Pris en charge |
+
+<Callout type="success" title="Nouvelle ère en ligne">
+L'amélioration la plus importante de cette suite est la transition vers une architecture basée sur des serveurs, garantissant la stabilité des sessions **multijoueurs de Heave Ho 2** même avec des connexions à latence élevée entre différentes régions.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Modes multijoueurs et styles de jeu">
+
+Choisir le bon mode est essentiel pour la dynamique de votre groupe. **Heave Ho 2** offre différentes façons de jouer qui s'adressent aussi bien aux groupes axés sur le travail d'équipe qu'à ceux qui recherchent un peu de sabotage amical.
+
+<CardGrid cols={2}>
+  <Card title="Mode Coop en ligne">
+    - **Synergie d'équipe** : Travaillez ensemble pour franchir les obstacles et grimper les parois verticales.
+    - **Exploration des mondes** : Progressez collectivement à travers les 8 mondes thématiques.
+    - **Partage de ressources** : Passez des clés et des objets entre joueurs pour résoudre des énigmes.
+  </Card>
+  <Card title="Mode Versus">
+    - **Défis effrénés** : Affrontez-vous dans des mini-jeux conçus pour provoquer des disputes.
+    - **Combat physique** : Utilisez l'environnement et les objets pour éjecter vos rivaux de la plateforme.
+    - **Classement des compétences** : Suivez qui est le voltigeur le plus (et le moins) efficace du groupe.
+  </Card>
+</CardGrid>
+
+Dans le mode Coopératif, les joueurs doivent maîtriser la mécanique de la \"chaîne\". En vous tenant la main ou même en attrapant la tête d'un coéquipier, vous créez un pendule oscillant. Cela nécessite une communication verbale pour synchroniser correctement le moment du \"1-2-3-HISSE\". En revanche, le mode Versus supprime le filet de sécurité, forçant les joueurs à faire la course jusqu'à l'arrivée ou à survivre dans des arènes qui rétrécissent.
+
+| Type de mode | Objectif | Idéal pour | Niveau de chaos |
+| :--- | :--- | :--- | :--- |
+| **Coop Classique** | Atteindre l'objectif | Progression | ★★★☆☆ |
+| **Speed Run** | Temps le plus rapide | Joueurs pro | ★★★★☆ |
+| **Dernier survivant** | Survivre au vide | Compétiteurs | ★★★★★ |
+| **Chasse aux objets** | Collecter du ketchup/clés | Amateurs d'énigmes | ★★★☆☆ |
+
+<Callout type="info" title="Conception du mode Versus">
+Les développeurs de Le Cartel Studio ont spécifiquement conçu les défis du mode Versus pour \"déclencher une dispute complètement différente à chaque fois\", soulignant les racines comiques du jeu.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Étape par étape : Configurer votre session multijoueur">
+
+Configurer une session pour le **multijoueur de Heave Ho 2** est simple, mais il y a quelques nuances selon que vous jouez localement ou via les serveurs en ligne de Steam.
+
+<Steps>
+  <Step num="1" title="Sélectionner le mode multijoueur">
+    Lancez le jeu et accédez au menu 'Jouer'. Choisissez entre 'Local' pour jouer sur le canapé ou 'En ligne' pour héberger un salon privé ou public.
+  </Step>
+  <Step num="2" title="Configurer les paramètres du salon">
+    Si vous hébergez en ligne, configurez votre salon sur 'Amis uniquement' ou 'Public'. Vous pouvez également activer ou désactiver les paramètres de 'Collision' et sélectionner le premier des 8 mondes que vous souhaitez affronter.
+  </Step>
+  <Step num="3" title="Inviter des coéquipiers">
+    Pour le jeu en ligne, utilisez l'overlay Steam (Maj+Tab) pour inviter directement vos amis. Pour le jeu local, assurez-vous que toutes les manettes sont connectées et reconnues par le système.
+  </Step>
+  <Step num="4" title="Personnalisation du personnage">
+    Chaque joueur choisit son avatar et sa couleur uniques. C'est crucial pour vous identifier au milieu d'un nœud humain à quatre joueurs.
+  </Step>
+  <Step num="5" title="Calibrer les commandes">
+    Avant de commencer, demandez à chacun de tester ses boutons de préhension (gâchettes L/R). Les jeux basés sur la physique reposent fortement sur la sensibilité des gâchettes, il est donc essentiel que tout le monde soit à l'aise pour gagner.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Recommandation de manette">
+Bien que le jeu au clavier soit possible, les développeurs recommandent vivement d'utiliser une manette avec des gâchettes analogiques pour la meilleure expérience **multijoueur de Heave Ho 2**. La précision requise pour se balancer est beaucoup plus difficile à obtenir sur un clavier standard.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Maîtriser les nouveaux objets et mondes multijoueurs">
+
+Cette suite introduit une variété d'objets interactifs qui peuvent vous aider ou vous freiner dans votre progression. Gérer ces objets tout en maintenant une prise sur vos coéquipiers ajoute une dimension stratégique importante à la boucle de jeu **multijoueur de Heave Ho 2**.
+
+| Nom de l'objet | Fonction | Stratégie multijoueur |
+| :--- | :--- | :--- |
+| **Pistolets pop** | Propulser des joueurs/objets | Utilisez-les pour propulser un coéquipier à travers de grands espaces. |
+| **Drones** | Permettre un vol temporaire | Un joueur attrape le drone tandis que les autres s'y suspendent. |
+| **Vaisseaux spatiaux** | Transport à grande vitesse | Nécessite que tous les joueurs montent à bord pour assurer la stabilité. |
+| **Lasers** | Couper/Activer | Un joueur vise tandis que les autres restent à l'écart du faisceau. |
+| **Bouteilles de ketchup** | Surface glissante | Utilisez-les pour saboter vos rivaux en mode Versus. |
+
+Ces objets apparaissent à travers huit mondes thématiques, chacun présentant des dangers environnementaux uniques qui forcent les joueurs à adapter leurs tactiques multijoueurs.
+
+### Les huit mondes thématiques
+1. **Espace en apesanteur** : La gravité est faible, ce qui rend l'élan beaucoup plus difficile à arrêter.
+2. **Chaos en cuisine** : Évitez les plaques chaudes et les flaques glissantes tout en naviguant parmi des ustensiles géants.
+3. **Chaos médiéval** : Attention aux fléaux d'armes oscillants et aux murs de château qui s'effondrent.
+4. **Folies de ninja** : Des plateformes à grande vitesse et des appuis qui disparaissent nécessitent des réflexes rapides.
+5. **Aventure sous-marine** : La flottabilité affecte votre vitesse de balancement et votre force de préhension.
+6. **Chantier de construction** : Des grues en mouvement et des poutres qui tombent offrent des obstacles dynamiques.
+7. **Terre de lave** : Un scénario classique de \"le sol est de la lave\" où la vitesse est obligatoire.
+8. **Rêve numérique** : Un environnement buggé où les plateformes peuvent disparaître temporairement.
+
+<Callout type="tip" title="Stratégie de pro">
+Dans le monde **Chaos en cuisine**, utilisez les bouteilles de ketchup pour enduire le sol près d'un objectif en mode Versus. Cela rendra la réception presque impossible pour vos adversaires, vous offrant une victoire facile.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Configuration requise et performances">
+
+Pour garantir une expérience **multijoueur de Heave Ho 2** fluide, les joueurs doivent vérifier que leur système répond aux exigences mises à jour pour 2026. Le jeu en ligne est plus exigeant que le jeu local en raison de la synchronisation physique requise entre les clients.
+
+| Composant | Configuration minimale | Configuration recommandée |
+| :--- | :--- | :--- |
+| **Système d'exploitation** | Windows 10 x64 bits | Windows 11 x64 bits |
+| **Processeur** | Intel Core i5-4670K / AMD FX-8350 | Intel Core i7-6950X / AMD Ryzen 7 2700 |
+| **Mémoire** | 8 Go de RAM | 8 Go de RAM |
+| **Carte graphique** | GeForce GTX 760 / Intel UHD 620 | GeForce GTX 1080 / Radeon RX Vega 56 |
+| **DirectX** | Version 11 | Version 12 |
+| **Réseau** | Internet haut débit | Connexion fibre à faible latence |
+
+<Checklist
+  id="multiplayer-readiness"
+  title="Liste de contrôle de préparation au multijoueur :"
+  items={[
+    "Vérifier la compatibilité Steam Deck (statut Validé confirmé)",
+    "Mettre à jour les pilotes graphiques vers la dernière version de 2026",
+    "S'assurer que tous les joueurs ont la même version du jeu installée",
+    "Vérifier la batterie de la manette ou la stabilité de la connexion filaire",
+    "Configurer un chat vocal (Discord ou Steam Voice) pour la coordination"
+  ]}
+/>
+
+<Callout type="info" title="Performances sur Steam Deck">
+Heave Ho 2 est **Validé sur Steam Deck**. Pour la meilleure expérience multijoueur en déplacement, utilisez une configuration sur station d'accueil avec des manettes externes pour permettre une coop locale à 4 joueurs.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ du multijoueur de Heave Ho 2">
+
+<FAQ items={[
+  {
+    question: "Le multijoueur de Heave Ho 2 prend-il en charge le cross-play entre PC et consoles ?",
+    answer: "Depuis juillet 2026, Heave Ho 2 prend en charge le cross-play entre différentes boutiques PC (Steam et Epic), mais le jeu multiplateforme avec les consoles dépend des mises à jour spécifiques à chaque plateforme. Consultez les dernières notes de mise à jour pour obtenir les détails spécifiques aux consoles."
+  },
+  {
+    question: "Combien de joueurs peuvent jouer au multijoueur de Heave Ho 2 en même temps ?",
+    answer: "Le jeu prend en charge un maximum de 4 joueurs dans les modes en ligne et local. Vous pouvez jouer avec n'importe quelle combinaison de 2, 3 ou 4 joueurs."
+  },
+  {
+    question: "Puis-je jouer en ligne avec quelqu'un qui ne possède pas le jeu ?",
+    answer: "Oui ! En utilisant le Steam Remote Play Together, seul l'hôte a besoin de posséder Heave Ho 2. Vous pouvez inviter vos amis à rejoindre votre session locale via un flux internet, bien qu'ils subissent un peu plus de latence d'entrée que dans le mode coopératif en ligne natif."
+  },
+  {
+    question: "Existe-t-il un système de matchmaking pour les parties multijoueurs publiques de Heave Ho 2 ?",
+    answer: "Oui, le jeu dispose d'un navigateur de salons où vous pouvez rejoindre des parties publiques hébergées par des joueurs du monde entier, ou héberger la vôtre et attendre que d'autres vous rejoignent."
+  }
+]} />
+
+<Callout type="tip" title="Le mot de la fin">
+La réussite dans le **multijoueur de Heave Ho 2** n'est pas seulement une question de compétence individuelle ; c'est une question de patience et de communication. N'ayez pas peur d'échouer — les morts éclaboussantes font partie du plaisir !
+</Callout>
+
+</Section>
